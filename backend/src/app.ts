@@ -17,8 +17,7 @@ export function createApp(customRoutes?: express.Router) {
 
   const activeRoutes = customRoutes || routes;
 
-  // Mount API routes under both /api and root / for dual compatibility
-  app.use('/api', activeRoutes);
+  // Mount API routes directly under root / matching assignment specification
   app.use('/', activeRoutes);
 
   // Serve static frontend assets if available
@@ -35,12 +34,11 @@ export function createApp(customRoutes?: express.Router) {
   if (staticDir) {
     app.use(express.static(staticDir));
 
-    // SPA fallback: serve index.html only for direct browser navigation (GET/HEAD with text/html outside /api)
+    // SPA fallback: serve index.html only for direct browser navigation (GET/HEAD with text/html)
     app.get('*', (req, res, next) => {
       const isHtmlNavigation =
         (req.method === 'GET' || req.method === 'HEAD') &&
-        Boolean(req.headers.accept?.includes('text/html')) &&
-        !req.path.startsWith('/api');
+        Boolean(req.headers.accept?.includes('text/html'));
 
       if (isHtmlNavigation) {
         res.sendFile(path.join(staticDir, 'index.html'));

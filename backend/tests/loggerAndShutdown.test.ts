@@ -82,7 +82,7 @@ describe('Centralized Express Error Handling', () => {
 
     const app = createApp(testRouter);
 
-    const res = await request(app).get('/api/test-error');
+    const res = await request(app).get('/test-error');
     expect(res.status).toBe(500);
 
     expect(res.body).toEqual({ error: 'Internal server error' });

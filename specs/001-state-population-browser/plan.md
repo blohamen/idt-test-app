@@ -9,10 +9,10 @@
 ## 1. Summary
 
 The State Population Browser provides a dual-list interactive browser of US states, individual county demographics, and an automated population consistency check. The technical solution implements a containerized TypeScript stack:
-- **Backend**: Node.js + Express + TypeScript with raw SQL (`pg` driver) for direct, deterministic PostgreSQL queries; REST APIs mounted with dual support under both `/api` and root `/` (e.g. `/states` and `/api/states`); centralized NestJS-style `HttpException` error handling with `asyncHandler`; structured `Logger`; and graceful process termination.
+- **Backend**: Node.js + Express + TypeScript with raw SQL (`pg` driver) for direct, deterministic PostgreSQL queries; REST APIs mounted directly under root `/` (`/states`, `/state/:name`, `/health`) as specified in the assignment; centralized NestJS-style `HttpException` error handling with `asyncHandler`; structured `Logger`; and graceful process termination.
 - **Frontend**: React + TypeScript + Vite with CSS Modules for scoped, lightweight styling without external UI frameworks.
-- **Database & Seeding**: PostgreSQL 16 schema with `states` and `counties` tables, initialized via explicit DDL and populated via a standalone seeding script (`npm run db:seed`) importing the 51 states and 3,143 counties from `mock/` with `/api/state/:name` detail links.
-- **Infrastructure**: Streamlined 2-service Docker Compose setup (`db`, `backend`) where Express serves both API REST endpoints (`/api/*` and root aliases) and compiled React SPA static assets from a single port (3000), eliminating the separate Nginx container per Principle I (Scope-Appropriate Simplicity).
+- **Database & Seeding**: PostgreSQL 16 schema with `states` and `counties` tables, initialized via explicit DDL and populated via a standalone seeding script (`npm run db:seed`) importing the 51 states and 3,143 counties from `mock/` with `/state/:name` detail links.
+- **Infrastructure**: Streamlined 2-service Docker Compose setup (`db`, `backend`) where Express serves both API REST endpoints and compiled React SPA static assets from a single port (3000), eliminating the separate Nginx container per Principle I (Scope-Appropriate Simplicity).
 
 ---
 
@@ -25,7 +25,7 @@ The State Population Browser provides a dual-list interactive browser of US stat
 - **Database / Driver**: PostgreSQL 16, `pg` (node-postgres)
 - **Styling**: CSS Modules (`.module.css`)
 - **Testing**:
-  - Backend: Vitest with Supertest for API contract (`/api/states`, `/api/state/:name`, `/api/health`), seed verification, logger, and exception hierarchy.
+  - Backend: Vitest with Supertest for API contract (`/states`, `/state/:name`, `/health`), seed verification, logger, and exception hierarchy.
   - Frontend: Vitest + React Testing Library for dual-list synchronization, search filtering, and discrepancy display.
 - **Containerization**: Docker & Docker Compose v2
 - **Constraints**:
@@ -92,11 +92,11 @@ idt-test-app/
 │   │   │   ├── logger.ts         # Structured contextual logging
 │   │   │   ├── shutdown.ts       # Graceful process shutdown lifecycle
 │   │   │   └── asyncHandler.ts   # Async route handler wrapper for Express 4
-│   │   ├── app.ts                # Express app setup (CORS, JSON, /api & / routes, SPA fallback, central error handler)
+│   │   ├── app.ts                # Express app setup (CORS, JSON, root API routes, SPA fallback, central error handler)
 │   │   └── server.ts             # Server entrypoint with signal handlers & shutdown integration
 │   ├── tests/
 │   │   ├── seed.test.ts          # Validates 51 states and 3143 counties count
-│   │   ├── statesApi.test.ts     # Supertest for /states & /api/states, /state/:name & /api/state/:name, health endpoints
+│   │   ├── statesApi.test.ts     # Supertest for /states, /state/:name, health endpoints
 │   │   ├── loggerAndShutdown.test.ts # Tests for Logger formatting and graceful termination
 │   │   └── httpExceptions.test.ts # Tests for HttpException hierarchy & asyncHandler
 

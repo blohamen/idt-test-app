@@ -1,7 +1,7 @@
 import { State, County } from '../types';
 
 export async function fetchStates(): Promise<State[]> {
-  const response = await fetch('/api/states');
+  const response = await fetch('/states');
 
   if (!response.ok) {
     throw new Error(`Failed to load states: ${response.status} ${response.statusText}`);

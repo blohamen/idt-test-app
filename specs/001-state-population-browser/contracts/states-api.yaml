@@ -6,7 +6,7 @@ info:
 paths:
   /states:
     get:
-      summary: Retrieve all 51 US states (Root alias)
+      summary: Retrieve all 51 US states
       responses:
         '200':
           description: List of all states
@@ -18,7 +18,7 @@ paths:
                   $ref: '#/components/schemas/State'
   /state/{name}:
     get:
-      summary: Retrieve counties for a specific state (Root alias)
+      summary: Retrieve counties for a specific state
       parameters:
         - name: name
           in: path
@@ -49,80 +49,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
   /health:
     get:
-      summary: Service health check (Root alias)
-      responses:
-        '200':
-          description: Service is healthy
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    example: ok
-                  db:
-                    type: string
-                    example: connected
-        '503':
-          description: Database disconnected
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    example: error
-                  db:
-                    type: string
-                    example: disconnected
-  /api/states:
-    get:
-      summary: Retrieve all 51 US states (/api prefix)
-      responses:
-        '200':
-          description: List of all states
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/State'
-  /api/state/{name}:
-    get:
-      summary: Retrieve counties for a specific state (/api prefix)
-      parameters:
-        - name: name
-          in: path
-          required: true
-          schema:
-            type: string
-          description: State name (e.g. Alabama, New York)
-      responses:
-        '200':
-          description: Array of counties in the state
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/County'
-        '404':
-          description: State not found
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResponse'
-        '400':
-          description: Malformed URL encoding
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResponse'
-  /api/health:
-    get:
-      summary: Service health check (/api prefix)
+      summary: Service health check
       responses:
         '200':
           description: Service is healthy
@@ -174,7 +101,7 @@ components:
           example: 67
         detail:
           type: string
-          example: /api/state/Alabama
+          example: /state/Alabama
     County:
       type: object
       required:

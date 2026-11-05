@@ -21,12 +21,12 @@ The State Population Browser is a fullstack web application that allows users to
 ### Session 2026-11-05
 
 - Q: How should the application handle the interaction conflict between single-click (open details) and double-click (toggle highlight) on a state item? → A: Option A (Single-click immediately opens details without artificial delay; double-click toggles highlight and keeps that state open in details).
-- Q: How should the backend provide and the frontend resolve the state detail endpoint link? → A: Option A (Backend serves `GET /api/states` returning relative detail links like `/api/state/<StateName>` and exposes `GET /api/state/:name`; the frontend retrieves state details by following the `detail` link property from each state object).
+- Q: How should the backend provide and the frontend resolve the state detail endpoint link? → A: Option A (Backend serves `GET /states` returning relative detail links like `/state/<StateName>` and exposes `GET /state/:name`; the frontend retrieves state details by following the `detail` link property from each state object).
 - Q: What should the detail panel display upon initial application load before any state is clicked? → A: Option A (Display an informative placeholder message prompting the user to select a state from either list, without making automatic state detail requests on launch).
 - Q: Should the highlighted states persist across page reloads, or remain in-memory UI state for the current session? → A: Option A (In-memory React client state for the duration of the browser session without persistence across page reloads).
 - Q: How should the four UI areas be visually arranged on desktop screens? → A: Option A (Three-column desktop layout: Column 1 for Scrollable State List #1; Column 2 for Search box placed above Scrollable State List #2; Column 3 for Scrollable Detail Panel).
 - Q: How should frontend assets be served in containerized production? → A: Express static hosting (Single container service: Express serves the compiled frontend static files and handles SPA routing fallback, eliminating the separate Nginx container for maximum simplicity per Constitution Principle I).
-- Q: How should API routing, error handling, and server termination be structured? → A: Option A (API endpoints are accessible via both root (`/states`, `/state/:name`, `/health`) and `/api` prefix (`/api/states`, `/api/state/:name`, `/api/health`) for dual compatibility with assignment requirements and REST conventions, without route list hardcoding in SPA fallback; errors are handled via a lightweight NestJS-style `HttpException` hierarchy with `asyncHandler`; server lifecycle includes structured logging and graceful shutdown on `SIGTERM`/`SIGINT`).
+- Q: How should API routing, error handling, and server termination be structured? → A: Option A (API endpoints are served directly at the root matching assignment specifications: `/states`, `/state/:name`, and `/health`; errors are handled via a lightweight NestJS-style `HttpException` hierarchy with `asyncHandler`; server lifecycle includes structured logging and graceful shutdown on `SIGTERM`/`SIGINT`).
 
 
 ---
@@ -91,12 +91,12 @@ As a developer or evaluator, I want the backend to import the provided mock data
 
 **Why this priority**: Foundational requirement for runnable fullstack operation.
 
-**Independent Test**: Run seed script -> query database to verify 51 states and 3143 counties -> call `GET /states` / `GET /api/states` and `GET /state/:name` / `GET /api/state/:name` (or detail endpoint) -> verify exact JSON responses.
+**Independent Test**: Run seed script -> query database to verify 51 states and 3143 counties -> call `GET /states` and `GET /state/:name` (or detail endpoint) -> verify exact JSON responses.
 
 **Acceptance Scenarios**:
 1. **Given** a fresh PostgreSQL instance, **When** the database migration and import scripts execute, **Then** 51 state records and 3,143 county records are correctly inserted with relational integrity.
-2. **Given** the backend is running, **When** `GET /states` or `GET /api/states` is requested, **Then** the server responds with status 200 and an array of all 51 states including name, population, county count, and relative detail URL/link (`/api/state/...`).
-3. **Given** the backend is running, **When** a state detail request is made for "Iowa" (`GET /state/Iowa` or `GET /api/state/Iowa`), **Then** the server responds with status 200 containing Iowa's state info and its 99 counties with raw population counts.
+2. **Given** the backend is running, **When** `GET /states` is requested, **Then** the server responds with status 200 and an array of all 51 states including name, population, county count, and relative detail URL/link (`/state/...`).
+3. **Given** the backend is running, **When** a state detail request is made for "Iowa" (`GET /state/Iowa`), **Then** the server responds with status 200 containing Iowa's state info and its 99 counties with raw population counts.
 
 
 ---
@@ -115,8 +115,8 @@ As a developer or evaluator, I want the backend to import the provided mock data
 
 ### Functional Requirements
 
-- **FR-001**: The backend MUST expose both `GET /states` and `GET /api/states` endpoints returning all 51 US states (including District of Columbia), each with `state` name, `population`, `counties` count, and a relative `detail` link (e.g. `/api/state/<StateName>`).
-- **FR-002**: The backend MUST expose state detail endpoints at both `GET /state/:name` and `GET /api/state/:name` returning the state's counties with their names and populations. The frontend MUST retrieve detailed state information by requesting the path supplied in the `detail` link of each state object.
+- **FR-001**: The backend MUST expose a `GET /states` endpoint returning all 51 US states (including District of Columbia), each with `state` name, `population`, `counties` count, and a relative `detail` link (e.g. `/state/<StateName>`).
+- **FR-002**: The backend MUST expose a state detail endpoint `GET /state/:name` returning the state's counties with their names and populations. The frontend MUST retrieve detailed state information by requesting the path supplied in the `detail` link of each state object.
 - **FR-003**: The database schema MUST contain relational tables for `states` and `counties` in PostgreSQL with proper foreign key relationships.
 - **FR-004**: The data import script MUST load all data from `mock/usa-states/USA-states.json` and all 51 files in `mock/states/*.json` into PostgreSQL without manual data fixes or loss.
 - **FR-005**: The UI MUST be arranged in a three-column layout across desktop viewports:

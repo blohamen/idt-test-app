@@ -85,11 +85,11 @@ describe('asyncHandler & HttpException integration in Express pipeline', () => {
 
     const app = createApp(router);
 
-    const notFoundRes = await request(app).get('/api/throw-not-found');
+    const notFoundRes = await request(app).get('/throw-not-found');
     expect(notFoundRes.status).toBe(404);
     expect(notFoundRes.body).toEqual({ error: 'Item does not exist' });
 
-    const customRes = await request(app).get('/api/throw-custom-object');
+    const customRes = await request(app).get('/throw-custom-object');
     expect(customRes.status).toBe(503);
     expect(customRes.body).toEqual({ code: 'MAINTENANCE', retryAfter: 60 });
   });
