@@ -17,8 +17,9 @@ export function createApp(customRoutes?: express.Router) {
 
   const activeRoutes = customRoutes || routes;
 
-  // Mount API routes under /api only
+  // Mount API routes under both /api and root / for dual compatibility
   app.use('/api', activeRoutes);
+  app.use('/', activeRoutes);
 
   // Serve static frontend assets if available
   const candidateStaticDirs = [

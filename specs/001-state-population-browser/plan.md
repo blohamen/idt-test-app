@@ -9,10 +9,10 @@
 ## 1. Summary
 
 The State Population Browser provides a dual-list interactive browser of US states, individual county demographics, and an automated population consistency check. The technical solution implements a containerized TypeScript stack:
-- **Backend**: Node.js + Express + TypeScript with raw SQL (`pg` driver) for direct, deterministic PostgreSQL queries; scoped REST APIs under `/api`; centralized NestJS-style `HttpException` error handling with `asyncHandler`; structured `Logger`; and graceful process termination.
+- **Backend**: Node.js + Express + TypeScript with raw SQL (`pg` driver) for direct, deterministic PostgreSQL queries; REST APIs mounted with dual support under both `/api` and root `/` (e.g. `/states` and `/api/states`); centralized NestJS-style `HttpException` error handling with `asyncHandler`; structured `Logger`; and graceful process termination.
 - **Frontend**: React + TypeScript + Vite with CSS Modules for scoped, lightweight styling without external UI frameworks.
 - **Database & Seeding**: PostgreSQL 16 schema with `states` and `counties` tables, initialized via explicit DDL and populated via a standalone seeding script (`npm run db:seed`) importing the 51 states and 3,143 counties from `mock/` with `/api/state/:name` detail links.
-- **Infrastructure**: Streamlined 2-service Docker Compose setup (`db`, `backend`) where Express serves both `/api` REST endpoints and compiled React SPA static assets from a single port (3000), eliminating the separate Nginx container per Principle I (Scope-Appropriate Simplicity).
+- **Infrastructure**: Streamlined 2-service Docker Compose setup (`db`, `backend`) where Express serves both API REST endpoints (`/api/*` and root aliases) and compiled React SPA static assets from a single port (3000), eliminating the separate Nginx container per Principle I (Scope-Appropriate Simplicity).
 
 ---
 
@@ -92,11 +92,11 @@ idt-test-app/
 │   │   │   ├── logger.ts         # Structured contextual logging
 │   │   │   ├── shutdown.ts       # Graceful process shutdown lifecycle
 │   │   │   └── asyncHandler.ts   # Async route handler wrapper for Express 4
-│   │   ├── app.ts                # Express app setup (CORS, JSON, /api routes, SPA fallback, central error handler)
+│   │   ├── app.ts                # Express app setup (CORS, JSON, /api & / routes, SPA fallback, central error handler)
 │   │   └── server.ts             # Server entrypoint with signal handlers & shutdown integration
 │   ├── tests/
 │   │   ├── seed.test.ts          # Validates 51 states and 3143 counties count
-│   │   ├── statesApi.test.ts     # Supertest for /api/states, /api/state/:name, /api/health
+│   │   ├── statesApi.test.ts     # Supertest for /states & /api/states, /state/:name & /api/state/:name, health endpoints
 │   │   ├── loggerAndShutdown.test.ts # Tests for Logger formatting and graceful termination
 │   │   └── httpExceptions.test.ts # Tests for HttpException hierarchy & asyncHandler
 

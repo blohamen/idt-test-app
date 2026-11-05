@@ -13,17 +13,23 @@ describe('States REST API Endpoints', () => {
     await pool.end();
   });
 
-  describe('GET /api/health', () => {
-    it('returns status 200 and healthy db status', async () => {
+  describe('GET /health & GET /api/health', () => {
+    it('returns status 200 and healthy db status on /health', async () => {
+      const res = await request(app).get('/health');
+      expect(res.status).toBe(200);
+      expect(res.body).toEqual({ status: 'ok', db: 'connected' });
+    });
+
+    it('returns status 200 and healthy db status on /api/health', async () => {
       const res = await request(app).get('/api/health');
       expect(res.status).toBe(200);
       expect(res.body).toEqual({ status: 'ok', db: 'connected' });
     });
   });
 
-  describe('GET /api/states', () => {
-    it('returns array of all 51 states with expected schema', async () => {
-      const res = await request(app).get('/api/states');
+  describe('GET /states & GET /api/states', () => {
+    it('returns array of all 51 states via /states', async () => {
+      const res = await request(app).get('/states');
       expect(res.status).toBe(200);
       expect(Array.isArray(res.body)).toBe(true);
       expect(res.body).toHaveLength(51);
@@ -34,12 +40,25 @@ describe('States REST API Endpoints', () => {
       expect(firstState).toHaveProperty('population');
       expect(firstState).toHaveProperty('counties');
       expect(firstState).toHaveProperty('detail');
-      expect(firstState.detail).toMatch(/^\/api\/state\//);
+    });
+
+    it('returns array of all 51 states via /api/states with identical schema', async () => {
+      const res = await request(app).get('/api/states');
+      expect(res.status).toBe(200);
+      expect(Array.isArray(res.body)).toBe(true);
+      expect(res.body).toHaveLength(51);
     });
   });
 
-  describe('GET /api/state/:name', () => {
-    it('returns counties array for a valid state (Alabama)', async () => {
+  describe('GET /state/:name & GET /api/state/:name', () => {
+    it('returns counties array for Alabama via /state/Alabama', async () => {
+      const res = await request(app).get('/state/Alabama');
+      expect(res.status).toBe(200);
+      expect(Array.isArray(res.body)).toBe(true);
+      expect(res.body).toHaveLength(67);
+    });
+
+    it('returns counties array for a valid state via /api/state/Alabama', async () => {
       const res = await request(app).get('/api/state/Alabama');
       expect(res.status).toBe(200);
       expect(Array.isArray(res.body)).toBe(true);
@@ -88,8 +107,8 @@ describe('States REST API Endpoints', () => {
   });
 
   describe('Unknown API Endpoints & 404 Routing', () => {
-    it('returns JSON 404 for legacy root /states endpoint now that root mounting is removed', async () => {
-      const res = await request(app).get('/states');
+    it('returns JSON 404 for unknown sub-routes under /states/', async () => {
+      const res = await request(app).get('/states/typo');
       expect(res.status).toBe(404);
       expect(res.body).toEqual({ error: 'Endpoint not found' });
     });

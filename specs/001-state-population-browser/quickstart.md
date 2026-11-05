@@ -33,8 +33,8 @@
 
 5. **Access the application**:
    - Web UI: `http://localhost:3000`
-   - States Endpoint: `http://localhost:3000/api/states`
-   - Health check: `http://localhost:3000/api/health`
+   - States Endpoint: `http://localhost:3000/states` or `http://localhost:3000/api/states`
+   - Health check: `http://localhost:3000/health` or `http://localhost:3000/api/health`
 
 
 

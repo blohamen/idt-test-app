@@ -10,7 +10,20 @@ export default defineConfig({
         target: process.env.VITE_API_URL || 'http://localhost:5001',
         changeOrigin: true,
       },
+      '/states': {
+        target: process.env.VITE_API_URL || 'http://localhost:5001',
+        changeOrigin: true,
+      },
+      '/state': {
+        target: process.env.VITE_API_URL || 'http://localhost:5001',
+        changeOrigin: true,
+      },
+      '/health': {
+        target: process.env.VITE_API_URL || 'http://localhost:5001',
+        changeOrigin: true,
+      },
     },
+
   },
   test: {
     globals: true,
