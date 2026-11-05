@@ -17,7 +17,7 @@ export async function getStatesHandler(_req: Request, res: Response): Promise<vo
 
 export async function getStateDetailHandler(req: Request, res: Response): Promise<void> {
   try {
-    const stateName = decodeURIComponent(req.params.name);
+    const stateName = req.params.name;
     const counties = await findCountiesByStateName(stateName);
 
     if (!counties) {

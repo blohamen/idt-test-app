@@ -9,6 +9,12 @@ const connectionString =
 
 export const pool = new Pool({
   connectionString,
+  connectionTimeoutMillis: 5000,
+  idleTimeoutMillis: 30000,
+});
+
+pool.on('error', (err: Error) => {
+  console.error('[db] Unexpected idle client error:', err.message);
 });
 
 export const query = (text: string, params?: unknown[]) => pool.query(text, params);

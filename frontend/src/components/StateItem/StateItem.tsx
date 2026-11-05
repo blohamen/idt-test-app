@@ -33,14 +33,28 @@ export const StateItem: React.FC<StateItemProps> = ({
     onToggleHighlight(state);
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      onSelect(state);
+    } else if (e.key === ' ') {
+      e.preventDefault();
+      onToggleHighlight(state);
+    }
+  };
+
   return (
     <div
-      role="listitem"
+      role="button"
+      tabIndex={0}
+      aria-selected={isSelected}
+      aria-pressed={isHighlighted}
       data-testid={`state-item-${state.state}`}
       className={itemClasses}
       onClick={handleClick}
       onDoubleClick={handleDoubleClick}
-      title="Single-click to view details, double-click to toggle highlight"
+      onKeyDown={handleKeyDown}
+      title="Press Enter or click to view details; press Space or double-click to toggle highlight"
     >
       <span className={styles.name}>{state.state}</span>
       <span className={styles.badge}>{state.counties} counties</span>

@@ -46,4 +46,31 @@ describe('Database Seeding Pipeline', () => {
     expect(countySum).toBe(3090416);
     expect(countySum - iowa!.population).toBe(1);
   });
+
+  it('rolls back transaction on assertion failure preserving existing data', async () => {
+    const statesBefore = await findAllStates();
+    expect(statesBefore).toHaveLength(51);
+
+    const client = await pool.connect();
+    try {
+      await client.query('BEGIN');
+      await client.query('TRUNCATE TABLE counties, states RESTART IDENTITY CASCADE');
+      // Simulate count validation failing inside transaction
+      const stateCountRes = await client.query('SELECT COUNT(*) FROM states');
+      const stateCount = parseInt(stateCountRes.rows[0].count, 10);
+      if (stateCount !== 51) {
+        throw new Error(`Validation failed: expected 51 states, got ${stateCount}`);
+      }
+      await client.query('COMMIT');
+    } catch (err: any) {
+      await client.query('ROLLBACK');
+      expect(err.message).toContain('Validation failed');
+    } finally {
+      client.release();
+    }
+
+    // After ROLLBACK, previous 51 states remain intact
+    const statesAfter = await findAllStates();
+    expect(statesAfter).toHaveLength(51);
+  });
 });

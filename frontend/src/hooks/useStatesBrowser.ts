@@ -13,9 +13,10 @@ export function useStatesBrowser() {
   const [statesError, setStatesError] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
 
-  // Cache and in-flight tracking to prevent duplicate network requests on double-clicks and repeated clicks
+  // Cache and in-flight tracking to prevent duplicate network requests and race conditions
   const countiesCache = useRef<Record<string, County[]>>({});
-  const inFlightState = useRef<string | null>(null);
+  const inFlightRequests = useRef<Map<string, Promise<County[]>>>(new Map());
+  const latestRequestedStateRef = useRef<string | null>(null);
   const selectedStateRef = useRef<State | null>(null);
   selectedStateRef.current = selectedState;
 
@@ -44,15 +45,18 @@ export function useStatesBrowser() {
   }, []);
 
   const handleSelectState = useCallback((state: State) => {
+    const stateName = state.state;
+
     // If the state is already selected and its counties are loaded, do not re-fetch
-    if (selectedStateRef.current?.state === state.state && countiesCache.current[state.state]) {
+    if (selectedStateRef.current?.state === stateName && countiesCache.current[stateName]) {
       return;
     }
 
     setSelectedState(state);
+    latestRequestedStateRef.current = stateName;
 
     // If counties are already cached, restore immediately without network request
-    const cached = countiesCache.current[state.state];
+    const cached = countiesCache.current[stateName];
     if (cached) {
       setCounties(cached);
       setIsCountiesLoading(false);
@@ -60,30 +64,39 @@ export function useStatesBrowser() {
       return;
     }
 
-    // Prevent duplicate in-flight requests (e.g. during rapid single/double-clicks)
-    if (inFlightState.current === state.state) {
-      return;
+    // Immediately clear previous state counties and errors to avoid showing stale data
+    setCounties(null);
+    setCountiesError(null);
+    setIsCountiesLoading(true);
+
+    // Reuse in-flight promise if available, or create a new one
+    let promise = inFlightRequests.current.get(stateName);
+    if (!promise) {
+      promise = fetchStateCounties(state.detail);
+      inFlightRequests.current.set(stateName, promise);
     }
 
-    inFlightState.current = state.state;
-    setIsCountiesLoading(true);
-    setCountiesError(null);
-
-    fetchStateCounties(state.detail)
+    promise
       .then((data) => {
-        countiesCache.current[state.state] = data;
-        setCounties(data);
-        setIsCountiesLoading(false);
+        countiesCache.current[stateName] = data;
+        // Only update UI state if this is still the latest requested state
+        if (latestRequestedStateRef.current === stateName) {
+          setCounties(data);
+          setIsCountiesLoading(false);
+          setCountiesError(null);
+        }
       })
       .catch((err) => {
-        console.error(`[useStatesBrowser] Failed to load details for ${state.state}:`, err);
-        setCountiesError(`Could not load county details for ${state.state}`);
-        setIsCountiesLoading(false);
+        console.error(`[useStatesBrowser] Failed to load details for ${stateName}:`, err);
+        // Only update UI state if this is still the latest requested state
+        if (latestRequestedStateRef.current === stateName) {
+          setCounties(null);
+          setCountiesError(`Could not load county details for ${stateName}`);
+          setIsCountiesLoading(false);
+        }
       })
       .finally(() => {
-        if (inFlightState.current === state.state) {
-          inFlightState.current = null;
-        }
+        inFlightRequests.current.delete(stateName);
       });
   }, []);
 

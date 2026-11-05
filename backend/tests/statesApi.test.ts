@@ -62,6 +62,18 @@ describe('States REST API Endpoints', () => {
       expect(res.body).toHaveProperty('error');
     });
 
+    it('handles encoded percent literals (%25) safely without 500 crashes', async () => {
+      const res = await request(app).get('/state/%25');
+      expect(res.status).toBe(404);
+      expect(res.body).toEqual({ error: 'State not found: %' });
+    });
+
+    it('returns predictable JSON 400 on malformed URL encoding instead of HTML stack trace', async () => {
+      const res = await request(app).get('/state/%');
+      expect(res.status).toBe(400);
+      expect(res.body).toEqual({ error: 'Invalid URL encoding' });
+    });
+
     it('returns exact county demographic sum for Iowa preserving the +1 discrepancy', async () => {
       const res = await request(app).get('/state/Iowa');
       expect(res.status).toBe(200);
@@ -69,6 +81,14 @@ describe('States REST API Endpoints', () => {
 
       const sum = res.body.reduce((acc: number, c: { population: number }) => acc + c.population, 0);
       expect(sum).toBe(3090416);
+    });
+  });
+
+  describe('Unknown API Endpoints & 404 Routing', () => {
+    it('returns JSON 404 for unknown sub-routes under /states/ or /state/', async () => {
+      const res = await request(app).get('/states/typo');
+      expect(res.status).toBe(404);
+      expect(res.body).toEqual({ error: 'Endpoint not found' });
     });
   });
 });

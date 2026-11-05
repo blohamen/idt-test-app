@@ -14,6 +14,11 @@
   background-color: #f1f5f9;
 }
 
+.item:focus-visible {
+  outline: 2px solid #4f46e5;
+  outline-offset: -2px;
+}
+
 .selected {
   background-color: #e0e7ff !important;
   font-weight: 600;

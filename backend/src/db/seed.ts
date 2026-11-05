@@ -81,16 +81,12 @@ export async function seedDatabase() {
       }
     }
 
-    await client.query('COMMIT');
-
-    // Validation assertions
+    // Validation assertions executed inside transaction before COMMIT
     const stateCountRes = await client.query('SELECT COUNT(*) FROM states');
     const countyCountRes = await client.query('SELECT COUNT(*) FROM counties');
 
     const stateCount = parseInt(stateCountRes.rows[0].count, 10);
     const countyCount = parseInt(countyCountRes.rows[0].count, 10);
-
-    console.log(`[seed] Seed completed successfully: ${stateCount} states, ${countyCount} counties inserted.`);
 
     if (stateCount !== 51) {
       throw new Error(`Expected 51 states, but found ${stateCount}`);
@@ -98,6 +94,10 @@ export async function seedDatabase() {
     if (countyCount !== 3143) {
       throw new Error(`Expected 3143 counties, but found ${countyCount}`);
     }
+
+    await client.query('COMMIT');
+
+    console.log(`[seed] Seed completed successfully: ${stateCount} states, ${countyCount} counties inserted.`);
 
     return { stateCount, countyCount };
   } catch (err) {

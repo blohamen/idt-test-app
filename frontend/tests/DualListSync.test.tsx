@@ -62,6 +62,10 @@ describe('Dual List Synchronization & Highlighting', () => {
     expect(alabamaInList1.className).toMatch(/highlighted/);
     expect(alabamaInList2.className).toMatch(/highlighted/);
 
+    await waitFor(() => {
+      expect(screen.getByTestId('detail-panel')).toHaveTextContent('Alabama');
+    });
+
     // Double-click in List #2 to unhighlight
     fireEvent.doubleClick(alabamaInList2);
 
@@ -140,5 +144,117 @@ describe('Dual List Synchronization & Highlighting', () => {
 
     // Must not trigger additional network calls
     expect(fetchSpy).toHaveBeenCalledTimes(1);
+  });
+
+  it('handles race conditions by showing only the latest requested state details', async () => {
+    const mockAlaskaCounties: County[] = [
+      { county: 'Anchorage Municipality', population: 298695 },
+    ];
+
+    // Alabama takes 80ms, Alaska takes 10ms
+    vi.spyOn(statesApi, 'fetchStateCounties').mockImplementation(async (url: string) => {
+      if (url.includes('Alabama')) {
+        await new Promise((resolve) => setTimeout(resolve, 80));
+        return mockAlabamaCounties;
+      }
+      if (url.includes('Alaska')) {
+        await new Promise((resolve) => setTimeout(resolve, 10));
+        return mockAlaskaCounties;
+      }
+      return [];
+    });
+
+    render(<App />);
+
+    await waitFor(() => {
+      expect(screen.getByTestId('state-list-1')).toBeInTheDocument();
+    });
+
+    const list1 = screen.getByTestId('state-list-1');
+    const alabamaItem = list1.querySelector('[data-testid="state-item-Alabama"]')!;
+    const alaskaItem = list1.querySelector('[data-testid="state-item-Alaska"]')!;
+
+    // Trigger Alabama first, then immediately Alaska
+    fireEvent.click(alabamaItem);
+    fireEvent.click(alaskaItem);
+
+    // Wait until detail panel updates
+    await waitFor(() => {
+      const detail = screen.getByTestId('detail-panel');
+      expect(detail).toHaveTextContent('Alaska');
+      expect(detail).toHaveTextContent('Anchorage Municipality');
+    });
+
+    // Wait past Alabama's delayed resolution
+    await new Promise((resolve) => setTimeout(resolve, 100));
+
+    // Alabama's slower resolution must NOT overwrite Alaska's panel
+    const detail = screen.getByTestId('detail-panel');
+    expect(detail).toHaveTextContent('Alaska');
+    expect(detail).not.toHaveTextContent('Alabama');
+    expect(detail).not.toHaveTextContent('Autauga County');
+  });
+
+  it('clears previous state data when a subsequent state load fails', async () => {
+    vi.spyOn(statesApi, 'fetchStateCounties').mockImplementation(async (url: string) => {
+      if (url.includes('Alabama')) {
+        return mockAlabamaCounties;
+      }
+      throw new Error('Network error');
+    });
+
+    render(<App />);
+
+    await waitFor(() => {
+      expect(screen.getByTestId('state-list-1')).toBeInTheDocument();
+    });
+
+    const list1 = screen.getByTestId('state-list-1');
+    const alabamaItem = list1.querySelector('[data-testid="state-item-Alabama"]')!;
+    const alaskaItem = list1.querySelector('[data-testid="state-item-Alaska"]')!;
+
+    // First load Alabama successfully
+    fireEvent.click(alabamaItem);
+
+    await waitFor(() => {
+      expect(screen.getByTestId('detail-panel')).toHaveTextContent('Autauga County');
+    });
+
+    // Now click Alaska which triggers an error
+    fireEvent.click(alaskaItem);
+
+    await waitFor(() => {
+      const detail = screen.getByTestId('detail-panel');
+      // Previous Alabama data must be cleared
+      expect(detail).not.toHaveTextContent('Autauga County');
+      expect(detail).toHaveTextContent('Could not load county details for Alaska');
+    });
+  });
+
+  it('supports keyboard navigation with Enter to select and Space to toggle highlight', async () => {
+    render(<App />);
+
+    await waitFor(() => {
+      expect(screen.getByTestId('state-list-1')).toBeInTheDocument();
+    });
+
+    const list1 = screen.getByTestId('state-list-1');
+    const alabamaItem = list1.querySelector('[data-testid="state-item-Alabama"]')!;
+
+    // Initial state: not highlighted
+    expect(alabamaItem.className).not.toMatch(/highlighted/);
+
+    // Press Space: should toggle highlight
+    fireEvent.keyDown(alabamaItem, { key: ' ' });
+    expect(alabamaItem.className).toMatch(/highlighted/);
+
+    // Press Enter: should select state and load details
+    fireEvent.keyDown(alabamaItem, { key: 'Enter' });
+
+    await waitFor(() => {
+      const detail = screen.getByTestId('detail-panel');
+      expect(detail).toHaveTextContent('Alabama');
+      expect(detail).toHaveTextContent('Autauga County');
+    });
   });
 });
