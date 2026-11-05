@@ -48,23 +48,6 @@ npm test
 
 ---
 
-## AI Collaboration & Engineering Verification
-
-In adherence to Principle VI of the project constitution, all AI proposals were reviewed and verified by an engineer:
-
-1. **Architecture Simplification (Nginx Removal)**:
-   - *AI Proposal*: Add a separate Nginx container for production reverse proxying.
-   - *Review & Fix*: Rejected as over-engineering for this scope (Principle I). Refactored to let Express serve the compiled React SPA directly (`express.static`), eliminating an entire container and reverse-proxy layer while unifying the app onto port 3000.
-2. **Deterministic Seeding**:
-   - *AI Proposal*: Automatically seed the database upon container startup using an implicit entrypoint check.
-   - *Review & Fix*: Rejected. Separated into an explicit standalone command (`npm run db:seed`) to ensure reproducible, human-controlled testing.
-3. **Environment & Runtime Fixes**:
-   - Identified and resolved macOS port 5000 AirPlay collision.
-   - Configured ES Module resolution (`"type": "module"`) for backend TypeScript scripts.
-   - Fixed double-click event handling: added in-flight request tracking and client-side caching to prevent duplicate API requests on double-clicks and repeated selections.
-
----
-
 ## Spec Kit Artifacts
 
 Complete feature design, governance, and analysis documents:
