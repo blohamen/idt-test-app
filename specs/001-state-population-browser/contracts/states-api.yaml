@@ -1,0 +1,82 @@
+openapi: 3.0.3
+info:
+  title: State Population Browser API
+  version: 1.0.0
+  description: REST API for US states and counties population data
+paths:
+  /states:
+    get:
+      summary: Retrieve all 51 US states
+      responses:
+        '200':
+          description: List of all states
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/State'
+  /state/{name}:
+    get:
+      summary: Retrieve counties for a specific state
+      parameters:
+        - name: name
+          in: path
+          required: true
+          schema:
+            type: string
+          description: State name (e.g. Alabama, New York)
+      responses:
+        '200':
+          description: Array of counties in the state
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/County'
+        '404':
+          description: State not found
+  /health:
+    get:
+      summary: Service health check
+      responses:
+        '200':
+          description: Service is healthy
+components:
+  schemas:
+    State:
+      type: object
+      required:
+        - id
+        - state
+        - population
+        - counties
+        - detail
+      properties:
+        id:
+          type: integer
+        state:
+          type: string
+          example: Alabama
+        population:
+          type: integer
+          example: 4833722
+        counties:
+          type: integer
+          example: 67
+        detail:
+          type: string
+          example: /state/Alabama
+    County:
+      type: object
+      required:
+        - county
+        - population
+      properties:
+        county:
+          type: string
+          example: Autauga County
+        population:
+          type: integer
+          example: 55246
