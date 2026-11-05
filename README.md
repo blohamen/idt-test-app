@@ -78,11 +78,13 @@ docker compose down
 
 ---
 
-## Running Locally (Without Docker)
+## Running Locally for Development (Live Reload & HMR)
+
+For active frontend and backend development with live code reloading:
 
 ### Prerequisites
 - Node.js `v20.x` or later
-- Running PostgreSQL instance (default credentials: `postgres:postgrespassword@localhost:5432/states_db`)
+- Running PostgreSQL database (use local instance, or quickly start one via Docker: `npm run docker:db`)
 
 ### 1. Install Dependencies
 ```bash
@@ -90,13 +92,22 @@ npm run install:all
 ```
 
 ### 2. Configure Environment (Optional)
-Create `backend/.env` if your database credentials differ:
+Copy `.env.example` to `backend/.env` (defaults connect to `localhost:5432` with password `postgrespassword`):
+```bash
+cp .env.example backend/.env
+```
+Default configuration:
 ```env
 PORT=5001
 DATABASE_URL=postgres://postgres:postgrespassword@localhost:5432/states_db
 ```
 
-### 3. Run Migrations & Seeding
+### 3. Start Database & Seed Mock Data
+If you don't have local PostgreSQL running, start a database container:
+```bash
+npm run docker:db
+```
+Then run migrations and seed:
 ```bash
 npm run db:migrate
 npm run db:seed
@@ -104,13 +115,13 @@ npm run db:seed
 
 ### 4. Start Development Servers
 ```bash
-# In terminal 1 (Backend):
+# In terminal 1 - Backend (Node + Express with tsx hot-watch on port 5001):
 npm run dev:backend
 
-# In terminal 2 (Frontend):
+# In terminal 2 - Frontend (Vite with React HMR on port 3000, proxies API calls to 5001):
 npm run dev:frontend
 ```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) in your browser. All UI and API changes reload automatically.
 
 ---
 

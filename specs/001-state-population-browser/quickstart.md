@@ -33,28 +33,36 @@
 
 ---
 
-## 2. Running Locally (Without Docker)
+## 2. Running Locally for Development
 
 1. **Install dependencies**:
    ```bash
    npm run install:all
    ```
 
-2. **Set up local PostgreSQL database**:
-   - Configure `.env` in `backend/` with database credentials:
-     ```env
-     PORT=3000
-     DATABASE_URL=postgres://postgres:postgrespassword@localhost:5432/states_db
+2. **Configure environment**:
+   ```bash
+   cp .env.example backend/.env
+   ```
+
+3. **Start PostgreSQL database**:
+   - Use your local Postgres instance, or spin up just the database container:
+     ```bash
+     npm run docker:db
      ```
 
-3. **Migrate schema & run seed**:
+4. **Migrate schema & run seed**:
    ```bash
    npm run db:migrate
    npm run db:seed
    ```
 
-4. **Start backend and frontend in development mode**:
+5. **Start backend and frontend development servers**:
    ```bash
+   # Terminal 1: Backend with tsx watch on port 5001
    npm run dev:backend
+
+   # Terminal 2: Frontend with Vite HMR on port 3000
    npm run dev:frontend
    ```
+   Open `http://localhost:3000`.
