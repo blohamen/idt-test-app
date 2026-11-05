@@ -1,0 +1,158 @@
+[
+  {
+    "county": "Adams County",
+    "population": 19067
+  },
+  {
+    "county": "Asotin County",
+    "population": 22110
+  },
+  {
+    "county": "Benton County",
+    "population": 184486
+  },
+  {
+    "county": "Chelan County",
+    "population": 73967
+  },
+  {
+    "county": "Clallam County",
+    "population": 72312
+  },
+  {
+    "county": "Clark County",
+    "population": 443817
+  },
+  {
+    "county": "Columbia County",
+    "population": 4032
+  },
+  {
+    "county": "Cowlitz County",
+    "population": 101860
+  },
+  {
+    "county": "Douglas County",
+    "population": 39471
+  },
+  {
+    "county": "Ferry County",
+    "population": 7646
+  },
+  {
+    "county": "Franklin County",
+    "population": 86638
+  },
+  {
+    "county": "Garfield County",
+    "population": 2256
+  },
+  {
+    "county": "Grant County",
+    "population": 91878
+  },
+  {
+    "county": "Grays Harbor County",
+    "population": 71078
+  },
+  {
+    "county": "Island County",
+    "population": 78801
+  },
+  {
+    "county": "Jefferson County",
+    "population": 30076
+  },
+  {
+    "county": "King County",
+    "population": 2044449
+  },
+  {
+    "county": "Kitsap County",
+    "population": 253968
+  },
+  {
+    "county": "Kittitas County",
+    "population": 41765
+  },
+  {
+    "county": "Klickitat County",
+    "population": 20866
+  },
+  {
+    "county": "Lewis County",
+    "population": 75081
+  },
+  {
+    "county": "Lincoln County",
+    "population": 10301
+  },
+  {
+    "county": "Mason County",
+    "population": 60497
+  },
+  {
+    "county": "Okanogan County",
+    "population": 41193
+  },
+  {
+    "county": "Pacific County",
+    "population": 20498
+  },
+  {
+    "county": "Pend Oreille County",
+    "population": 12896
+  },
+  {
+    "county": "Pierce County",
+    "population": 819743
+  },
+  {
+    "county": "San Juan County",
+    "population": 15875
+  },
+  {
+    "county": "Skagit County",
+    "population": 118837
+  },
+  {
+    "county": "Skamania County",
+    "population": 11274
+  },
+  {
+    "county": "Snohomish County",
+    "population": 745913
+  },
+  {
+    "county": "Spokane County",
+    "population": 479398
+  },
+  {
+    "county": "Stevens County",
+    "population": 43430
+  },
+  {
+    "county": "Thurston County",
+    "population": 262388
+  },
+  {
+    "county": "Wahkiakum County",
+    "population": 4042
+  },
+  {
+    "county": "Walla Walla County",
+    "population": 59530
+  },
+  {
+    "county": "Whatcom County",
+    "population": 206353
+  },
+  {
+    "county": "Whitman County",
+    "population": 46570
+  },
+  {
+    "county": "Yakima County",
+    "population": 247044
+  }
+]

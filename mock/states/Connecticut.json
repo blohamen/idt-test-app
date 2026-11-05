@@ -1,0 +1,34 @@
+[
+  {
+    "county": "Fairfield County",
+    "population": 939904
+  },
+  {
+    "county": "Hartford County",
+    "population": 898272
+  },
+  {
+    "county": "Litchfield County",
+    "population": 186924
+  },
+  {
+    "county": "Middlesex County",
+    "population": 165562
+  },
+  {
+    "county": "New Haven County",
+    "population": 862287
+  },
+  {
+    "county": "New London County",
+    "population": 274150
+  },
+  {
+    "county": "Tolland County",
+    "population": 151377
+  },
+  {
+    "county": "Windham County",
+    "population": 117604
+  }
+]

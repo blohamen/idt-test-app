@@ -1,0 +1,638 @@
+[
+  {
+    "county": "Appling County",
+    "population": 18440
+  },
+  {
+    "county": "Atkinson County",
+    "population": 8290
+  },
+  {
+    "county": "Bacon County",
+    "population": 11216
+  },
+  {
+    "county": "Baker County",
+    "population": 3341
+  },
+  {
+    "county": "Baldwin County",
+    "population": 46039
+  },
+  {
+    "county": "Banks County",
+    "population": 18415
+  },
+  {
+    "county": "Barrow County",
+    "population": 71453
+  },
+  {
+    "county": "Bartow County",
+    "population": 101273
+  },
+  {
+    "county": "Ben Hill County",
+    "population": 17515
+  },
+  {
+    "county": "Berrien County",
+    "population": 19048
+  },
+  {
+    "county": "Bibb County",
+    "population": 154721
+  },
+  {
+    "county": "Bleckley County",
+    "population": 12771
+  },
+  {
+    "county": "Brantley County",
+    "population": 18292
+  },
+  {
+    "county": "Brooks County",
+    "population": 15516
+  },
+  {
+    "county": "Bryan County",
+    "population": 33157
+  },
+  {
+    "county": "Bulloch County",
+    "population": 71214
+  },
+  {
+    "county": "Burke County",
+    "population": 22923
+  },
+  {
+    "county": "Butts County",
+    "population": 23361
+  },
+  {
+    "county": "Calhoun County",
+    "population": 6523
+  },
+  {
+    "county": "Camden County",
+    "population": 51476
+  },
+  {
+    "county": "Candler County",
+    "population": 10937
+  },
+  {
+    "county": "Carroll County",
+    "population": 112355
+  },
+  {
+    "county": "Catoosa County",
+    "population": 65311
+  },
+  {
+    "county": "Charlton County",
+    "population": 13255
+  },
+  {
+    "county": "Chatham County",
+    "population": 278434
+  },
+  {
+    "county": "Chattahoochee County",
+    "population": 12842
+  },
+  {
+    "county": "Chattooga County",
+    "population": 25138
+  },
+  {
+    "county": "Cherokee County",
+    "population": 225106
+  },
+  {
+    "county": "Clarke County",
+    "population": 121265
+  },
+  {
+    "county": "Clay County",
+    "population": 3045
+  },
+  {
+    "county": "Clayton County",
+    "population": 264220
+  },
+  {
+    "county": "Clinch County",
+    "population": 6795
+  },
+  {
+    "county": "Cobb County",
+    "population": 717190
+  },
+  {
+    "county": "Coffee County",
+    "population": 43220
+  },
+  {
+    "county": "Colquitt County",
+    "population": 46275
+  },
+  {
+    "county": "Columbia County",
+    "population": 135416
+  },
+  {
+    "county": "Cook County",
+    "population": 17066
+  },
+  {
+    "county": "Coweta County",
+    "population": 133180
+  },
+  {
+    "county": "Crawford County",
+    "population": 12504
+  },
+  {
+    "county": "Crisp County",
+    "population": 23336
+  },
+  {
+    "county": "Dade County",
+    "population": 16507
+  },
+  {
+    "county": "Dawson County",
+    "population": 22686
+  },
+  {
+    "county": "Decatur County",
+    "population": 27359
+  },
+  {
+    "county": "DeKalb County",
+    "population": 713340
+  },
+  {
+    "county": "Dodge County",
+    "population": 21221
+  },
+  {
+    "county": "Dooly County",
+    "population": 14304
+  },
+  {
+    "county": "Dougherty County",
+    "population": 92969
+  },
+  {
+    "county": "Douglas County",
+    "population": 136379
+  },
+  {
+    "county": "Early County",
+    "population": 10542
+  },
+  {
+    "county": "Echols County",
+    "population": 4057
+  },
+  {
+    "county": "Effingham County",
+    "population": 54456
+  },
+  {
+    "county": "Elbert County",
+    "population": 19599
+  },
+  {
+    "county": "Emanuel County",
+    "population": 22867
+  },
+  {
+    "county": "Evans County",
+    "population": 10833
+  },
+  {
+    "county": "Fannin County",
+    "population": 23760
+  },
+  {
+    "county": "Fayette County",
+    "population": 108365
+  },
+  {
+    "county": "Floyd County",
+    "population": 95821
+  },
+  {
+    "county": "Forsyth County",
+    "population": 195405
+  },
+  {
+    "county": "Franklin County",
+    "population": 22009
+  },
+  {
+    "county": "Fulton County",
+    "population": 984293
+  },
+  {
+    "county": "Gilmer County",
+    "population": 28579
+  },
+  {
+    "county": "Glascock County",
+    "population": 3102
+  },
+  {
+    "county": "Glynn County",
+    "population": 81508
+  },
+  {
+    "county": "Gordon County",
+    "population": 55757
+  },
+  {
+    "county": "Grady County",
+    "population": 25278
+  },
+  {
+    "county": "Greene County",
+    "population": 16321
+  },
+  {
+    "county": "Gwinnett County",
+    "population": 859304
+  },
+  {
+    "county": "Habersham County",
+    "population": 43300
+  },
+  {
+    "county": "Hall County",
+    "population": 187745
+  },
+  {
+    "county": "Hancock County",
+    "population": 8879
+  },
+  {
+    "county": "Haralson County",
+    "population": 28495
+  },
+  {
+    "county": "Harris County",
+    "population": 32663
+  },
+  {
+    "county": "Hart County",
+    "population": 25446
+  },
+  {
+    "county": "Heard County",
+    "population": 11558
+  },
+  {
+    "county": "Henry County",
+    "population": 211128
+  },
+  {
+    "county": "Houston County",
+    "population": 147658
+  },
+  {
+    "county": "Irwin County",
+    "population": 9427
+  },
+  {
+    "county": "Jackson County",
+    "population": 61044
+  },
+  {
+    "county": "Jasper County",
+    "population": 13601
+  },
+  {
+    "county": "Jeff Davis County",
+    "population": 15004
+  },
+  {
+    "county": "Jefferson County",
+    "population": 16320
+  },
+  {
+    "county": "Jenkins County",
+    "population": 9269
+  },
+  {
+    "county": "Johnson County",
+    "population": 9767
+  },
+  {
+    "county": "Jones County",
+    "population": 28569
+  },
+  {
+    "county": "Lamar County",
+    "population": 17959
+  },
+  {
+    "county": "Lanier County",
+    "population": 10408
+  },
+  {
+    "county": "Laurens County",
+    "population": 47999
+  },
+  {
+    "county": "Lee County",
+    "population": 29071
+  },
+  {
+    "county": "Liberty County",
+    "population": 64135
+  },
+  {
+    "county": "Lincoln County",
+    "population": 7751
+  },
+  {
+    "county": "Long County",
+    "population": 16624
+  },
+  {
+    "county": "Lowndes County",
+    "population": 112916
+  },
+  {
+    "county": "Lumpkin County",
+    "population": 30918
+  },
+  {
+    "county": "Macon County",
+    "population": 14009
+  },
+  {
+    "county": "Madison County",
+    "population": 28057
+  },
+  {
+    "county": "Marion County",
+    "population": 8640
+  },
+  {
+    "county": "McDuffie County",
+    "population": 21565
+  },
+  {
+    "county": "McIntosh County",
+    "population": 14007
+  },
+  {
+    "county": "Meriwether County",
+    "population": 21232
+  },
+  {
+    "county": "Miller County",
+    "population": 5932
+  },
+  {
+    "county": "Mitchell County",
+    "population": 23045
+  },
+  {
+    "county": "Monroe County",
+    "population": 26984
+  },
+  {
+    "county": "Montgomery County",
+    "population": 9021
+  },
+  {
+    "county": "Morgan County",
+    "population": 17781
+  },
+  {
+    "county": "Murray County",
+    "population": 39267
+  },
+  {
+    "county": "Muscogee County",
+    "population": 202824
+  },
+  {
+    "county": "Newton County",
+    "population": 102446
+  },
+  {
+    "county": "Oconee County",
+    "population": 34035
+  },
+  {
+    "county": "Oglethorpe County",
+    "population": 14548
+  },
+  {
+    "county": "Paulding County",
+    "population": 146950
+  },
+  {
+    "county": "Peach County",
+    "population": 27014
+  },
+  {
+    "county": "Pickens County",
+    "population": 29584
+  },
+  {
+    "county": "Pierce County",
+    "population": 18938
+  },
+  {
+    "county": "Pike County",
+    "population": 17796
+  },
+  {
+    "county": "Polk County",
+    "population": 41183
+  },
+  {
+    "county": "Pulaski County",
+    "population": 11542
+  },
+  {
+    "county": "Putnam County",
+    "population": 21371
+  },
+  {
+    "county": "Quitman County",
+    "population": 2367
+  },
+  {
+    "county": "Rabun County",
+    "population": 16235
+  },
+  {
+    "county": "Randolph County",
+    "population": 7197
+  },
+  {
+    "county": "Richmond County",
+    "population": 202003
+  },
+  {
+    "county": "Rockdale County",
+    "population": 86919
+  },
+  {
+    "county": "Schley County",
+    "population": 5089
+  },
+  {
+    "county": "Screven County",
+    "population": 14240
+  },
+  {
+    "county": "Seminole County",
+    "population": 8945
+  },
+  {
+    "county": "Spalding County",
+    "population": 63829
+  },
+  {
+    "county": "Stephens County",
+    "population": 25683
+  },
+  {
+    "county": "Stewart County",
+    "population": 5868
+  },
+  {
+    "county": "Sumter County",
+    "population": 31364
+  },
+  {
+    "county": "Talbot County",
+    "population": 6456
+  },
+  {
+    "county": "Taliaferro County",
+    "population": 1703
+  },
+  {
+    "county": "Tattnall County",
+    "population": 25526
+  },
+  {
+    "county": "Taylor County",
+    "population": 8464
+  },
+  {
+    "county": "Telfair County",
+    "population": 16591
+  },
+  {
+    "county": "Terrell County",
+    "population": 9022
+  },
+  {
+    "county": "Thomas County",
+    "population": 44869
+  },
+  {
+    "county": "Tift County",
+    "population": 40286
+  },
+  {
+    "county": "Toombs County",
+    "population": 27273
+  },
+  {
+    "county": "Towns County",
+    "population": 10771
+  },
+  {
+    "county": "Treutlen County",
+    "population": 6712
+  },
+  {
+    "county": "Troup County",
+    "population": 69053
+  },
+  {
+    "county": "Turner County",
+    "population": 8134
+  },
+  {
+    "county": "Twiggs County",
+    "population": 8481
+  },
+  {
+    "county": "Union County",
+    "population": 21566
+  },
+  {
+    "county": "Upson County",
+    "population": 26566
+  },
+  {
+    "county": "Walker County",
+    "population": 68198
+  },
+  {
+    "county": "Walton County",
+    "population": 85754
+  },
+  {
+    "county": "Ware County",
+    "population": 35709
+  },
+  {
+    "county": "Warren County",
+    "population": 5558
+  },
+  {
+    "county": "Washington County",
+    "population": 20676
+  },
+  {
+    "county": "Wayne County",
+    "population": 30077
+  },
+  {
+    "county": "Webster County",
+    "population": 2719
+  },
+  {
+    "county": "Wheeler County",
+    "population": 7909
+  },
+  {
+    "county": "White County",
+    "population": 27797
+  },
+  {
+    "county": "Whitfield County",
+    "population": 102945
+  },
+  {
+    "county": "Wilcox County",
+    "population": 8960
+  },
+  {
+    "county": "Wilkes County",
+    "population": 10010
+  },
+  {
+    "county": "Wilkinson County",
+    "population": 9432
+  },
+  {
+    "county": "Worth County",
+    "population": 21291
+  }
+]

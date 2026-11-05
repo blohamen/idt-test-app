@@ -1,0 +1,250 @@
+[
+  {
+    "county": "Albany County",
+    "population": 306945
+  },
+  {
+    "county": "Allegany County",
+    "population": 48109
+  },
+  {
+    "county": "Bronx County",
+    "population": 1418733
+  },
+  {
+    "county": "Broome County",
+    "population": 197534
+  },
+  {
+    "county": "Cattaraugus County",
+    "population": 78892
+  },
+  {
+    "county": "Cayuga County",
+    "population": 79477
+  },
+  {
+    "county": "Chautauqua County",
+    "population": 133080
+  },
+  {
+    "county": "Chemung County",
+    "population": 88506
+  },
+  {
+    "county": "Chenango County",
+    "population": 49503
+  },
+  {
+    "county": "Clinton County",
+    "population": 81591
+  },
+  {
+    "county": "Columbia County",
+    "population": 62243
+  },
+  {
+    "county": "Cortland County",
+    "population": 48976
+  },
+  {
+    "county": "Delaware County",
+    "population": 46722
+  },
+  {
+    "county": "Dutchess County",
+    "population": 296916
+  },
+  {
+    "county": "Erie County",
+    "population": 919866
+  },
+  {
+    "county": "Essex County",
+    "population": 38762
+  },
+  {
+    "county": "Franklin County",
+    "population": 51688
+  },
+  {
+    "county": "Fulton County",
+    "population": 54586
+  },
+  {
+    "county": "Genesee County",
+    "population": 59454
+  },
+  {
+    "county": "Greene County",
+    "population": 48455
+  },
+  {
+    "county": "Hamilton County",
+    "population": 4773
+  },
+  {
+    "county": "Herkimer County",
+    "population": 64181
+  },
+  {
+    "county": "Jefferson County",
+    "population": 119504
+  },
+  {
+    "county": "Kings County",
+    "population": 2592149
+  },
+  {
+    "county": "Lewis County",
+    "population": 27149
+  },
+  {
+    "county": "Livingston County",
+    "population": 64705
+  },
+  {
+    "county": "Madison County",
+    "population": 72382
+  },
+  {
+    "county": "Monroe County",
+    "population": 749606
+  },
+  {
+    "county": "Montgomery County",
+    "population": 49897
+  },
+  {
+    "county": "Nassau County",
+    "population": 1352146
+  },
+  {
+    "county": "New York County",
+    "population": 1626159
+  },
+  {
+    "county": "Niagara County",
+    "population": 214249
+  },
+  {
+    "county": "Oneida County",
+    "population": 233585
+  },
+  {
+    "county": "Onondaga County",
+    "population": 468387
+  },
+  {
+    "county": "Ontario County",
+    "population": 109103
+  },
+  {
+    "county": "Orange County",
+    "population": 375592
+  },
+  {
+    "county": "Orleans County",
+    "population": 42235
+  },
+  {
+    "county": "Oswego County",
+    "population": 121165
+  },
+  {
+    "county": "Otsego County",
+    "population": 61683
+  },
+  {
+    "county": "Putnam County",
+    "population": 99645
+  },
+  {
+    "county": "Queens County",
+    "population": 2296175
+  },
+  {
+    "county": "Rensselaer County",
+    "population": 159918
+  },
+  {
+    "county": "Richmond County",
+    "population": 472621
+  },
+  {
+    "county": "Rockland County",
+    "population": 320903
+  },
+  {
+    "county": "Saratoga County",
+    "population": 223865
+  },
+  {
+    "county": "Schenectady County",
+    "population": 155333
+  },
+  {
+    "county": "Schoharie County",
+    "population": 31844
+  },
+  {
+    "county": "Schuyler County",
+    "population": 18460
+  },
+  {
+    "county": "Seneca County",
+    "population": 35409
+  },
+  {
+    "county": "Steuben County",
+    "population": 98650
+  },
+  {
+    "county": "St. Lawrence County",
+    "population": 111963
+  },
+  {
+    "county": "Suffolk County",
+    "population": 1499738
+  },
+  {
+    "county": "Sullivan County",
+    "population": 76665
+  },
+  {
+    "county": "Tioga County",
+    "population": 50243
+  },
+  {
+    "county": "Tompkins County",
+    "population": 103617
+  },
+  {
+    "county": "Ulster County",
+    "population": 180998
+  },
+  {
+    "county": "Warren County",
+    "population": 65337
+  },
+  {
+    "county": "Washington County",
+    "population": 63093
+  },
+  {
+    "county": "Wayne County",
+    "population": 92473
+  },
+  {
+    "county": "Westchester County",
+    "population": 968802
+  },
+  {
+    "county": "Wyoming County",
+    "population": 41531
+  },
+  {
+    "county": "Yates County",
+    "population": 25156
+  }
+]

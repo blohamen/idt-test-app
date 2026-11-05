@@ -1,0 +1,482 @@
+[
+  {
+    "county": "Adair County",
+    "population": 18732
+  },
+  {
+    "county": "Allen County",
+    "population": 20311
+  },
+  {
+    "county": "Anderson County",
+    "population": 21811
+  },
+  {
+    "county": "Ballard County",
+    "population": 8332
+  },
+  {
+    "county": "Barren County",
+    "population": 43027
+  },
+  {
+    "county": "Bath County",
+    "population": 11961
+  },
+  {
+    "county": "Bell County",
+    "population": 27885
+  },
+  {
+    "county": "Boone County",
+    "population": 124442
+  },
+  {
+    "county": "Bourbon County",
+    "population": 19998
+  },
+  {
+    "county": "Boyd County",
+    "population": 48886
+  },
+  {
+    "county": "Boyle County",
+    "population": 29013
+  },
+  {
+    "county": "Bracken County",
+    "population": 8416
+  },
+  {
+    "county": "Breathitt County",
+    "population": 13545
+  },
+  {
+    "county": "Breckinridge County",
+    "population": 20040
+  },
+  {
+    "county": "Bullitt County",
+    "population": 76854
+  },
+  {
+    "county": "Butler County",
+    "population": 12793
+  },
+  {
+    "county": "Caldwell County",
+    "population": 12823
+  },
+  {
+    "county": "Calloway County",
+    "population": 37657
+  },
+  {
+    "county": "Campbell County",
+    "population": 90988
+  },
+  {
+    "county": "Carlisle County",
+    "population": 5001
+  },
+  {
+    "county": "Carroll County",
+    "population": 10953
+  },
+  {
+    "county": "Carter County",
+    "population": 27202
+  },
+  {
+    "county": "Casey County",
+    "population": 16067
+  },
+  {
+    "county": "Christian County",
+    "population": 74167
+  },
+  {
+    "county": "Clark County",
+    "population": 35614
+  },
+  {
+    "county": "Clay County",
+    "population": 21364
+  },
+  {
+    "county": "Clinton County",
+    "population": 10146
+  },
+  {
+    "county": "Crittenden County",
+    "population": 9255
+  },
+  {
+    "county": "Cumberland County",
+    "population": 6789
+  },
+  {
+    "county": "Daviess County",
+    "population": 98218
+  },
+  {
+    "county": "Edmonson County",
+    "population": 12062
+  },
+  {
+    "county": "Elliott County",
+    "population": 7637
+  },
+  {
+    "county": "Estill County",
+    "population": 14488
+  },
+  {
+    "county": "Fayette County",
+    "population": 308428
+  },
+  {
+    "county": "Fleming County",
+    "population": 14508
+  },
+  {
+    "county": "Floyd County",
+    "population": 38728
+  },
+  {
+    "county": "Franklin County",
+    "population": 49648
+  },
+  {
+    "county": "Fulton County",
+    "population": 6385
+  },
+  {
+    "county": "Gallatin County",
+    "population": 8474
+  },
+  {
+    "county": "Garrard County",
+    "population": 16915
+  },
+  {
+    "county": "Grant County",
+    "population": 24753
+  },
+  {
+    "county": "Graves County",
+    "population": 37451
+  },
+  {
+    "county": "Grayson County",
+    "population": 25997
+  },
+  {
+    "county": "Green County",
+    "population": 11180
+  },
+  {
+    "county": "Greenup County",
+    "population": 36519
+  },
+  {
+    "county": "Hancock County",
+    "population": 8687
+  },
+  {
+    "county": "Hardin County",
+    "population": 108191
+  },
+  {
+    "county": "Harlan County",
+    "population": 28499
+  },
+  {
+    "county": "Harrison County",
+    "population": 18518
+  },
+  {
+    "county": "Hart County",
+    "population": 18573
+  },
+  {
+    "county": "Henderson County",
+    "population": 46347
+  },
+  {
+    "county": "Henry County",
+    "population": 15445
+  },
+  {
+    "county": "Hickman County",
+    "population": 4745
+  },
+  {
+    "county": "Hopkins County",
+    "population": 46634
+  },
+  {
+    "county": "Jackson County",
+    "population": 13427
+  },
+  {
+    "county": "Jefferson County",
+    "population": 756832
+  },
+  {
+    "county": "Jessamine County",
+    "population": 50173
+  },
+  {
+    "county": "Johnson County",
+    "population": 23449
+  },
+  {
+    "county": "Kenton County",
+    "population": 163145
+  },
+  {
+    "county": "Knott County",
+    "population": 15976
+  },
+  {
+    "county": "Knox County",
+    "population": 31790
+  },
+  {
+    "county": "Larue County",
+    "population": 14064
+  },
+  {
+    "county": "Laurel County",
+    "population": 59563
+  },
+  {
+    "county": "Lawrence County",
+    "population": 15856
+  },
+  {
+    "county": "Lee County",
+    "population": 7260
+  },
+  {
+    "county": "Leslie County",
+    "population": 11019
+  },
+  {
+    "county": "Letcher County",
+    "population": 23619
+  },
+  {
+    "county": "Lewis County",
+    "population": 13806
+  },
+  {
+    "county": "Lincoln County",
+    "population": 24370
+  },
+  {
+    "county": "Livingston County",
+    "population": 9359
+  },
+  {
+    "county": "Logan County",
+    "population": 26876
+  },
+  {
+    "county": "Lyon County",
+    "population": 8451
+  },
+  {
+    "county": "Madison County",
+    "population": 85590
+  },
+  {
+    "county": "Magoffin County",
+    "population": 12950
+  },
+  {
+    "county": "Marion County",
+    "population": 20045
+  },
+  {
+    "county": "Marshall County",
+    "population": 31107
+  },
+  {
+    "county": "Martin County",
+    "population": 12647
+  },
+  {
+    "county": "Mason County",
+    "population": 17278
+  },
+  {
+    "county": "McCracken County",
+    "population": 65373
+  },
+  {
+    "county": "McCreary County",
+    "population": 17989
+  },
+  {
+    "county": "McLean County",
+    "population": 9496
+  },
+  {
+    "county": "Meade County",
+    "population": 29210
+  },
+  {
+    "county": "Menifee County",
+    "population": 6288
+  },
+  {
+    "county": "Mercer County",
+    "population": 21349
+  },
+  {
+    "county": "Metcalfe County",
+    "population": 9983
+  },
+  {
+    "county": "Monroe County",
+    "population": 10681
+  },
+  {
+    "county": "Montgomery County",
+    "population": 27251
+  },
+  {
+    "county": "Morgan County",
+    "population": 13380
+  },
+  {
+    "county": "Muhlenberg County",
+    "population": 31179
+  },
+  {
+    "county": "Nelson County",
+    "population": 44540
+  },
+  {
+    "county": "Nicholas County",
+    "population": 7039
+  },
+  {
+    "county": "Ohio County",
+    "population": 23988
+  },
+  {
+    "county": "Oldham County",
+    "population": 62364
+  },
+  {
+    "county": "Owen County",
+    "population": 10662
+  },
+  {
+    "county": "Owsley County",
+    "population": 4654
+  },
+  {
+    "county": "Pendleton County",
+    "population": 14570
+  },
+  {
+    "county": "Perry County",
+    "population": 28010
+  },
+  {
+    "county": "Pike County",
+    "population": 63380
+  },
+  {
+    "county": "Powell County",
+    "population": 12494
+  },
+  {
+    "county": "Pulaski County",
+    "population": 63907
+  },
+  {
+    "county": "Robertson County",
+    "population": 2235
+  },
+  {
+    "county": "Rockcastle County",
+    "population": 16693
+  },
+  {
+    "county": "Rowan County",
+    "population": 23527
+  },
+  {
+    "county": "Russell County",
+    "population": 17752
+  },
+  {
+    "county": "Scott County",
+    "population": 49947
+  },
+  {
+    "county": "Shelby County",
+    "population": 44216
+  },
+  {
+    "county": "Simpson County",
+    "population": 17793
+  },
+  {
+    "county": "Spencer County",
+    "population": 17637
+  },
+  {
+    "county": "Taylor County",
+    "population": 24649
+  },
+  {
+    "county": "Todd County",
+    "population": 12503
+  },
+  {
+    "county": "Trigg County",
+    "population": 14293
+  },
+  {
+    "county": "Trimble County",
+    "population": 8816
+  },
+  {
+    "county": "Union County",
+    "population": 15029
+  },
+  {
+    "county": "Warren County",
+    "population": 118370
+  },
+  {
+    "county": "Washington County",
+    "population": 11875
+  },
+  {
+    "county": "Wayne County",
+    "population": 20678
+  },
+  {
+    "county": "Webster County",
+    "population": 13452
+  },
+  {
+    "county": "Whitley County",
+    "population": 35766
+  },
+  {
+    "county": "Wolfe County",
+    "population": 7248
+  },
+  {
+    "county": "Woodford County",
+    "population": 25275
+  }
+]

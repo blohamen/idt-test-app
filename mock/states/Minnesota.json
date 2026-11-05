@@ -1,0 +1,350 @@
+[
+  {
+    "county": "Aitkin County",
+    "population": 15742
+  },
+  {
+    "county": "Anoka County",
+    "population": 339534
+  },
+  {
+    "county": "Becker County",
+    "population": 33231
+  },
+  {
+    "county": "Beltrami County",
+    "population": 45670
+  },
+  {
+    "county": "Benton County",
+    "population": 39214
+  },
+  {
+    "county": "Big Stone County",
+    "population": 5122
+  },
+  {
+    "county": "Blue Earth County",
+    "population": 65528
+  },
+  {
+    "county": "Brown County",
+    "population": 25332
+  },
+  {
+    "county": "Carlton County",
+    "population": 35460
+  },
+  {
+    "county": "Carver County",
+    "population": 95562
+  },
+  {
+    "county": "Cass County",
+    "population": 28555
+  },
+  {
+    "county": "Chippewa County",
+    "population": 12093
+  },
+  {
+    "county": "Chisago County",
+    "population": 53761
+  },
+  {
+    "county": "Clay County",
+    "population": 60661
+  },
+  {
+    "county": "Clearwater County",
+    "population": 8838
+  },
+  {
+    "county": "Cook County",
+    "population": 5200
+  },
+  {
+    "county": "Cottonwood County",
+    "population": 11616
+  },
+  {
+    "county": "Crow Wing County",
+    "population": 63208
+  },
+  {
+    "county": "Dakota County",
+    "population": 408509
+  },
+  {
+    "county": "Dodge County",
+    "population": 20349
+  },
+  {
+    "county": "Douglas County",
+    "population": 36545
+  },
+  {
+    "county": "Faribault County",
+    "population": 14191
+  },
+  {
+    "county": "Fillmore County",
+    "population": 20835
+  },
+  {
+    "county": "Freeborn County",
+    "population": 30948
+  },
+  {
+    "county": "Goodhue County",
+    "population": 46464
+  },
+  {
+    "county": "Grant County",
+    "population": 5989
+  },
+  {
+    "county": "Hennepin County",
+    "population": 1198778
+  },
+  {
+    "county": "Houston County",
+    "population": 18799
+  },
+  {
+    "county": "Hubbard County",
+    "population": 20658
+  },
+  {
+    "county": "Isanti County",
+    "population": 38204
+  },
+  {
+    "county": "Itasca County",
+    "population": 45564
+  },
+  {
+    "county": "Jackson County",
+    "population": 10260
+  },
+  {
+    "county": "Kanabec County",
+    "population": 15996
+  },
+  {
+    "county": "Kandiyohi County",
+    "population": 42410
+  },
+  {
+    "county": "Kittson County",
+    "population": 4503
+  },
+  {
+    "county": "Koochiching County",
+    "population": 13206
+  },
+  {
+    "county": "Lac qui Parle County",
+    "population": 7027
+  },
+  {
+    "county": "Lake County",
+    "population": 10777
+  },
+  {
+    "county": "Lake of the Woods County",
+    "population": 3929
+  },
+  {
+    "county": "Le Sueur County",
+    "population": 27810
+  },
+  {
+    "county": "Lincoln County",
+    "population": 5830
+  },
+  {
+    "county": "Lyon County",
+    "population": 25487
+  },
+  {
+    "county": "Mahnomen County",
+    "population": 5532
+  },
+  {
+    "county": "Marshall County",
+    "population": 9425
+  },
+  {
+    "county": "Martin County",
+    "population": 20422
+  },
+  {
+    "county": "McLeod County",
+    "population": 35918
+  },
+  {
+    "county": "Meeker County",
+    "population": 23119
+  },
+  {
+    "county": "Mille Lacs County",
+    "population": 25833
+  },
+  {
+    "county": "Morrison County",
+    "population": 32872
+  },
+  {
+    "county": "Mower County",
+    "population": 39327
+  },
+  {
+    "county": "Murray County",
+    "population": 8533
+  },
+  {
+    "county": "Nicollet County",
+    "population": 33032
+  },
+  {
+    "county": "Nobles County",
+    "population": 21617
+  },
+  {
+    "county": "Norman County",
+    "population": 6631
+  },
+  {
+    "county": "Olmsted County",
+    "population": 149226
+  },
+  {
+    "county": "Otter Tail County",
+    "population": 57581
+  },
+  {
+    "county": "Pennington County",
+    "population": 14118
+  },
+  {
+    "county": "Pine County",
+    "population": 29104
+  },
+  {
+    "county": "Pipestone County",
+    "population": 9270
+  },
+  {
+    "county": "Polk County",
+    "population": 31569
+  },
+  {
+    "county": "Pope County",
+    "population": 10932
+  },
+  {
+    "county": "Ramsey County",
+    "population": 526714
+  },
+  {
+    "county": "Red Lake County",
+    "population": 4057
+  },
+  {
+    "county": "Redwood County",
+    "population": 15744
+  },
+  {
+    "county": "Renville County",
+    "population": 15166
+  },
+  {
+    "county": "Rice County",
+    "population": 65049
+  },
+  {
+    "county": "Rock County",
+    "population": 9520
+  },
+  {
+    "county": "Roseau County",
+    "population": 15520
+  },
+  {
+    "county": "Scott County",
+    "population": 137232
+  },
+  {
+    "county": "Sherburne County",
+    "population": 90158
+  },
+  {
+    "county": "Sibley County",
+    "population": 15072
+  },
+  {
+    "county": "Stearns County",
+    "population": 152092
+  },
+  {
+    "county": "Steele County",
+    "population": 36465
+  },
+  {
+    "county": "Stevens County",
+    "population": 9735
+  },
+  {
+    "county": "St. Louis County",
+    "population": 200540
+  },
+  {
+    "county": "Swift County",
+    "population": 9546
+  },
+  {
+    "county": "Todd County",
+    "population": 24382
+  },
+  {
+    "county": "Traverse County",
+    "population": 3445
+  },
+  {
+    "county": "Wabasha County",
+    "population": 21443
+  },
+  {
+    "county": "Wadena County",
+    "population": 13804
+  },
+  {
+    "county": "Waseca County",
+    "population": 19098
+  },
+  {
+    "county": "Washington County",
+    "population": 246603
+  },
+  {
+    "county": "Watonwan County",
+    "population": 11137
+  },
+  {
+    "county": "Wilkin County",
+    "population": 6557
+  },
+  {
+    "county": "Winona County",
+    "population": 51232
+  },
+  {
+    "county": "Wright County",
+    "population": 128470
+  },
+  {
+    "county": "Yellow Medicine County",
+    "population": 10143
+  }
+]

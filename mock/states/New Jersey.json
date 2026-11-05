@@ -1,0 +1,86 @@
+[
+  {
+    "county": "Atlantic County",
+    "population": 275862
+  },
+  {
+    "county": "Bergen County",
+    "population": 925328
+  },
+  {
+    "county": "Burlington County",
+    "population": 450838
+  },
+  {
+    "county": "Camden County",
+    "population": 512854
+  },
+  {
+    "county": "Cape May County",
+    "population": 95897
+  },
+  {
+    "county": "Cumberland County",
+    "population": 157332
+  },
+  {
+    "county": "Essex County",
+    "population": 789565
+  },
+  {
+    "county": "Gloucester County",
+    "population": 290265
+  },
+  {
+    "county": "Hudson County",
+    "population": 660282
+  },
+  {
+    "county": "Hunterdon County",
+    "population": 126250
+  },
+  {
+    "county": "Mercer County",
+    "population": 370414
+  },
+  {
+    "county": "Middlesex County",
+    "population": 828919
+  },
+  {
+    "county": "Monmouth County",
+    "population": 629672
+  },
+  {
+    "county": "Morris County",
+    "population": 499397
+  },
+  {
+    "county": "Ocean County",
+    "population": 583414
+  },
+  {
+    "county": "Passaic County",
+    "population": 505672
+  },
+  {
+    "county": "Salem County",
+    "population": 65166
+  },
+  {
+    "county": "Somerset County",
+    "population": 330585
+  },
+  {
+    "county": "Sussex County",
+    "population": 145992
+  },
+  {
+    "county": "Union County",
+    "population": 548256
+  },
+  {
+    "county": "Warren County",
+    "population": 107379
+  }
+]

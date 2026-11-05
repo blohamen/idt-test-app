@@ -1,0 +1,42 @@
+[
+  {
+    "county": "Belknap County",
+    "population": 60179
+  },
+  {
+    "county": "Carroll County",
+    "population": 47499
+  },
+  {
+    "county": "Cheshire County",
+    "population": 76610
+  },
+  {
+    "county": "Coos County",
+    "population": 31997
+  },
+  {
+    "county": "Grafton County",
+    "population": 89629
+  },
+  {
+    "county": "Hillsborough County",
+    "population": 403985
+  },
+  {
+    "county": "Merrimack County",
+    "population": 146849
+  },
+  {
+    "county": "Rockingham County",
+    "population": 299134
+  },
+  {
+    "county": "Strafford County",
+    "population": 124593
+  },
+  {
+    "county": "Sullivan County",
+    "population": 42984
+  }
+]

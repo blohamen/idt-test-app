@@ -1,0 +1,410 @@
+[
+  {
+    "county": "Adams County",
+    "population": 67130
+  },
+  {
+    "county": "Alexander County",
+    "population": 7629
+  },
+  {
+    "county": "Bond County",
+    "population": 17470
+  },
+  {
+    "county": "Boone County",
+    "population": 53957
+  },
+  {
+    "county": "Brown County",
+    "population": 6860
+  },
+  {
+    "county": "Bureau County",
+    "population": 34056
+  },
+  {
+    "county": "Calhoun County",
+    "population": 5059
+  },
+  {
+    "county": "Carroll County",
+    "population": 14910
+  },
+  {
+    "county": "Cass County",
+    "population": 13324
+  },
+  {
+    "county": "Champaign County",
+    "population": 204897
+  },
+  {
+    "county": "Christian County",
+    "population": 34298
+  },
+  {
+    "county": "Clark County",
+    "population": 16182
+  },
+  {
+    "county": "Clay County",
+    "population": 13566
+  },
+  {
+    "county": "Clinton County",
+    "population": 37907
+  },
+  {
+    "county": "Coles County",
+    "population": 53697
+  },
+  {
+    "county": "Cook County",
+    "population": 5240700
+  },
+  {
+    "county": "Crawford County",
+    "population": 19505
+  },
+  {
+    "county": "Cumberland County",
+    "population": 10939
+  },
+  {
+    "county": "DeKalb County",
+    "population": 104741
+  },
+  {
+    "county": "De Witt County",
+    "population": 16420
+  },
+  {
+    "county": "Douglas County",
+    "population": 19887
+  },
+  {
+    "county": "DuPage County",
+    "population": 932126
+  },
+  {
+    "county": "Edgar County",
+    "population": 17960
+  },
+  {
+    "county": "Edwards County",
+    "population": 6672
+  },
+  {
+    "county": "Effingham County",
+    "population": 34307
+  },
+  {
+    "county": "Fayette County",
+    "population": 22060
+  },
+  {
+    "county": "Ford County",
+    "population": 13832
+  },
+  {
+    "county": "Franklin County",
+    "population": 39202
+  },
+  {
+    "county": "Fulton County",
+    "population": 36346
+  },
+  {
+    "county": "Gallatin County",
+    "population": 5415
+  },
+  {
+    "county": "Greene County",
+    "population": 13629
+  },
+  {
+    "county": "Grundy County",
+    "population": 50228
+  },
+  {
+    "county": "Hamilton County",
+    "population": 8368
+  },
+  {
+    "county": "Hancock County",
+    "population": 18618
+  },
+  {
+    "county": "Hardin County",
+    "population": 4181
+  },
+  {
+    "county": "Henderson County",
+    "population": 6990
+  },
+  {
+    "county": "Henry County",
+    "population": 49860
+  },
+  {
+    "county": "Iroquois County",
+    "population": 28982
+  },
+  {
+    "county": "Jackson County",
+    "population": 59814
+  },
+  {
+    "county": "Jasper County",
+    "population": 9592
+  },
+  {
+    "county": "Jefferson County",
+    "population": 38644
+  },
+  {
+    "county": "Jersey County",
+    "population": 22641
+  },
+  {
+    "county": "Jo Daviess County",
+    "population": 22407
+  },
+  {
+    "county": "Johnson County",
+    "population": 12677
+  },
+  {
+    "county": "Kane County",
+    "population": 523643
+  },
+  {
+    "county": "Kankakee County",
+    "population": 112120
+  },
+  {
+    "county": "Kendall County",
+    "population": 119348
+  },
+  {
+    "county": "Knox County",
+    "population": 52078
+  },
+  {
+    "county": "Lake County",
+    "population": 703019
+  },
+  {
+    "county": "LaSalle County",
+    "population": 112183
+  },
+  {
+    "county": "Lawrence County",
+    "population": 16558
+  },
+  {
+    "county": "Lee County",
+    "population": 34858
+  },
+  {
+    "county": "Livingston County",
+    "population": 38186
+  },
+  {
+    "county": "Logan County",
+    "population": 29964
+  },
+  {
+    "county": "Macon County",
+    "population": 109278
+  },
+  {
+    "county": "Macoupin County",
+    "population": 46880
+  },
+  {
+    "county": "Madison County",
+    "population": 267225
+  },
+  {
+    "county": "Marion County",
+    "population": 38622
+  },
+  {
+    "county": "Marshall County",
+    "population": 12153
+  },
+  {
+    "county": "Mason County",
+    "population": 14248
+  },
+  {
+    "county": "Massac County",
+    "population": 15073
+  },
+  {
+    "county": "McDonough County",
+    "population": 32464
+  },
+  {
+    "county": "McHenry County",
+    "population": 307409
+  },
+  {
+    "county": "McLean County",
+    "population": 174647
+  },
+  {
+    "county": "Menard County",
+    "population": 12607
+  },
+  {
+    "county": "Mercer County",
+    "population": 16178
+  },
+  {
+    "county": "Monroe County",
+    "population": 33493
+  },
+  {
+    "county": "Montgomery County",
+    "population": 29654
+  },
+  {
+    "county": "Morgan County",
+    "population": 35067
+  },
+  {
+    "county": "Moultrie County",
+    "population": 14876
+  },
+  {
+    "county": "Ogle County",
+    "population": 52385
+  },
+  {
+    "county": "Peoria County",
+    "population": 188429
+  },
+  {
+    "county": "Perry County",
+    "population": 21887
+  },
+  {
+    "county": "Piatt County",
+    "population": 16433
+  },
+  {
+    "county": "Pike County",
+    "population": 16150
+  },
+  {
+    "county": "Pope County",
+    "population": 4312
+  },
+  {
+    "county": "Pulaski County",
+    "population": 5908
+  },
+  {
+    "county": "Putnam County",
+    "population": 5801
+  },
+  {
+    "county": "Randolph County",
+    "population": 32890
+  },
+  {
+    "county": "Richland County",
+    "population": 16182
+  },
+  {
+    "county": "Rock Island County",
+    "population": 147258
+  },
+  {
+    "county": "Saline County",
+    "population": 24939
+  },
+  {
+    "county": "Sangamon County",
+    "population": 199145
+  },
+  {
+    "county": "Schuyler County",
+    "population": 7444
+  },
+  {
+    "county": "Scott County",
+    "population": 5222
+  },
+  {
+    "county": "Shelby County",
+    "population": 22119
+  },
+  {
+    "county": "Stark County",
+    "population": 5907
+  },
+  {
+    "county": "St. Clair County",
+    "population": 266955
+  },
+  {
+    "county": "Stephenson County",
+    "population": 46740
+  },
+  {
+    "county": "Tazewell County",
+    "population": 136352
+  },
+  {
+    "county": "Union County",
+    "population": 17583
+  },
+  {
+    "county": "Vermilion County",
+    "population": 80329
+  },
+  {
+    "county": "Wabash County",
+    "population": 11665
+  },
+  {
+    "county": "Warren County",
+    "population": 17726
+  },
+  {
+    "county": "Washington County",
+    "population": 14448
+  },
+  {
+    "county": "Wayne County",
+    "population": 16612
+  },
+  {
+    "county": "White County",
+    "population": 14549
+  },
+  {
+    "county": "Whiteside County",
+    "population": 57557
+  },
+  {
+    "county": "Will County",
+    "population": 682829
+  },
+  {
+    "county": "Williamson County",
+    "population": 66924
+  },
+  {
+    "county": "Winnebago County",
+    "population": 290666
+  },
+  {
+    "county": "Woodford County",
+    "population": 39273
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "county": "Androscoggin County",
+    "population": 107604
+  },
+  {
+    "county": "Aroostook County",
+    "population": 70055
+  },
+  {
+    "county": "Cumberland County",
+    "population": 285456
+  },
+  {
+    "county": "Franklin County",
+    "population": 30495
+  },
+  {
+    "county": "Hancock County",
+    "population": 54845
+  },
+  {
+    "county": "Kennebec County",
+    "population": 121164
+  },
+  {
+    "county": "Knox County",
+    "population": 39550
+  },
+  {
+    "county": "Lincoln County",
+    "population": 34088
+  },
+  {
+    "county": "Oxford County",
+    "population": 57277
+  },
+  {
+    "county": "Penobscot County",
+    "population": 153364
+  },
+  {
+    "county": "Piscataquis County",
+    "population": 17124
+  },
+  {
+    "county": "Sagadahoc County",
+    "population": 35013
+  },
+  {
+    "county": "Somerset County",
+    "population": 51706
+  },
+  {
+    "county": "Waldo County",
+    "population": 38940
+  },
+  {
+    "county": "Washington County",
+    "population": 32190
+  },
+  {
+    "county": "York County",
+    "population": 199431
+  }
+]

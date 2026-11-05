@@ -1,0 +1,302 @@
+[
+  {
+    "county": "Arkansas County",
+    "population": 18777
+  },
+  {
+    "county": "Ashley County",
+    "population": 21283
+  },
+  {
+    "county": "Baxter County",
+    "population": 40957
+  },
+  {
+    "county": "Benton County",
+    "population": 237297
+  },
+  {
+    "county": "Boone County",
+    "population": 37396
+  },
+  {
+    "county": "Bradley County",
+    "population": 11249
+  },
+  {
+    "county": "Calhoun County",
+    "population": 5241
+  },
+  {
+    "county": "Carroll County",
+    "population": 27808
+  },
+  {
+    "county": "Chicot County",
+    "population": 11335
+  },
+  {
+    "county": "Clark County",
+    "population": 22743
+  },
+  {
+    "county": "Clay County",
+    "population": 15402
+  },
+  {
+    "county": "Cleburne County",
+    "population": 25686
+  },
+  {
+    "county": "Cleveland County",
+    "population": 8593
+  },
+  {
+    "county": "Columbia County",
+    "population": 24164
+  },
+  {
+    "county": "Conway County",
+    "population": 21245
+  },
+  {
+    "county": "Craighead County",
+    "population": 101488
+  },
+  {
+    "county": "Crawford County",
+    "population": 61640
+  },
+  {
+    "county": "Crittenden County",
+    "population": 49746
+  },
+  {
+    "county": "Cross County",
+    "population": 17548
+  },
+  {
+    "county": "Dallas County",
+    "population": 7933
+  },
+  {
+    "county": "Desha County",
+    "population": 12505
+  },
+  {
+    "county": "Drew County",
+    "population": 18785
+  },
+  {
+    "county": "Faulkner County",
+    "population": 119580
+  },
+  {
+    "county": "Franklin County",
+    "population": 18034
+  },
+  {
+    "county": "Fulton County",
+    "population": 12304
+  },
+  {
+    "county": "Garland County",
+    "population": 97173
+  },
+  {
+    "county": "Grant County",
+    "population": 18019
+  },
+  {
+    "county": "Greene County",
+    "population": 43097
+  },
+  {
+    "county": "Hempstead County",
+    "population": 22474
+  },
+  {
+    "county": "Hot Spring County",
+    "population": 33500
+  },
+  {
+    "county": "Howard County",
+    "population": 13581
+  },
+  {
+    "county": "Independence County",
+    "population": 36997
+  },
+  {
+    "county": "Izard County",
+    "population": 13368
+  },
+  {
+    "county": "Jackson County",
+    "population": 17615
+  },
+  {
+    "county": "Jefferson County",
+    "population": 73191
+  },
+  {
+    "county": "Johnson County",
+    "population": 25846
+  },
+  {
+    "county": "Lafayette County",
+    "population": 7252
+  },
+  {
+    "county": "Lawrence County",
+    "population": 17011
+  },
+  {
+    "county": "Lee County",
+    "population": 10015
+  },
+  {
+    "county": "Lincoln County",
+    "population": 14031
+  },
+  {
+    "county": "Little River County",
+    "population": 12730
+  },
+  {
+    "county": "Logan County",
+    "population": 22082
+  },
+  {
+    "county": "Lonoke County",
+    "population": 70753
+  },
+  {
+    "county": "Madison County",
+    "population": 15701
+  },
+  {
+    "county": "Marion County",
+    "population": 16430
+  },
+  {
+    "county": "Miller County",
+    "population": 43402
+  },
+  {
+    "county": "Mississippi County",
+    "population": 44765
+  },
+  {
+    "county": "Monroe County",
+    "population": 7682
+  },
+  {
+    "county": "Montgomery County",
+    "population": 9226
+  },
+  {
+    "county": "Nevada County",
+    "population": 8799
+  },
+  {
+    "county": "Newton County",
+    "population": 8064
+  },
+  {
+    "county": "Ouachita County",
+    "population": 25002
+  },
+  {
+    "county": "Perry County",
+    "population": 10345
+  },
+  {
+    "county": "Phillips County",
+    "population": 20399
+  },
+  {
+    "county": "Pike County",
+    "population": 11177
+  },
+  {
+    "county": "Poinsett County",
+    "population": 24145
+  },
+  {
+    "county": "Polk County",
+    "population": 20406
+  },
+  {
+    "county": "Pope County",
+    "population": 62547
+  },
+  {
+    "county": "Prairie County",
+    "population": 8374
+  },
+  {
+    "county": "Pulaski County",
+    "population": 391284
+  },
+  {
+    "county": "Randolph County",
+    "population": 17692
+  },
+  {
+    "county": "Saline County",
+    "population": 114404
+  },
+  {
+    "county": "Scott County",
+    "population": 10950
+  },
+  {
+    "county": "Searcy County",
+    "population": 8023
+  },
+  {
+    "county": "Sebastian County",
+    "population": 127342
+  },
+  {
+    "county": "Sevier County",
+    "population": 17366
+  },
+  {
+    "county": "Sharp County",
+    "population": 17049
+  },
+  {
+    "county": "St. Francis County",
+    "population": 27260
+  },
+  {
+    "county": "Stone County",
+    "population": 12581
+  },
+  {
+    "county": "Union County",
+    "population": 40694
+  },
+  {
+    "county": "Van Buren County",
+    "population": 16932
+  },
+  {
+    "county": "Washington County",
+    "population": 216410
+  },
+  {
+    "county": "White County",
+    "population": 78483
+  },
+  {
+    "county": "Woodruff County",
+    "population": 7072
+  },
+  {
+    "county": "Yell County",
+    "population": 21893
+  }
+]

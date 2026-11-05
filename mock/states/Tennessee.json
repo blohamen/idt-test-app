@@ -1,0 +1,382 @@
+[
+  {
+    "county": "Anderson County",
+    "population": 75542
+  },
+  {
+    "county": "Bedford County",
+    "population": 45901
+  },
+  {
+    "county": "Benton County",
+    "population": 16290
+  },
+  {
+    "county": "Bledsoe County",
+    "population": 12841
+  },
+  {
+    "county": "Blount County",
+    "population": 125099
+  },
+  {
+    "county": "Bradley County",
+    "population": 101848
+  },
+  {
+    "county": "Campbell County",
+    "population": 40238
+  },
+  {
+    "county": "Cannon County",
+    "population": 13775
+  },
+  {
+    "county": "Carroll County",
+    "population": 28513
+  },
+  {
+    "county": "Carter County",
+    "population": 57338
+  },
+  {
+    "county": "Cheatham County",
+    "population": 39492
+  },
+  {
+    "county": "Chester County",
+    "population": 17321
+  },
+  {
+    "county": "Claiborne County",
+    "population": 31560
+  },
+  {
+    "county": "Clay County",
+    "population": 7774
+  },
+  {
+    "county": "Cocke County",
+    "population": 35479
+  },
+  {
+    "county": "Coffee County",
+    "population": 53357
+  },
+  {
+    "county": "Crockett County",
+    "population": 14591
+  },
+  {
+    "county": "Cumberland County",
+    "population": 57466
+  },
+  {
+    "county": "Davidson County",
+    "population": 658602
+  },
+  {
+    "county": "Decatur County",
+    "population": 11661
+  },
+  {
+    "county": "DeKalb County",
+    "population": 19164
+  },
+  {
+    "county": "Dickson County",
+    "population": 50266
+  },
+  {
+    "county": "Dyer County",
+    "population": 38213
+  },
+  {
+    "county": "Fayette County",
+    "population": 38690
+  },
+  {
+    "county": "Fentress County",
+    "population": 17909
+  },
+  {
+    "county": "Franklin County",
+    "population": 41129
+  },
+  {
+    "county": "Gibson County",
+    "population": 49457
+  },
+  {
+    "county": "Giles County",
+    "population": 28746
+  },
+  {
+    "county": "Grainger County",
+    "population": 22702
+  },
+  {
+    "county": "Greene County",
+    "population": 68267
+  },
+  {
+    "county": "Grundy County",
+    "population": 13498
+  },
+  {
+    "county": "Hamblen County",
+    "population": 63074
+  },
+  {
+    "county": "Hamilton County",
+    "population": 348673
+  },
+  {
+    "county": "Hancock County",
+    "population": 6679
+  },
+  {
+    "county": "Hardeman County",
+    "population": 26306
+  },
+  {
+    "county": "Hardin County",
+    "population": 26034
+  },
+  {
+    "county": "Hawkins County",
+    "population": 56800
+  },
+  {
+    "county": "Haywood County",
+    "population": 18224
+  },
+  {
+    "county": "Henderson County",
+    "population": 28048
+  },
+  {
+    "county": "Henry County",
+    "population": 32210
+  },
+  {
+    "county": "Hickman County",
+    "population": 24267
+  },
+  {
+    "county": "Houston County",
+    "population": 8292
+  },
+  {
+    "county": "Humphreys County",
+    "population": 18243
+  },
+  {
+    "county": "Jackson County",
+    "population": 11517
+  },
+  {
+    "county": "Jefferson County",
+    "population": 52123
+  },
+  {
+    "county": "Johnson County",
+    "population": 17977
+  },
+  {
+    "county": "Knox County",
+    "population": 444622
+  },
+  {
+    "county": "Lake County",
+    "population": 7731
+  },
+  {
+    "county": "Lauderdale County",
+    "population": 27795
+  },
+  {
+    "county": "Lawrence County",
+    "population": 41990
+  },
+  {
+    "county": "Lewis County",
+    "population": 11961
+  },
+  {
+    "county": "Lincoln County",
+    "population": 33633
+  },
+  {
+    "county": "Loudon County",
+    "population": 50448
+  },
+  {
+    "county": "Macon County",
+    "population": 22701
+  },
+  {
+    "county": "Madison County",
+    "population": 98733
+  },
+  {
+    "county": "Marion County",
+    "population": 28374
+  },
+  {
+    "county": "Marshall County",
+    "population": 31130
+  },
+  {
+    "county": "Maury County",
+    "population": 83761
+  },
+  {
+    "county": "McMinn County",
+    "population": 52341
+  },
+  {
+    "county": "McNairy County",
+    "population": 26140
+  },
+  {
+    "county": "Meigs County",
+    "population": 11649
+  },
+  {
+    "county": "Monroe County",
+    "population": 45265
+  },
+  {
+    "county": "Montgomery County",
+    "population": 184119
+  },
+  {
+    "county": "Moore County",
+    "population": 6301
+  },
+  {
+    "county": "Morgan County",
+    "population": 21915
+  },
+  {
+    "county": "Obion County",
+    "population": 31131
+  },
+  {
+    "county": "Overton County",
+    "population": 22075
+  },
+  {
+    "county": "Perry County",
+    "population": 7869
+  },
+  {
+    "county": "Pickett County",
+    "population": 5090
+  },
+  {
+    "county": "Polk County",
+    "population": 16690
+  },
+  {
+    "county": "Putnam County",
+    "population": 73525
+  },
+  {
+    "county": "Rhea County",
+    "population": 32513
+  },
+  {
+    "county": "Roane County",
+    "population": 53047
+  },
+  {
+    "county": "Robertson County",
+    "population": 67383
+  },
+  {
+    "county": "Rutherford County",
+    "population": 281029
+  },
+  {
+    "county": "Scott County",
+    "population": 22015
+  },
+  {
+    "county": "Sequatchie County",
+    "population": 14681
+  },
+  {
+    "county": "Sevier County",
+    "population": 93570
+  },
+  {
+    "county": "Shelby County",
+    "population": 939465
+  },
+  {
+    "county": "Smith County",
+    "population": 19074
+  },
+  {
+    "county": "Stewart County",
+    "population": 13362
+  },
+  {
+    "county": "Sullivan County",
+    "population": 156595
+  },
+  {
+    "county": "Sumner County",
+    "population": 168888
+  },
+  {
+    "county": "Tipton County",
+    "population": 61586
+  },
+  {
+    "county": "Trousdale County",
+    "population": 7828
+  },
+  {
+    "county": "Unicoi County",
+    "population": 18082
+  },
+  {
+    "county": "Union County",
+    "population": 19102
+  },
+  {
+    "county": "Van Buren County",
+    "population": 5583
+  },
+  {
+    "county": "Warren County",
+    "population": 39965
+  },
+  {
+    "county": "Washington County",
+    "population": 125546
+  },
+  {
+    "county": "Wayne County",
+    "population": 16939
+  },
+  {
+    "county": "Weakley County",
+    "population": 34450
+  },
+  {
+    "county": "White County",
+    "population": 26244
+  },
+  {
+    "county": "Williamson County",
+    "population": 198901
+  },
+  {
+    "county": "Wilson County",
+    "population": 121945
+  }
+]

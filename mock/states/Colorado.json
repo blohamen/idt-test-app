@@ -1,0 +1,258 @@
+[
+  {
+    "county": "Adams County",
+    "population": 469193
+  },
+  {
+    "county": "Alamosa County",
+    "population": 16253
+  },
+  {
+    "county": "Arapahoe County",
+    "population": 607070
+  },
+  {
+    "county": "Archuleta County",
+    "population": 12194
+  },
+  {
+    "county": "Baca County",
+    "population": 3682
+  },
+  {
+    "county": "Bent County",
+    "population": 5688
+  },
+  {
+    "county": "Boulder County",
+    "population": 310048
+  },
+  {
+    "county": "Broomfield County",
+    "population": 59471
+  },
+  {
+    "county": "Chaffee County",
+    "population": 18510
+  },
+  {
+    "county": "Cheyenne County",
+    "population": 1890
+  },
+  {
+    "county": "Clear Creek County",
+    "population": 9031
+  },
+  {
+    "county": "Conejos County",
+    "population": 8277
+  },
+  {
+    "county": "Costilla County",
+    "population": 3518
+  },
+  {
+    "county": "Crowley County",
+    "population": 5322
+  },
+  {
+    "county": "Custer County",
+    "population": 4285
+  },
+  {
+    "county": "Delta County",
+    "population": 30483
+  },
+  {
+    "county": "Denver County",
+    "population": 649495
+  },
+  {
+    "county": "Dolores County",
+    "population": 2029
+  },
+  {
+    "county": "Douglas County",
+    "population": 305963
+  },
+  {
+    "county": "Eagle County",
+    "population": 52460
+  },
+  {
+    "county": "Elbert County",
+    "population": 23733
+  },
+  {
+    "county": "El Paso County",
+    "population": 655044
+  },
+  {
+    "county": "Fremont County",
+    "population": 46451
+  },
+  {
+    "county": "Garfield County",
+    "population": 57302
+  },
+  {
+    "county": "Gilpin County",
+    "population": 5601
+  },
+  {
+    "county": "Grand County",
+    "population": 14289
+  },
+  {
+    "county": "Gunnison County",
+    "population": 15507
+  },
+  {
+    "county": "Hinsdale County",
+    "population": 813
+  },
+  {
+    "county": "Huerfano County",
+    "population": 6519
+  },
+  {
+    "county": "Jackson County",
+    "population": 1365
+  },
+  {
+    "county": "Jefferson County",
+    "population": 551798
+  },
+  {
+    "county": "Kiowa County",
+    "population": 1423
+  },
+  {
+    "county": "Kit Carson County",
+    "population": 8037
+  },
+  {
+    "county": "Lake County",
+    "population": 7306
+  },
+  {
+    "county": "La Plata County",
+    "population": 53284
+  },
+  {
+    "county": "Larimer County",
+    "population": 315988
+  },
+  {
+    "county": "Las Animas County",
+    "population": 14446
+  },
+  {
+    "county": "Lincoln County",
+    "population": 5430
+  },
+  {
+    "county": "Logan County",
+    "population": 22450
+  },
+  {
+    "county": "Mesa County",
+    "population": 147554
+  },
+  {
+    "county": "Mineral County",
+    "population": 721
+  },
+  {
+    "county": "Moffat County",
+    "population": 13103
+  },
+  {
+    "county": "Montezuma County",
+    "population": 25642
+  },
+  {
+    "county": "Montrose County",
+    "population": 40713
+  },
+  {
+    "county": "Morgan County",
+    "population": 28404
+  },
+  {
+    "county": "Otero County",
+    "population": 18703
+  },
+  {
+    "county": "Ouray County",
+    "population": 4557
+  },
+  {
+    "county": "Park County",
+    "population": 16121
+  },
+  {
+    "county": "Phillips County",
+    "population": 4356
+  },
+  {
+    "county": "Pitkin County",
+    "population": 17379
+  },
+  {
+    "county": "Prowers County",
+    "population": 12291
+  },
+  {
+    "county": "Pueblo County",
+    "population": 161451
+  },
+  {
+    "county": "Rio Blanco County",
+    "population": 6807
+  },
+  {
+    "county": "Rio Grande County",
+    "population": 11803
+  },
+  {
+    "county": "Routt County",
+    "population": 23513
+  },
+  {
+    "county": "Saguache County",
+    "population": 6208
+  },
+  {
+    "county": "San Juan County",
+    "population": 692
+  },
+  {
+    "county": "San Miguel County",
+    "population": 7678
+  },
+  {
+    "county": "Sedgwick County",
+    "population": 2360
+  },
+  {
+    "county": "Summit County",
+    "population": 28649
+  },
+  {
+    "county": "Teller County",
+    "population": 23275
+  },
+  {
+    "county": "Washington County",
+    "population": 4803
+  },
+  {
+    "county": "Weld County",
+    "population": 269785
+  },
+  {
+    "county": "Yuma County",
+    "population": 10151
+  }
+]

@@ -1,0 +1,370 @@
+[
+  {
+    "county": "Adams County",
+    "population": 34614
+  },
+  {
+    "county": "Allen County",
+    "population": 363014
+  },
+  {
+    "county": "Bartholomew County",
+    "population": 79587
+  },
+  {
+    "county": "Benton County",
+    "population": 8767
+  },
+  {
+    "county": "Blackford County",
+    "population": 12481
+  },
+  {
+    "county": "Boone County",
+    "population": 60477
+  },
+  {
+    "county": "Brown County",
+    "population": 15023
+  },
+  {
+    "county": "Carroll County",
+    "population": 20086
+  },
+  {
+    "county": "Cass County",
+    "population": 38463
+  },
+  {
+    "county": "Clark County",
+    "population": 112938
+  },
+  {
+    "county": "Clay County",
+    "population": 26803
+  },
+  {
+    "county": "Clinton County",
+    "population": 32916
+  },
+  {
+    "county": "Crawford County",
+    "population": 10621
+  },
+  {
+    "county": "Daviess County",
+    "population": 32407
+  },
+  {
+    "county": "Dearborn County",
+    "population": 49904
+  },
+  {
+    "county": "Decatur County",
+    "population": 26277
+  },
+  {
+    "county": "DeKalb County",
+    "population": 42307
+  },
+  {
+    "county": "Delaware County",
+    "population": 117484
+  },
+  {
+    "county": "Dubois County",
+    "population": 42361
+  },
+  {
+    "county": "Elkhart County",
+    "population": 200563
+  },
+  {
+    "county": "Fayette County",
+    "population": 23861
+  },
+  {
+    "county": "Floyd County",
+    "population": 76244
+  },
+  {
+    "county": "Fountain County",
+    "population": 16880
+  },
+  {
+    "county": "Franklin County",
+    "population": 22951
+  },
+  {
+    "county": "Fulton County",
+    "population": 20449
+  },
+  {
+    "county": "Gibson County",
+    "population": 33612
+  },
+  {
+    "county": "Grant County",
+    "population": 69126
+  },
+  {
+    "county": "Greene County",
+    "population": 32781
+  },
+  {
+    "county": "Hamilton County",
+    "population": 296693
+  },
+  {
+    "county": "Hancock County",
+    "population": 71575
+  },
+  {
+    "county": "Harrison County",
+    "population": 39163
+  },
+  {
+    "county": "Hendricks County",
+    "population": 153879
+  },
+  {
+    "county": "Henry County",
+    "population": 49044
+  },
+  {
+    "county": "Howard County",
+    "population": 82760
+  },
+  {
+    "county": "Huntington County",
+    "population": 36791
+  },
+  {
+    "county": "Jackson County",
+    "population": 43466
+  },
+  {
+    "county": "Jasper County",
+    "population": 33389
+  },
+  {
+    "county": "Jay County",
+    "population": 21330
+  },
+  {
+    "county": "Jefferson County",
+    "population": 32458
+  },
+  {
+    "county": "Jennings County",
+    "population": 28241
+  },
+  {
+    "county": "Johnson County",
+    "population": 145535
+  },
+  {
+    "county": "Knox County",
+    "population": 37954
+  },
+  {
+    "county": "Kosciusko County",
+    "population": 77963
+  },
+  {
+    "county": "LaGrange County",
+    "population": 37996
+  },
+  {
+    "county": "Lake County",
+    "population": 491456
+  },
+  {
+    "county": "LaPorte County",
+    "population": 111281
+  },
+  {
+    "county": "Lawrence County",
+    "population": 45844
+  },
+  {
+    "county": "Madison County",
+    "population": 130482
+  },
+  {
+    "county": "Marion County",
+    "population": 928281
+  },
+  {
+    "county": "Marshall County",
+    "population": 47109
+  },
+  {
+    "county": "Martin County",
+    "population": 10160
+  },
+  {
+    "county": "Miami County",
+    "population": 36140
+  },
+  {
+    "county": "Monroe County",
+    "population": 141888
+  },
+  {
+    "county": "Montgomery County",
+    "population": 38177
+  },
+  {
+    "county": "Morgan County",
+    "population": 69782
+  },
+  {
+    "county": "Newton County",
+    "population": 14087
+  },
+  {
+    "county": "Noble County",
+    "population": 47570
+  },
+  {
+    "county": "Ohio County",
+    "population": 5994
+  },
+  {
+    "county": "Orange County",
+    "population": 19773
+  },
+  {
+    "county": "Owen County",
+    "population": 21201
+  },
+  {
+    "county": "Parke County",
+    "population": 17202
+  },
+  {
+    "county": "Perry County",
+    "population": 19558
+  },
+  {
+    "county": "Pike County",
+    "population": 12683
+  },
+  {
+    "county": "Porter County",
+    "population": 166557
+  },
+  {
+    "county": "Posey County",
+    "population": 25486
+  },
+  {
+    "county": "Pulaski County",
+    "population": 13007
+  },
+  {
+    "county": "Putnam County",
+    "population": 37505
+  },
+  {
+    "county": "Randolph County",
+    "population": 25627
+  },
+  {
+    "county": "Ripley County",
+    "population": 28419
+  },
+  {
+    "county": "Rush County",
+    "population": 17004
+  },
+  {
+    "county": "Scott County",
+    "population": 23972
+  },
+  {
+    "county": "Shelby County",
+    "population": 44729
+  },
+  {
+    "county": "Spencer County",
+    "population": 20944
+  },
+  {
+    "county": "Starke County",
+    "population": 23197
+  },
+  {
+    "county": "Steuben County",
+    "population": 34358
+  },
+  {
+    "county": "St. Joseph County",
+    "population": 266709
+  },
+  {
+    "county": "Sullivan County",
+    "population": 21223
+  },
+  {
+    "county": "Switzerland County",
+    "population": 10526
+  },
+  {
+    "county": "Tippecanoe County",
+    "population": 180174
+  },
+  {
+    "county": "Tipton County",
+    "population": 15650
+  },
+  {
+    "county": "Union County",
+    "population": 7277
+  },
+  {
+    "county": "Vanderburgh County",
+    "population": 181398
+  },
+  {
+    "county": "Vermillion County",
+    "population": 15878
+  },
+  {
+    "county": "Vigo County",
+    "population": 108291
+  },
+  {
+    "county": "Wabash County",
+    "population": 32358
+  },
+  {
+    "county": "Warren County",
+    "population": 8415
+  },
+  {
+    "county": "Warrick County",
+    "population": 61049
+  },
+  {
+    "county": "Washington County",
+    "population": 27780
+  },
+  {
+    "county": "Wayne County",
+    "population": 67893
+  },
+  {
+    "county": "Wells County",
+    "population": 27814
+  },
+  {
+    "county": "White County",
+    "population": 24466
+  },
+  {
+    "county": "Whitley County",
+    "population": 33294
+  }
+]

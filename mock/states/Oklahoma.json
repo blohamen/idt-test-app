@@ -1,0 +1,310 @@
+[
+  {
+    "county": "Adair County",
+    "population": 22194
+  },
+  {
+    "county": "Alfalfa County",
+    "population": 5847
+  },
+  {
+    "county": "Atoka County",
+    "population": 13898
+  },
+  {
+    "county": "Beaver County",
+    "population": 5566
+  },
+  {
+    "county": "Beckham County",
+    "population": 23637
+  },
+  {
+    "county": "Blaine County",
+    "population": 9720
+  },
+  {
+    "county": "Bryan County",
+    "population": 44244
+  },
+  {
+    "county": "Caddo County",
+    "population": 29594
+  },
+  {
+    "county": "Canadian County",
+    "population": 126123
+  },
+  {
+    "county": "Carter County",
+    "population": 48491
+  },
+  {
+    "county": "Cherokee County",
+    "population": 48017
+  },
+  {
+    "county": "Choctaw County",
+    "population": 15045
+  },
+  {
+    "county": "Cimarron County",
+    "population": 2335
+  },
+  {
+    "county": "Cleveland County",
+    "population": 269340
+  },
+  {
+    "county": "Coal County",
+    "population": 5867
+  },
+  {
+    "county": "Comanche County",
+    "population": 124937
+  },
+  {
+    "county": "Cotton County",
+    "population": 6152
+  },
+  {
+    "county": "Craig County",
+    "population": 14672
+  },
+  {
+    "county": "Creek County",
+    "population": 70470
+  },
+  {
+    "county": "Custer County",
+    "population": 29377
+  },
+  {
+    "county": "Delaware County",
+    "population": 41377
+  },
+  {
+    "county": "Dewey County",
+    "population": 4844
+  },
+  {
+    "county": "Ellis County",
+    "population": 4170
+  },
+  {
+    "county": "Garfield County",
+    "population": 62267
+  },
+  {
+    "county": "Garvin County",
+    "population": 27334
+  },
+  {
+    "county": "Grady County",
+    "population": 53685
+  },
+  {
+    "county": "Grant County",
+    "population": 4528
+  },
+  {
+    "county": "Greer County",
+    "population": 6171
+  },
+  {
+    "county": "Harmon County",
+    "population": 2869
+  },
+  {
+    "county": "Harper County",
+    "population": 3813
+  },
+  {
+    "county": "Haskell County",
+    "population": 13052
+  },
+  {
+    "county": "Hughes County",
+    "population": 13823
+  },
+  {
+    "county": "Jackson County",
+    "population": 26088
+  },
+  {
+    "county": "Jefferson County",
+    "population": 6432
+  },
+  {
+    "county": "Johnston County",
+    "population": 10990
+  },
+  {
+    "county": "Kay County",
+    "population": 45633
+  },
+  {
+    "county": "Kingfisher County",
+    "population": 15276
+  },
+  {
+    "county": "Kiowa County",
+    "population": 9341
+  },
+  {
+    "county": "Latimer County",
+    "population": 10775
+  },
+  {
+    "county": "Le Flore County",
+    "population": 49774
+  },
+  {
+    "county": "Lincoln County",
+    "population": 34351
+  },
+  {
+    "county": "Logan County",
+    "population": 44422
+  },
+  {
+    "county": "Love County",
+    "population": 9742
+  },
+  {
+    "county": "Major County",
+    "population": 7683
+  },
+  {
+    "county": "Marshall County",
+    "population": 15988
+  },
+  {
+    "county": "Mayes County",
+    "population": 40804
+  },
+  {
+    "county": "McClain County",
+    "population": 36511
+  },
+  {
+    "county": "McCurtain County",
+    "population": 33065
+  },
+  {
+    "county": "McIntosh County",
+    "population": 20493
+  },
+  {
+    "county": "Murray County",
+    "population": 13712
+  },
+  {
+    "county": "Muskogee County",
+    "population": 70303
+  },
+  {
+    "county": "Noble County",
+    "population": 11446
+  },
+  {
+    "county": "Nowata County",
+    "population": 10555
+  },
+  {
+    "county": "Okfuskee County",
+    "population": 12377
+  },
+  {
+    "county": "Oklahoma County",
+    "population": 755245
+  },
+  {
+    "county": "Okmulgee County",
+    "population": 39438
+  },
+  {
+    "county": "Osage County",
+    "population": 47987
+  },
+  {
+    "county": "Ottawa County",
+    "population": 32245
+  },
+  {
+    "county": "Pawnee County",
+    "population": 16513
+  },
+  {
+    "county": "Payne County",
+    "population": 79066
+  },
+  {
+    "county": "Pittsburg County",
+    "population": 44703
+  },
+  {
+    "county": "Pontotoc County",
+    "population": 37992
+  },
+  {
+    "county": "Pottawatomie County",
+    "population": 71158
+  },
+  {
+    "county": "Pushmataha County",
+    "population": 11233
+  },
+  {
+    "county": "Roger Mills County",
+    "population": 3743
+  },
+  {
+    "county": "Rogers County",
+    "population": 89044
+  },
+  {
+    "county": "Seminole County",
+    "population": 25426
+  },
+  {
+    "county": "Sequoyah County",
+    "population": 41218
+  },
+  {
+    "county": "Stephens County",
+    "population": 44919
+  },
+  {
+    "county": "Texas County",
+    "population": 22081
+  },
+  {
+    "county": "Tillman County",
+    "population": 7711
+  },
+  {
+    "county": "Tulsa County",
+    "population": 622409
+  },
+  {
+    "county": "Wagoner County",
+    "population": 75700
+  },
+  {
+    "county": "Washington County",
+    "population": 51577
+  },
+  {
+    "county": "Washita County",
+    "population": 11678
+  },
+  {
+    "county": "Woods County",
+    "population": 9041
+  },
+  {
+    "county": "Woodward County",
+    "population": 21221
+  }
+]

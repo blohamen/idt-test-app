@@ -1,0 +1,330 @@
+[
+  {
+    "county": "Adams County",
+    "population": 32090
+  },
+  {
+    "county": "Alcorn County",
+    "population": 37316
+  },
+  {
+    "county": "Amite County",
+    "population": 12899
+  },
+  {
+    "county": "Attala County",
+    "population": 19317
+  },
+  {
+    "county": "Benton County",
+    "population": 8571
+  },
+  {
+    "county": "Bolivar County",
+    "population": 34049
+  },
+  {
+    "county": "Calhoun County",
+    "population": 14734
+  },
+  {
+    "county": "Carroll County",
+    "population": 10385
+  },
+  {
+    "county": "Chickasaw County",
+    "population": 17311
+  },
+  {
+    "county": "Choctaw County",
+    "population": 8371
+  },
+  {
+    "county": "Claiborne County",
+    "population": 9253
+  },
+  {
+    "county": "Clarke County",
+    "population": 16415
+  },
+  {
+    "county": "Clay County",
+    "population": 20408
+  },
+  {
+    "county": "Coahoma County",
+    "population": 25182
+  },
+  {
+    "county": "Copiah County",
+    "population": 28921
+  },
+  {
+    "county": "Covington County",
+    "population": 19423
+  },
+  {
+    "county": "DeSoto County",
+    "population": 168240
+  },
+  {
+    "county": "Forrest County",
+    "population": 77059
+  },
+  {
+    "county": "Franklin County",
+    "population": 7931
+  },
+  {
+    "county": "George County",
+    "population": 23159
+  },
+  {
+    "county": "Greene County",
+    "population": 14244
+  },
+  {
+    "county": "Grenada County",
+    "population": 21612
+  },
+  {
+    "county": "Hancock County",
+    "population": 45566
+  },
+  {
+    "county": "Harrison County",
+    "population": 196500
+  },
+  {
+    "county": "Hinds County",
+    "population": 244899
+  },
+  {
+    "county": "Holmes County",
+    "population": 18428
+  },
+  {
+    "county": "Humphreys County",
+    "population": 8922
+  },
+  {
+    "county": "Issaquena County",
+    "population": 1395
+  },
+  {
+    "county": "Itawamba County",
+    "population": 23434
+  },
+  {
+    "county": "Jackson County",
+    "population": 140450
+  },
+  {
+    "county": "Jasper County",
+    "population": 16470
+  },
+  {
+    "county": "Jefferson County",
+    "population": 7629
+  },
+  {
+    "county": "Jefferson Davis County",
+    "population": 11948
+  },
+  {
+    "county": "Jones County",
+    "population": 68961
+  },
+  {
+    "county": "Kemper County",
+    "population": 10294
+  },
+  {
+    "county": "Lafayette County",
+    "population": 51318
+  },
+  {
+    "county": "Lamar County",
+    "population": 58801
+  },
+  {
+    "county": "Lauderdale County",
+    "population": 80254
+  },
+  {
+    "county": "Lawrence County",
+    "population": 12514
+  },
+  {
+    "county": "Leake County",
+    "population": 23389
+  },
+  {
+    "county": "Lee County",
+    "population": 85340
+  },
+  {
+    "county": "Leflore County",
+    "population": 31607
+  },
+  {
+    "county": "Lincoln County",
+    "population": 34810
+  },
+  {
+    "county": "Lowndes County",
+    "population": 59922
+  },
+  {
+    "county": "Madison County",
+    "population": 100412
+  },
+  {
+    "county": "Marion County",
+    "population": 26180
+  },
+  {
+    "county": "Marshall County",
+    "population": 36515
+  },
+  {
+    "county": "Monroe County",
+    "population": 36116
+  },
+  {
+    "county": "Montgomery County",
+    "population": 10553
+  },
+  {
+    "county": "Neshoba County",
+    "population": 29507
+  },
+  {
+    "county": "Newton County",
+    "population": 21689
+  },
+  {
+    "county": "Noxubee County",
+    "population": 11089
+  },
+  {
+    "county": "Oktibbeha County",
+    "population": 49043
+  },
+  {
+    "county": "Panola County",
+    "population": 34402
+  },
+  {
+    "county": "Pearl River County",
+    "population": 55072
+  },
+  {
+    "county": "Perry County",
+    "population": 12131
+  },
+  {
+    "county": "Pike County",
+    "population": 40014
+  },
+  {
+    "county": "Pontotoc County",
+    "population": 30897
+  },
+  {
+    "county": "Prentiss County",
+    "population": 25388
+  },
+  {
+    "county": "Quitman County",
+    "population": 7803
+  },
+  {
+    "county": "Rankin County",
+    "population": 146767
+  },
+  {
+    "county": "Scott County",
+    "population": 28273
+  },
+  {
+    "county": "Sharkey County",
+    "population": 4708
+  },
+  {
+    "county": "Simpson County",
+    "population": 27500
+  },
+  {
+    "county": "Smith County",
+    "population": 16225
+  },
+  {
+    "county": "Stone County",
+    "population": 18016
+  },
+  {
+    "county": "Sunflower County",
+    "population": 27997
+  },
+  {
+    "county": "Tallahatchie County",
+    "population": 15081
+  },
+  {
+    "county": "Tate County",
+    "population": 28373
+  },
+  {
+    "county": "Tippah County",
+    "population": 22084
+  },
+  {
+    "county": "Tishomingo County",
+    "population": 19529
+  },
+  {
+    "county": "Tunica County",
+    "population": 10560
+  },
+  {
+    "county": "Union County",
+    "population": 27754
+  },
+  {
+    "county": "Walthall County",
+    "population": 14931
+  },
+  {
+    "county": "Warren County",
+    "population": 48218
+  },
+  {
+    "county": "Washington County",
+    "population": 49688
+  },
+  {
+    "county": "Wayne County",
+    "population": 20539
+  },
+  {
+    "county": "Webster County",
+    "population": 9987
+  },
+  {
+    "county": "Wilkinson County",
+    "population": 9381
+  },
+  {
+    "county": "Winston County",
+    "population": 18788
+  },
+  {
+    "county": "Yalobusha County",
+    "population": 12373
+  },
+  {
+    "county": "Yazoo County",
+    "population": 27883
+  }
+]

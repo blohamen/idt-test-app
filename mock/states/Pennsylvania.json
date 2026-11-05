@@ -1,0 +1,270 @@
+[
+  {
+    "county": "Adams County",
+    "population": 101546
+  },
+  {
+    "county": "Allegheny County",
+    "population": 1231527
+  },
+  {
+    "county": "Armstrong County",
+    "population": 68107
+  },
+  {
+    "county": "Beaver County",
+    "population": 170115
+  },
+  {
+    "county": "Bedford County",
+    "population": 49055
+  },
+  {
+    "county": "Berks County",
+    "population": 413521
+  },
+  {
+    "county": "Blair County",
+    "population": 126314
+  },
+  {
+    "county": "Bradford County",
+    "population": 62316
+  },
+  {
+    "county": "Bucks County",
+    "population": 626976
+  },
+  {
+    "county": "Butler County",
+    "population": 185476
+  },
+  {
+    "county": "Cambria County",
+    "population": 140499
+  },
+  {
+    "county": "Cameron County",
+    "population": 4886
+  },
+  {
+    "county": "Carbon County",
+    "population": 64786
+  },
+  {
+    "county": "Centre County",
+    "population": 155403
+  },
+  {
+    "county": "Chester County",
+    "population": 509468
+  },
+  {
+    "county": "Clarion County",
+    "population": 39155
+  },
+  {
+    "county": "Clearfield County",
+    "population": 81174
+  },
+  {
+    "county": "Clinton County",
+    "population": 39954
+  },
+  {
+    "county": "Columbia County",
+    "population": 66797
+  },
+  {
+    "county": "Crawford County",
+    "population": 87376
+  },
+  {
+    "county": "Cumberland County",
+    "population": 241212
+  },
+  {
+    "county": "Dauphin County",
+    "population": 270937
+  },
+  {
+    "county": "Delaware County",
+    "population": 561973
+  },
+  {
+    "county": "Elk County",
+    "population": 31479
+  },
+  {
+    "county": "Erie County",
+    "population": 280294
+  },
+  {
+    "county": "Fayette County",
+    "population": 134999
+  },
+  {
+    "county": "Forest County",
+    "population": 7631
+  },
+  {
+    "county": "Franklin County",
+    "population": 152085
+  },
+  {
+    "county": "Fulton County",
+    "population": 14670
+  },
+  {
+    "county": "Greene County",
+    "population": 37838
+  },
+  {
+    "county": "Huntingdon County",
+    "population": 45694
+  },
+  {
+    "county": "Indiana County",
+    "population": 87745
+  },
+  {
+    "county": "Jefferson County",
+    "population": 44966
+  },
+  {
+    "county": "Juniata County",
+    "population": 24768
+  },
+  {
+    "county": "Lackawanna County",
+    "population": 213931
+  },
+  {
+    "county": "Lancaster County",
+    "population": 529600
+  },
+  {
+    "county": "Lawrence County",
+    "population": 89333
+  },
+  {
+    "county": "Lebanon County",
+    "population": 135486
+  },
+  {
+    "county": "Lehigh County",
+    "population": 355092
+  },
+  {
+    "county": "Luzerne County",
+    "population": 320103
+  },
+  {
+    "county": "Lycoming County",
+    "population": 116754
+  },
+  {
+    "county": "McKean County",
+    "population": 42979
+  },
+  {
+    "county": "Mercer County",
+    "population": 115195
+  },
+  {
+    "county": "Mifflin County",
+    "population": 46616
+  },
+  {
+    "county": "Monroe County",
+    "population": 167148
+  },
+  {
+    "county": "Montgomery County",
+    "population": 812376
+  },
+  {
+    "county": "Montour County",
+    "population": 18541
+  },
+  {
+    "county": "Northampton County",
+    "population": 299791
+  },
+  {
+    "county": "Northumberland County",
+    "population": 94076
+  },
+  {
+    "county": "Perry County",
+    "population": 45562
+  },
+  {
+    "county": "Philadelphia County",
+    "population": 1553165
+  },
+  {
+    "county": "Pike County",
+    "population": 56591
+  },
+  {
+    "county": "Potter County",
+    "population": 17497
+  },
+  {
+    "county": "Schuylkill County",
+    "population": 146920
+  },
+  {
+    "county": "Snyder County",
+    "population": 39865
+  },
+  {
+    "county": "Somerset County",
+    "population": 76520
+  },
+  {
+    "county": "Sullivan County",
+    "population": 6351
+  },
+  {
+    "county": "Susquehanna County",
+    "population": 42286
+  },
+  {
+    "county": "Tioga County",
+    "population": 42463
+  },
+  {
+    "county": "Union County",
+    "population": 44867
+  },
+  {
+    "county": "Venango County",
+    "population": 53907
+  },
+  {
+    "county": "Warren County",
+    "population": 40885
+  },
+  {
+    "county": "Washington County",
+    "population": 208206
+  },
+  {
+    "county": "Wayne County",
+    "population": 51548
+  },
+  {
+    "county": "Westmoreland County",
+    "population": 362437
+  },
+  {
+    "county": "Wyoming County",
+    "population": 28003
+  },
+  {
+    "county": "York County",
+    "population": 438965
+  }
+]

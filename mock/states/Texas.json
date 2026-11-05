@@ -1,0 +1,1018 @@
+[
+  {
+    "county": "Anderson County",
+    "population": 57938
+  },
+  {
+    "county": "Andrews County",
+    "population": 16799
+  },
+  {
+    "county": "Angelina County",
+    "population": 87441
+  },
+  {
+    "county": "Aransas County",
+    "population": 24356
+  },
+  {
+    "county": "Archer County",
+    "population": 8681
+  },
+  {
+    "county": "Armstrong County",
+    "population": 1949
+  },
+  {
+    "county": "Atascosa County",
+    "population": 47093
+  },
+  {
+    "county": "Austin County",
+    "population": 28847
+  },
+  {
+    "county": "Bailey County",
+    "population": 7114
+  },
+  {
+    "county": "Bandera County",
+    "population": 20601
+  },
+  {
+    "county": "Bastrop County",
+    "population": 75825
+  },
+  {
+    "county": "Baylor County",
+    "population": 3614
+  },
+  {
+    "county": "Bee County",
+    "population": 32799
+  },
+  {
+    "county": "Bell County",
+    "population": 326843
+  },
+  {
+    "county": "Bexar County",
+    "population": 1817610
+  },
+  {
+    "county": "Blanco County",
+    "population": 10723
+  },
+  {
+    "county": "Borden County",
+    "population": 637
+  },
+  {
+    "county": "Bosque County",
+    "population": 17855
+  },
+  {
+    "county": "Bowie County",
+    "population": 93487
+  },
+  {
+    "county": "Brazoria County",
+    "population": 330242
+  },
+  {
+    "county": "Brazos County",
+    "population": 203164
+  },
+  {
+    "county": "Brewster County",
+    "population": 9286
+  },
+  {
+    "county": "Briscoe County",
+    "population": 1537
+  },
+  {
+    "county": "Brooks County",
+    "population": 7237
+  },
+  {
+    "county": "Brown County",
+    "population": 37749
+  },
+  {
+    "county": "Burleson County",
+    "population": 17169
+  },
+  {
+    "county": "Burnet County",
+    "population": 43823
+  },
+  {
+    "county": "Caldwell County",
+    "population": 39232
+  },
+  {
+    "county": "Calhoun County",
+    "population": 21806
+  },
+  {
+    "county": "Callahan County",
+    "population": 13525
+  },
+  {
+    "county": "Cameron County",
+    "population": 417276
+  },
+  {
+    "county": "Camp County",
+    "population": 12413
+  },
+  {
+    "county": "Carson County",
+    "population": 6010
+  },
+  {
+    "county": "Cass County",
+    "population": 30331
+  },
+  {
+    "county": "Castro County",
+    "population": 8030
+  },
+  {
+    "county": "Chambers County",
+    "population": 36812
+  },
+  {
+    "county": "Cherokee County",
+    "population": 50878
+  },
+  {
+    "county": "Childress County",
+    "population": 7095
+  },
+  {
+    "county": "Clay County",
+    "population": 10473
+  },
+  {
+    "county": "Cochran County",
+    "population": 3016
+  },
+  {
+    "county": "Coke County",
+    "population": 3210
+  },
+  {
+    "county": "Coleman County",
+    "population": 8543
+  },
+  {
+    "county": "Collin County",
+    "population": 854778
+  },
+  {
+    "county": "Collingsworth County",
+    "population": 3099
+  },
+  {
+    "county": "Colorado County",
+    "population": 20752
+  },
+  {
+    "county": "Comal County",
+    "population": 118480
+  },
+  {
+    "county": "Comanche County",
+    "population": 13623
+  },
+  {
+    "county": "Concho County",
+    "population": 4043
+  },
+  {
+    "county": "Cooke County",
+    "population": 38467
+  },
+  {
+    "county": "Coryell County",
+    "population": 76192
+  },
+  {
+    "county": "Cottle County",
+    "population": 1452
+  },
+  {
+    "county": "Crane County",
+    "population": 4773
+  },
+  {
+    "county": "Crockett County",
+    "population": 3807
+  },
+  {
+    "county": "Crosby County",
+    "population": 5991
+  },
+  {
+    "county": "Culberson County",
+    "population": 2277
+  },
+  {
+    "county": "Dallam County",
+    "population": 7057
+  },
+  {
+    "county": "Dallas County",
+    "population": 2480331
+  },
+  {
+    "county": "Dawson County",
+    "population": 13810
+  },
+  {
+    "county": "Deaf Smith County",
+    "population": 19177
+  },
+  {
+    "county": "Delta County",
+    "population": 5238
+  },
+  {
+    "county": "Denton County",
+    "population": 728799
+  },
+  {
+    "county": "DeWitt County",
+    "population": 20503
+  },
+  {
+    "county": "Dickens County",
+    "population": 2291
+  },
+  {
+    "county": "Dimmit County",
+    "population": 10897
+  },
+  {
+    "county": "Donley County",
+    "population": 3522
+  },
+  {
+    "county": "Duval County",
+    "population": 11640
+  },
+  {
+    "county": "Eastland County",
+    "population": 18245
+  },
+  {
+    "county": "Ector County",
+    "population": 149378
+  },
+  {
+    "county": "Edwards County",
+    "population": 1884
+  },
+  {
+    "county": "Ellis County",
+    "population": 155976
+  },
+  {
+    "county": "El Paso County",
+    "population": 827718
+  },
+  {
+    "county": "Erath County",
+    "population": 39658
+  },
+  {
+    "county": "Falls County",
+    "population": 17493
+  },
+  {
+    "county": "Fannin County",
+    "population": 33659
+  },
+  {
+    "county": "Fayette County",
+    "population": 24821
+  },
+  {
+    "county": "Fisher County",
+    "population": 3856
+  },
+  {
+    "county": "Floyd County",
+    "population": 6230
+  },
+  {
+    "county": "Foard County",
+    "population": 1277
+  },
+  {
+    "county": "Fort Bend County",
+    "population": 652365
+  },
+  {
+    "county": "Franklin County",
+    "population": 10660
+  },
+  {
+    "county": "Freestone County",
+    "population": 19646
+  },
+  {
+    "county": "Frio County",
+    "population": 18065
+  },
+  {
+    "county": "Gaines County",
+    "population": 18921
+  },
+  {
+    "county": "Galveston County",
+    "population": 306782
+  },
+  {
+    "county": "Garza County",
+    "population": 6317
+  },
+  {
+    "county": "Gillespie County",
+    "population": 25357
+  },
+  {
+    "county": "Glasscock County",
+    "population": 1251
+  },
+  {
+    "county": "Goliad County",
+    "population": 7465
+  },
+  {
+    "county": "Gonzales County",
+    "population": 20312
+  },
+  {
+    "county": "Gray County",
+    "population": 23043
+  },
+  {
+    "county": "Grayson County",
+    "population": 122353
+  },
+  {
+    "county": "Gregg County",
+    "population": 123024
+  },
+  {
+    "county": "Grimes County",
+    "population": 26859
+  },
+  {
+    "county": "Guadalupe County",
+    "population": 143183
+  },
+  {
+    "county": "Hale County",
+    "population": 35764
+  },
+  {
+    "county": "Hall County",
+    "population": 3239
+  },
+  {
+    "county": "Hamilton County",
+    "population": 8310
+  },
+  {
+    "county": "Hansford County",
+    "population": 5555
+  },
+  {
+    "county": "Hardeman County",
+    "population": 4016
+  },
+  {
+    "county": "Hardin County",
+    "population": 55417
+  },
+  {
+    "county": "Harris County",
+    "population": 4336853
+  },
+  {
+    "county": "Harrison County",
+    "population": 66886
+  },
+  {
+    "county": "Hartley County",
+    "population": 6100
+  },
+  {
+    "county": "Haskell County",
+    "population": 5875
+  },
+  {
+    "county": "Hays County",
+    "population": 176026
+  },
+  {
+    "county": "Hemphill County",
+    "population": 4158
+  },
+  {
+    "county": "Henderson County",
+    "population": 78675
+  },
+  {
+    "county": "Hidalgo County",
+    "population": 815996
+  },
+  {
+    "county": "Hill County",
+    "population": 34823
+  },
+  {
+    "county": "Hockley County",
+    "population": 23530
+  },
+  {
+    "county": "Hood County",
+    "population": 52905
+  },
+  {
+    "county": "Hopkins County",
+    "population": 35565
+  },
+  {
+    "county": "Houston County",
+    "population": 22911
+  },
+  {
+    "county": "Howard County",
+    "population": 36147
+  },
+  {
+    "county": "Hudspeth County",
+    "population": 3318
+  },
+  {
+    "county": "Hunt County",
+    "population": 87048
+  },
+  {
+    "county": "Hutchinson County",
+    "population": 21819
+  },
+  {
+    "county": "Irion County",
+    "population": 1612
+  },
+  {
+    "county": "Jack County",
+    "population": 8957
+  },
+  {
+    "county": "Jackson County",
+    "population": 14591
+  },
+  {
+    "county": "Jasper County",
+    "population": 35649
+  },
+  {
+    "county": "Jeff Davis County",
+    "population": 2253
+  },
+  {
+    "county": "Jefferson County",
+    "population": 252358
+  },
+  {
+    "county": "Jim Hogg County",
+    "population": 5245
+  },
+  {
+    "county": "Jim Wells County",
+    "population": 41680
+  },
+  {
+    "county": "Johnson County",
+    "population": 154707
+  },
+  {
+    "county": "Jones County",
+    "population": 19859
+  },
+  {
+    "county": "Karnes County",
+    "population": 15081
+  },
+  {
+    "county": "Kaufman County",
+    "population": 108568
+  },
+  {
+    "county": "Kendall County",
+    "population": 37766
+  },
+  {
+    "county": "Kenedy County",
+    "population": 412
+  },
+  {
+    "county": "Kent County",
+    "population": 807
+  },
+  {
+    "county": "Kerr County",
+    "population": 49953
+  },
+  {
+    "county": "Kimble County",
+    "population": 4481
+  },
+  {
+    "county": "King County",
+    "population": 285
+  },
+  {
+    "county": "Kinney County",
+    "population": 3586
+  },
+  {
+    "county": "Kleberg County",
+    "population": 32101
+  },
+  {
+    "county": "Knox County",
+    "population": 3767
+  },
+  {
+    "county": "Lamar County",
+    "population": 49426
+  },
+  {
+    "county": "Lamb County",
+    "population": 13775
+  },
+  {
+    "county": "Lampasas County",
+    "population": 20222
+  },
+  {
+    "county": "La Salle County",
+    "population": 7369
+  },
+  {
+    "county": "Lavaca County",
+    "population": 19581
+  },
+  {
+    "county": "Lee County",
+    "population": 16628
+  },
+  {
+    "county": "Leon County",
+    "population": 16742
+  },
+  {
+    "county": "Liberty County",
+    "population": 76907
+  },
+  {
+    "county": "Limestone County",
+    "population": 23326
+  },
+  {
+    "county": "Lipscomb County",
+    "population": 3485
+  },
+  {
+    "county": "Live Oak County",
+    "population": 11867
+  },
+  {
+    "county": "Llano County",
+    "population": 19444
+  },
+  {
+    "county": "Loving County",
+    "population": 95
+  },
+  {
+    "county": "Lubbock County",
+    "population": 289324
+  },
+  {
+    "county": "Lynn County",
+    "population": 5723
+  },
+  {
+    "county": "Madison County",
+    "population": 13781
+  },
+  {
+    "county": "Marion County",
+    "population": 10235
+  },
+  {
+    "county": "Martin County",
+    "population": 5312
+  },
+  {
+    "county": "Mason County",
+    "population": 4128
+  },
+  {
+    "county": "Matagorda County",
+    "population": 36592
+  },
+  {
+    "county": "Maverick County",
+    "population": 55932
+  },
+  {
+    "county": "McCulloch County",
+    "population": 8330
+  },
+  {
+    "county": "McLennan County",
+    "population": 241481
+  },
+  {
+    "county": "McMullen County",
+    "population": 764
+  },
+  {
+    "county": "Medina County",
+    "population": 47399
+  },
+  {
+    "county": "Menard County",
+    "population": 2148
+  },
+  {
+    "county": "Midland County",
+    "population": 151468
+  },
+  {
+    "county": "Milam County",
+    "population": 24167
+  },
+  {
+    "county": "Mills County",
+    "population": 4907
+  },
+  {
+    "county": "Mitchell County",
+    "population": 9402
+  },
+  {
+    "county": "Montague County",
+    "population": 19503
+  },
+  {
+    "county": "Montgomery County",
+    "population": 499137
+  },
+  {
+    "county": "Moore County",
+    "population": 22141
+  },
+  {
+    "county": "Morris County",
+    "population": 12834
+  },
+  {
+    "county": "Motley County",
+    "population": 1196
+  },
+  {
+    "county": "Nacogdoches County",
+    "population": 65330
+  },
+  {
+    "county": "Navarro County",
+    "population": 48038
+  },
+  {
+    "county": "Newton County",
+    "population": 14140
+  },
+  {
+    "county": "Nolan County",
+    "population": 15037
+  },
+  {
+    "county": "Nueces County",
+    "population": 352107
+  },
+  {
+    "county": "Ochiltree County",
+    "population": 10806
+  },
+  {
+    "county": "Oldham County",
+    "population": 2102
+  },
+  {
+    "county": "Orange County",
+    "population": 82957
+  },
+  {
+    "county": "Palo Pinto County",
+    "population": 27889
+  },
+  {
+    "county": "Panola County",
+    "population": 23870
+  },
+  {
+    "county": "Parker County",
+    "population": 121418
+  },
+  {
+    "county": "Parmer County",
+    "population": 9965
+  },
+  {
+    "county": "Pecos County",
+    "population": 15697
+  },
+  {
+    "county": "Polk County",
+    "population": 45790
+  },
+  {
+    "county": "Potter County",
+    "population": 121661
+  },
+  {
+    "county": "Presidio County",
+    "population": 7201
+  },
+  {
+    "county": "Rains County",
+    "population": 11065
+  },
+  {
+    "county": "Randall County",
+    "population": 126474
+  },
+  {
+    "county": "Reagan County",
+    "population": 3601
+  },
+  {
+    "county": "Real County",
+    "population": 3350
+  },
+  {
+    "county": "Red River County",
+    "population": 12470
+  },
+  {
+    "county": "Reeves County",
+    "population": 13965
+  },
+  {
+    "county": "Refugio County",
+    "population": 7305
+  },
+  {
+    "county": "Roberts County",
+    "population": 831
+  },
+  {
+    "county": "Robertson County",
+    "population": 16486
+  },
+  {
+    "county": "Rockwall County",
+    "population": 85245
+  },
+  {
+    "county": "Runnels County",
+    "population": 10309
+  },
+  {
+    "county": "Rusk County",
+    "population": 53622
+  },
+  {
+    "county": "Sabine County",
+    "population": 10361
+  },
+  {
+    "county": "San Augustine County",
+    "population": 8769
+  },
+  {
+    "county": "San Jacinto County",
+    "population": 26856
+  },
+  {
+    "county": "San Patricio County",
+    "population": 66137
+  },
+  {
+    "county": "San Saba County",
+    "population": 6012
+  },
+  {
+    "county": "Schleicher County",
+    "population": 3206
+  },
+  {
+    "county": "Scurry County",
+    "population": 17302
+  },
+  {
+    "county": "Shackelford County",
+    "population": 3375
+  },
+  {
+    "county": "Shelby County",
+    "population": 25792
+  },
+  {
+    "county": "Sherman County",
+    "population": 3093
+  },
+  {
+    "county": "Smith County",
+    "population": 216080
+  },
+  {
+    "county": "Somervell County",
+    "population": 8658
+  },
+  {
+    "county": "Starr County",
+    "population": 61963
+  },
+  {
+    "county": "Stephens County",
+    "population": 9247
+  },
+  {
+    "county": "Sterling County",
+    "population": 1219
+  },
+  {
+    "county": "Stonewall County",
+    "population": 1432
+  },
+  {
+    "county": "Sutton County",
+    "population": 4006
+  },
+  {
+    "county": "Swisher County",
+    "population": 7763
+  },
+  {
+    "county": "Tarrant County",
+    "population": 1911541
+  },
+  {
+    "county": "Taylor County",
+    "population": 134117
+  },
+  {
+    "county": "Terrell County",
+    "population": 903
+  },
+  {
+    "county": "Terry County",
+    "population": 12743
+  },
+  {
+    "county": "Throckmorton County",
+    "population": 1600
+  },
+  {
+    "county": "Titus County",
+    "population": 32581
+  },
+  {
+    "county": "Tom Green County",
+    "population": 114954
+  },
+  {
+    "county": "Travis County",
+    "population": 1120954
+  },
+  {
+    "county": "Trinity County",
+    "population": 14393
+  },
+  {
+    "county": "Tyler County",
+    "population": 21464
+  },
+  {
+    "county": "Upshur County",
+    "population": 39884
+  },
+  {
+    "county": "Upton County",
+    "population": 3372
+  },
+  {
+    "county": "Uvalde County",
+    "population": 26926
+  },
+  {
+    "county": "Val Verde County",
+    "population": 48623
+  },
+  {
+    "county": "Van Zandt County",
+    "population": 52481
+  },
+  {
+    "county": "Victoria County",
+    "population": 90028
+  },
+  {
+    "county": "Walker County",
+    "population": 68817
+  },
+  {
+    "county": "Waller County",
+    "population": 45213
+  },
+  {
+    "county": "Ward County",
+    "population": 11244
+  },
+  {
+    "county": "Washington County",
+    "population": 34147
+  },
+  {
+    "county": "Webb County",
+    "population": 262495
+  },
+  {
+    "county": "Wharton County",
+    "population": 41216
+  },
+  {
+    "county": "Wheeler County",
+    "population": 5751
+  },
+  {
+    "county": "Wichita County",
+    "population": 132047
+  },
+  {
+    "county": "Wilbarger County",
+    "population": 13131
+  },
+  {
+    "county": "Willacy County",
+    "population": 21921
+  },
+  {
+    "county": "Williamson County",
+    "population": 471014
+  },
+  {
+    "county": "Wilson County",
+    "population": 45418
+  },
+  {
+    "county": "Winkler County",
+    "population": 7606
+  },
+  {
+    "county": "Wise County",
+    "population": 60939
+  },
+  {
+    "county": "Wood County",
+    "population": 42306
+  },
+  {
+    "county": "Yoakum County",
+    "population": 8184
+  },
+  {
+    "county": "Young County",
+    "population": 18341
+  },
+  {
+    "county": "Zapata County",
+    "population": 14390
+  },
+  {
+    "county": "Zavala County",
+    "population": 12156
+  }
+]

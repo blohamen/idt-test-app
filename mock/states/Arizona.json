@@ -1,0 +1,62 @@
+[
+  {
+    "county": "Apache County",
+    "population": 71934
+  },
+  {
+    "county": "Cochise County",
+    "population": 129473
+  },
+  {
+    "county": "Coconino County",
+    "population": 136539
+  },
+  {
+    "county": "Gila County",
+    "population": 53053
+  },
+  {
+    "county": "Graham County",
+    "population": 37482
+  },
+  {
+    "county": "Greenlee County",
+    "population": 9049
+  },
+  {
+    "county": "La Paz County",
+    "population": 20324
+  },
+  {
+    "county": "Maricopa County",
+    "population": 4009412
+  },
+  {
+    "county": "Mohave County",
+    "population": 203030
+  },
+  {
+    "county": "Navajo County",
+    "population": 107322
+  },
+  {
+    "county": "Pima County",
+    "population": 996554
+  },
+  {
+    "county": "Pinal County",
+    "population": 389350
+  },
+  {
+    "county": "Santa Cruz County",
+    "population": 46768
+  },
+  {
+    "county": "Yavapai County",
+    "population": 215133
+  },
+  {
+    "county": "Yuma County",
+    "population": 201201
+  }
+]

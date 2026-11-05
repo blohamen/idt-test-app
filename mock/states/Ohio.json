@@ -1,0 +1,354 @@
+[
+  {
+    "county": "Adams County",
+    "population": 28105
+  },
+  {
+    "county": "Allen County",
+    "population": 105298
+  },
+  {
+    "county": "Ashland County",
+    "population": 53043
+  },
+  {
+    "county": "Ashtabula County",
+    "population": 99811
+  },
+  {
+    "county": "Athens County",
+    "population": 64681
+  },
+  {
+    "county": "Auglaize County",
+    "population": 45920
+  },
+  {
+    "county": "Belmont County",
+    "population": 69571
+  },
+  {
+    "county": "Brown County",
+    "population": 44264
+  },
+  {
+    "county": "Butler County",
+    "population": 371272
+  },
+  {
+    "county": "Carroll County",
+    "population": 28275
+  },
+  {
+    "county": "Champaign County",
+    "population": 39455
+  },
+  {
+    "county": "Clark County",
+    "population": 136167
+  },
+  {
+    "county": "Clermont County",
+    "population": 200218
+  },
+  {
+    "county": "Clinton County",
+    "population": 41945
+  },
+  {
+    "county": "Columbiana County",
+    "population": 105893
+  },
+  {
+    "county": "Coshocton County",
+    "population": 36760
+  },
+  {
+    "county": "Crawford County",
+    "population": 42808
+  },
+  {
+    "county": "Cuyahoga County",
+    "population": 1263154
+  },
+  {
+    "county": "Darke County",
+    "population": 52376
+  },
+  {
+    "county": "Defiance County",
+    "population": 38532
+  },
+  {
+    "county": "Delaware County",
+    "population": 184979
+  },
+  {
+    "county": "Erie County",
+    "population": 76048
+  },
+  {
+    "county": "Fairfield County",
+    "population": 148867
+  },
+  {
+    "county": "Fayette County",
+    "population": 28800
+  },
+  {
+    "county": "Franklin County",
+    "population": 1212263
+  },
+  {
+    "county": "Fulton County",
+    "population": 42488
+  },
+  {
+    "county": "Gallia County",
+    "population": 30621
+  },
+  {
+    "county": "Geauga County",
+    "population": 93972
+  },
+  {
+    "county": "Greene County",
+    "population": 163204
+  },
+  {
+    "county": "Guernsey County",
+    "population": 39636
+  },
+  {
+    "county": "Hamilton County",
+    "population": 804520
+  },
+  {
+    "county": "Hancock County",
+    "population": 75773
+  },
+  {
+    "county": "Hardin County",
+    "population": 31641
+  },
+  {
+    "county": "Harrison County",
+    "population": 15622
+  },
+  {
+    "county": "Henry County",
+    "population": 28092
+  },
+  {
+    "county": "Highland County",
+    "population": 43299
+  },
+  {
+    "county": "Hocking County",
+    "population": 28665
+  },
+  {
+    "county": "Holmes County",
+    "population": 43593
+  },
+  {
+    "county": "Huron County",
+    "population": 58889
+  },
+  {
+    "county": "Jackson County",
+    "population": 32783
+  },
+  {
+    "county": "Jefferson County",
+    "population": 67964
+  },
+  {
+    "county": "Knox County",
+    "population": 60810
+  },
+  {
+    "county": "Lake County",
+    "population": 229857
+  },
+  {
+    "county": "Lawrence County",
+    "population": 61917
+  },
+  {
+    "county": "Licking County",
+    "population": 168375
+  },
+  {
+    "county": "Logan County",
+    "population": 45481
+  },
+  {
+    "county": "Lorain County",
+    "population": 302827
+  },
+  {
+    "county": "Lucas County",
+    "population": 436393
+  },
+  {
+    "county": "Madison County",
+    "population": 43277
+  },
+  {
+    "county": "Mahoning County",
+    "population": 233869
+  },
+  {
+    "county": "Marion County",
+    "population": 65905
+  },
+  {
+    "county": "Medina County",
+    "population": 174915
+  },
+  {
+    "county": "Meigs County",
+    "population": 23496
+  },
+  {
+    "county": "Mercer County",
+    "population": 40784
+  },
+  {
+    "county": "Miami County",
+    "population": 103439
+  },
+  {
+    "county": "Monroe County",
+    "population": 14585
+  },
+  {
+    "county": "Montgomery County",
+    "population": 535846
+  },
+  {
+    "county": "Morgan County",
+    "population": 14904
+  },
+  {
+    "county": "Morrow County",
+    "population": 35033
+  },
+  {
+    "county": "Muskingum County",
+    "population": 85231
+  },
+  {
+    "county": "Noble County",
+    "population": 14628
+  },
+  {
+    "county": "Ottawa County",
+    "population": 41153
+  },
+  {
+    "county": "Paulding County",
+    "population": 19254
+  },
+  {
+    "county": "Perry County",
+    "population": 35997
+  },
+  {
+    "county": "Pickaway County",
+    "population": 56304
+  },
+  {
+    "county": "Pike County",
+    "population": 28367
+  },
+  {
+    "county": "Portage County",
+    "population": 163862
+  },
+  {
+    "county": "Preble County",
+    "population": 41732
+  },
+  {
+    "county": "Putnam County",
+    "population": 34088
+  },
+  {
+    "county": "Richland County",
+    "population": 121773
+  },
+  {
+    "county": "Ross County",
+    "population": 77910
+  },
+  {
+    "county": "Sandusky County",
+    "population": 60098
+  },
+  {
+    "county": "Scioto County",
+    "population": 78153
+  },
+  {
+    "county": "Seneca County",
+    "population": 55914
+  },
+  {
+    "county": "Shelby County",
+    "population": 49192
+  },
+  {
+    "county": "Stark County",
+    "population": 375432
+  },
+  {
+    "county": "Summit County",
+    "population": 541824
+  },
+  {
+    "county": "Trumbull County",
+    "population": 206442
+  },
+  {
+    "county": "Tuscarawas County",
+    "population": 92672
+  },
+  {
+    "county": "Union County",
+    "population": 53306
+  },
+  {
+    "county": "Van Wert County",
+    "population": 28459
+  },
+  {
+    "county": "Vinton County",
+    "population": 13276
+  },
+  {
+    "county": "Warren County",
+    "population": 219169
+  },
+  {
+    "county": "Washington County",
+    "population": 61310
+  },
+  {
+    "county": "Wayne County",
+    "population": 115071
+  },
+  {
+    "county": "Williams County",
+    "population": 37500
+  },
+  {
+    "county": "Wood County",
+    "population": 129264
+  },
+  {
+    "county": "Wyandot County",
+    "population": 22447
+  }
+]

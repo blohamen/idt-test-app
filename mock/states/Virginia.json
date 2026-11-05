@@ -1,0 +1,538 @@
+[
+  {
+    "county": "Accomack County",
+    "population": 33148
+  },
+  {
+    "county": "Albemarle County",
+    "population": 103000
+  },
+  {
+    "county": "Alexandria city",
+    "population": 148892
+  },
+  {
+    "county": "Alleghany County",
+    "population": 16161
+  },
+  {
+    "county": "Amelia County",
+    "population": 12745
+  },
+  {
+    "county": "Amherst County",
+    "population": 32178
+  },
+  {
+    "county": "Appomattox County",
+    "population": 15255
+  },
+  {
+    "county": "Arlington County",
+    "population": 224906
+  },
+  {
+    "county": "Augusta County",
+    "population": 73912
+  },
+  {
+    "county": "Bath County",
+    "population": 4616
+  },
+  {
+    "county": "Bedford city",
+    "population": 5948
+  },
+  {
+    "county": "Bedford County",
+    "population": 69825
+  },
+  {
+    "county": "Bland County",
+    "population": 6735
+  },
+  {
+    "county": "Botetourt County",
+    "population": 33002
+  },
+  {
+    "county": "Bristol city",
+    "population": 17341
+  },
+  {
+    "county": "Brunswick County",
+    "population": 16973
+  },
+  {
+    "county": "Buchanan County",
+    "population": 23597
+  },
+  {
+    "county": "Buckingham County",
+    "population": 17136
+  },
+  {
+    "county": "Buena Vista city",
+    "population": 6680
+  },
+  {
+    "county": "Campbell County",
+    "population": 55235
+  },
+  {
+    "county": "Caroline County",
+    "population": 29298
+  },
+  {
+    "county": "Carroll County",
+    "population": 29883
+  },
+  {
+    "county": "Charles City County",
+    "population": 7130
+  },
+  {
+    "county": "Charlotte County",
+    "population": 12305
+  },
+  {
+    "county": "Charlottesville city",
+    "population": 44349
+  },
+  {
+    "county": "Chesapeake city",
+    "population": 230571
+  },
+  {
+    "county": "Chesterfield County",
+    "population": 327745
+  },
+  {
+    "county": "Clarke County",
+    "population": 14348
+  },
+  {
+    "county": "Colonial Heights city",
+    "population": 17634
+  },
+  {
+    "county": "Covington city",
+    "population": 5818
+  },
+  {
+    "county": "Craig County",
+    "population": 5210
+  },
+  {
+    "county": "Culpeper County",
+    "population": 48506
+  },
+  {
+    "county": "Cumberland County",
+    "population": 9841
+  },
+  {
+    "county": "Danville city",
+    "population": 42907
+  },
+  {
+    "county": "Dickenson County",
+    "population": 15486
+  },
+  {
+    "county": "Dinwiddie County",
+    "population": 27904
+  },
+  {
+    "county": "Emporia city",
+    "population": 5588
+  },
+  {
+    "county": "Essex County",
+    "population": 11229
+  },
+  {
+    "county": "Fairfax city",
+    "population": 23973
+  },
+  {
+    "county": "Fairfax County",
+    "population": 1130924
+  },
+  {
+    "county": "Falls Church city",
+    "population": 13508
+  },
+  {
+    "county": "Fauquier County",
+    "population": 67207
+  },
+  {
+    "county": "Floyd County",
+    "population": 15528
+  },
+  {
+    "county": "Fluvanna County",
+    "population": 25977
+  },
+  {
+    "county": "Franklin city",
+    "population": 8638
+  },
+  {
+    "county": "Franklin County",
+    "population": 56335
+  },
+  {
+    "county": "Frederick County",
+    "population": 81319
+  },
+  {
+    "county": "Fredericksburg city",
+    "population": 28132
+  },
+  {
+    "county": "Galax city",
+    "population": 7035
+  },
+  {
+    "county": "Giles County",
+    "population": 16925
+  },
+  {
+    "county": "Gloucester County",
+    "population": 36834
+  },
+  {
+    "county": "Goochland County",
+    "population": 21626
+  },
+  {
+    "county": "Grayson County",
+    "population": 15161
+  },
+  {
+    "county": "Greene County",
+    "population": 18804
+  },
+  {
+    "county": "Greensville County",
+    "population": 11886
+  },
+  {
+    "county": "Halifax County",
+    "population": 35401
+  },
+  {
+    "county": "Hampton city",
+    "population": 136699
+  },
+  {
+    "county": "Hanover County",
+    "population": 101330
+  },
+  {
+    "county": "Harrisonburg city",
+    "population": 51395
+  },
+  {
+    "county": "Henrico County",
+    "population": 318611
+  },
+  {
+    "county": "Henry County",
+    "population": 52617
+  },
+  {
+    "county": "Highland County",
+    "population": 2215
+  },
+  {
+    "county": "Hopewell city",
+    "population": 22163
+  },
+  {
+    "county": "Isle of Wight County",
+    "population": 35656
+  },
+  {
+    "county": "James City County",
+    "population": 70516
+  },
+  {
+    "county": "King and Queen County",
+    "population": 7130
+  },
+  {
+    "county": "King George County",
+    "population": 24926
+  },
+  {
+    "county": "King William County",
+    "population": 16097
+  },
+  {
+    "county": "Lancaster County",
+    "population": 11148
+  },
+  {
+    "county": "Lee County",
+    "population": 25185
+  },
+  {
+    "county": "Lexington city",
+    "population": 7170
+  },
+  {
+    "county": "Loudoun County",
+    "population": 349679
+  },
+  {
+    "county": "Louisa County",
+    "population": 33945
+  },
+  {
+    "county": "Lunenburg County",
+    "population": 12527
+  },
+  {
+    "county": "Lynchburg city",
+    "population": 78014
+  },
+  {
+    "county": "Madison County",
+    "population": 13200
+  },
+  {
+    "county": "Manassas city",
+    "population": 41705
+  },
+  {
+    "county": "Manassas Park city",
+    "population": 16149
+  },
+  {
+    "county": "Martinsville city",
+    "population": 13755
+  },
+  {
+    "county": "Mathews County",
+    "population": 8897
+  },
+  {
+    "county": "Mecklenburg County",
+    "population": 31426
+  },
+  {
+    "county": "Middlesex County",
+    "population": 10762
+  },
+  {
+    "county": "Montgomery County",
+    "population": 96207
+  },
+  {
+    "county": "Nelson County",
+    "population": 14789
+  },
+  {
+    "county": "New Kent County",
+    "population": 19507
+  },
+  {
+    "county": "Newport News city",
+    "population": 182020
+  },
+  {
+    "county": "Norfolk city",
+    "population": 246139
+  },
+  {
+    "county": "Northampton County",
+    "population": 12125
+  },
+  {
+    "county": "Northumberland County",
+    "population": 12200
+  },
+  {
+    "county": "Norton city",
+    "population": 4017
+  },
+  {
+    "county": "Nottoway County",
+    "population": 15773
+  },
+  {
+    "county": "Orange County",
+    "population": 34689
+  },
+  {
+    "county": "Page County",
+    "population": 23821
+  },
+  {
+    "county": "Patrick County",
+    "population": 18368
+  },
+  {
+    "county": "Petersburg city",
+    "population": 32538
+  },
+  {
+    "county": "Pittsylvania County",
+    "population": 62426
+  },
+  {
+    "county": "Poquoson city",
+    "population": 12104
+  },
+  {
+    "county": "Portsmouth city",
+    "population": 96205
+  },
+  {
+    "county": "Powhatan County",
+    "population": 28259
+  },
+  {
+    "county": "Prince Edward County",
+    "population": 22802
+  },
+  {
+    "county": "Prince George County",
+    "population": 37253
+  },
+  {
+    "county": "Prince William County",
+    "population": 438580
+  },
+  {
+    "county": "Pulaski County",
+    "population": 34507
+  },
+  {
+    "county": "Radford city",
+    "population": 17184
+  },
+  {
+    "county": "Rappahannock County",
+    "population": 7478
+  },
+  {
+    "county": "Richmond city",
+    "population": 214114
+  },
+  {
+    "county": "Richmond County",
+    "population": 8953
+  },
+  {
+    "county": "Roanoke city",
+    "population": 98465
+  },
+  {
+    "county": "Roanoke County",
+    "population": 93524
+  },
+  {
+    "county": "Rockbridge County",
+    "population": 22307
+  },
+  {
+    "county": "Rockingham County",
+    "population": 77741
+  },
+  {
+    "county": "Russell County",
+    "population": 28264
+  },
+  {
+    "county": "Salem city",
+    "population": 25299
+  },
+  {
+    "county": "Scott County",
+    "population": 22640
+  },
+  {
+    "county": "Shenandoah County",
+    "population": 42684
+  },
+  {
+    "county": "Smyth County",
+    "population": 31652
+  },
+  {
+    "county": "Southampton County",
+    "population": 18128
+  },
+  {
+    "county": "Spotsylvania County",
+    "population": 127348
+  },
+  {
+    "county": "Stafford County",
+    "population": 136788
+  },
+  {
+    "county": "Staunton city",
+    "population": 24350
+  },
+  {
+    "county": "Suffolk city",
+    "population": 85728
+  },
+  {
+    "county": "Surry County",
+    "population": 6765
+  },
+  {
+    "county": "Sussex County",
+    "population": 11810
+  },
+  {
+    "county": "Tazewell County",
+    "population": 44103
+  },
+  {
+    "county": "Virginia Beach city",
+    "population": 448479
+  },
+  {
+    "county": "Warren County",
+    "population": 38699
+  },
+  {
+    "county": "Washington County",
+    "population": 54907
+  },
+  {
+    "county": "Waynesboro city",
+    "population": 21263
+  },
+  {
+    "county": "Westmoreland County",
+    "population": 17612
+  },
+  {
+    "county": "Williamsburg city",
+    "population": 15206
+  },
+  {
+    "county": "Winchester city",
+    "population": 27216
+  },
+  {
+    "county": "Wise County",
+    "population": 40589
+  },
+  {
+    "county": "Wythe County",
+    "population": 29344
+  },
+  {
+    "county": "York County",
+    "population": 66269
+  }
+]

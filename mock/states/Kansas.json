@@ -1,0 +1,422 @@
+[
+  {
+    "county": "Allen County",
+    "population": 13124
+  },
+  {
+    "county": "Anderson County",
+    "population": 7897
+  },
+  {
+    "county": "Atchison County",
+    "population": 16749
+  },
+  {
+    "county": "Barber County",
+    "population": 4947
+  },
+  {
+    "county": "Barton County",
+    "population": 27509
+  },
+  {
+    "county": "Bourbon County",
+    "population": 14852
+  },
+  {
+    "county": "Brown County",
+    "population": 9997
+  },
+  {
+    "county": "Butler County",
+    "population": 65803
+  },
+  {
+    "county": "Chase County",
+    "population": 2700
+  },
+  {
+    "county": "Chautauqua County",
+    "population": 3552
+  },
+  {
+    "county": "Cherokee County",
+    "population": 20978
+  },
+  {
+    "county": "Cheyenne County",
+    "population": 2694
+  },
+  {
+    "county": "Clark County",
+    "population": 2193
+  },
+  {
+    "county": "Clay County",
+    "population": 8406
+  },
+  {
+    "county": "Cloud County",
+    "population": 9292
+  },
+  {
+    "county": "Coffey County",
+    "population": 8412
+  },
+  {
+    "county": "Comanche County",
+    "population": 1955
+  },
+  {
+    "county": "Cowley County",
+    "population": 36204
+  },
+  {
+    "county": "Crawford County",
+    "population": 39278
+  },
+  {
+    "county": "Decatur County",
+    "population": 2930
+  },
+  {
+    "county": "Dickinson County",
+    "population": 19609
+  },
+  {
+    "county": "Doniphan County",
+    "population": 7851
+  },
+  {
+    "county": "Douglas County",
+    "population": 114322
+  },
+  {
+    "county": "Edwards County",
+    "population": 2945
+  },
+  {
+    "county": "Elk County",
+    "population": 2655
+  },
+  {
+    "county": "Ellis County",
+    "population": 29061
+  },
+  {
+    "county": "Ellsworth County",
+    "population": 6398
+  },
+  {
+    "county": "Finney County",
+    "population": 37098
+  },
+  {
+    "county": "Ford County",
+    "population": 34819
+  },
+  {
+    "county": "Franklin County",
+    "population": 25740
+  },
+  {
+    "county": "Geary County",
+    "population": 37384
+  },
+  {
+    "county": "Gove County",
+    "population": 2769
+  },
+  {
+    "county": "Graham County",
+    "population": 2593
+  },
+  {
+    "county": "Grant County",
+    "population": 7950
+  },
+  {
+    "county": "Gray County",
+    "population": 6009
+  },
+  {
+    "county": "Greeley County",
+    "population": 1290
+  },
+  {
+    "county": "Greenwood County",
+    "population": 6424
+  },
+  {
+    "county": "Hamilton County",
+    "population": 2609
+  },
+  {
+    "county": "Harper County",
+    "population": 5860
+  },
+  {
+    "county": "Harvey County",
+    "population": 34741
+  },
+  {
+    "county": "Haskell County",
+    "population": 4141
+  },
+  {
+    "county": "Hodgeman County",
+    "population": 1950
+  },
+  {
+    "county": "Jackson County",
+    "population": 13366
+  },
+  {
+    "county": "Jefferson County",
+    "population": 18813
+  },
+  {
+    "county": "Jewell County",
+    "population": 3046
+  },
+  {
+    "county": "Johnson County",
+    "population": 566933
+  },
+  {
+    "county": "Kearny County",
+    "population": 3923
+  },
+  {
+    "county": "Kingman County",
+    "population": 7844
+  },
+  {
+    "county": "Kiowa County",
+    "population": 2523
+  },
+  {
+    "county": "Labette County",
+    "population": 20916
+  },
+  {
+    "county": "Lane County",
+    "population": 1720
+  },
+  {
+    "county": "Leavenworth County",
+    "population": 78185
+  },
+  {
+    "county": "Lincoln County",
+    "population": 3147
+  },
+  {
+    "county": "Linn County",
+    "population": 9516
+  },
+  {
+    "county": "Logan County",
+    "population": 2798
+  },
+  {
+    "county": "Lyon County",
+    "population": 33510
+  },
+  {
+    "county": "Marion County",
+    "population": 12219
+  },
+  {
+    "county": "Marshall County",
+    "population": 10002
+  },
+  {
+    "county": "McPherson County",
+    "population": 29569
+  },
+  {
+    "county": "Meade County",
+    "population": 4343
+  },
+  {
+    "county": "Miami County",
+    "population": 32835
+  },
+  {
+    "county": "Mitchell County",
+    "population": 6378
+  },
+  {
+    "county": "Montgomery County",
+    "population": 34292
+  },
+  {
+    "county": "Morris County",
+    "population": 5741
+  },
+  {
+    "county": "Morton County",
+    "population": 3143
+  },
+  {
+    "county": "Nemaha County",
+    "population": 10161
+  },
+  {
+    "county": "Neosho County",
+    "population": 16430
+  },
+  {
+    "county": "Ness County",
+    "population": 3073
+  },
+  {
+    "county": "Norton County",
+    "population": 5622
+  },
+  {
+    "county": "Osage County",
+    "population": 16142
+  },
+  {
+    "county": "Osborne County",
+    "population": 3818
+  },
+  {
+    "county": "Ottawa County",
+    "population": 6042
+  },
+  {
+    "county": "Pawnee County",
+    "population": 6971
+  },
+  {
+    "county": "Phillips County",
+    "population": 5540
+  },
+  {
+    "county": "Pottawatomie County",
+    "population": 22691
+  },
+  {
+    "county": "Pratt County",
+    "population": 9878
+  },
+  {
+    "county": "Rawlins County",
+    "population": 2589
+  },
+  {
+    "county": "Reno County",
+    "population": 64190
+  },
+  {
+    "county": "Republic County",
+    "population": 4820
+  },
+  {
+    "county": "Rice County",
+    "population": 10011
+  },
+  {
+    "county": "Riley County",
+    "population": 75394
+  },
+  {
+    "county": "Rooks County",
+    "population": 5190
+  },
+  {
+    "county": "Rush County",
+    "population": 3186
+  },
+  {
+    "county": "Russell County",
+    "population": 6933
+  },
+  {
+    "county": "Saline County",
+    "population": 55740
+  },
+  {
+    "county": "Scott County",
+    "population": 5035
+  },
+  {
+    "county": "Sedgwick County",
+    "population": 505415
+  },
+  {
+    "county": "Seward County",
+    "population": 23390
+  },
+  {
+    "county": "Shawnee County",
+    "population": 178831
+  },
+  {
+    "county": "Sheridan County",
+    "population": 2553
+  },
+  {
+    "county": "Sherman County",
+    "population": 6115
+  },
+  {
+    "county": "Smith County",
+    "population": 3706
+  },
+  {
+    "county": "Stafford County",
+    "population": 4359
+  },
+  {
+    "county": "Stanton County",
+    "population": 2194
+  },
+  {
+    "county": "Stevens County",
+    "population": 5816
+  },
+  {
+    "county": "Sumner County",
+    "population": 23591
+  },
+  {
+    "county": "Thomas County",
+    "population": 7948
+  },
+  {
+    "county": "Trego County",
+    "population": 2980
+  },
+  {
+    "county": "Wabaunsee County",
+    "population": 7051
+  },
+  {
+    "county": "Wallace County",
+    "population": 1569
+  },
+  {
+    "county": "Washington County",
+    "population": 5629
+  },
+  {
+    "county": "Wichita County",
+    "population": 2192
+  },
+  {
+    "county": "Wilson County",
+    "population": 9105
+  },
+  {
+    "county": "Woodson County",
+    "population": 3221
+  },
+  {
+    "county": "Wyandotte County",
+    "population": 160384
+  }
+]

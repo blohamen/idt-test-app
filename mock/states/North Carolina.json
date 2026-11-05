@@ -1,0 +1,402 @@
+[
+  {
+    "county": "Alamance County",
+    "population": 154378
+  },
+  {
+    "county": "Alexander County",
+    "population": 36930
+  },
+  {
+    "county": "Alleghany County",
+    "population": 10939
+  },
+  {
+    "county": "Anson County",
+    "population": 26161
+  },
+  {
+    "county": "Ashe County",
+    "population": 27151
+  },
+  {
+    "county": "Avery County",
+    "population": 17713
+  },
+  {
+    "county": "Beaufort County",
+    "population": 47464
+  },
+  {
+    "county": "Bertie County",
+    "population": 20344
+  },
+  {
+    "county": "Bladen County",
+    "population": 34843
+  },
+  {
+    "county": "Brunswick County",
+    "population": 115301
+  },
+  {
+    "county": "Buncombe County",
+    "population": 247912
+  },
+  {
+    "county": "Burke County",
+    "population": 89842
+  },
+  {
+    "county": "Cabarrus County",
+    "population": 187226
+  },
+  {
+    "county": "Caldwell County",
+    "population": 81990
+  },
+  {
+    "county": "Camden County",
+    "population": 10187
+  },
+  {
+    "county": "Carteret County",
+    "population": 68434
+  },
+  {
+    "county": "Caswell County",
+    "population": 23190
+  },
+  {
+    "county": "Catawba County",
+    "population": 154810
+  },
+  {
+    "county": "Chatham County",
+    "population": 66817
+  },
+  {
+    "county": "Cherokee County",
+    "population": 27218
+  },
+  {
+    "county": "Chowan County",
+    "population": 14726
+  },
+  {
+    "county": "Clay County",
+    "population": 10584
+  },
+  {
+    "county": "Cleveland County",
+    "population": 97047
+  },
+  {
+    "county": "Columbus County",
+    "population": 57246
+  },
+  {
+    "county": "Craven County",
+    "population": 104489
+  },
+  {
+    "county": "Cumberland County",
+    "population": 325871
+  },
+  {
+    "county": "Currituck County",
+    "population": 24396
+  },
+  {
+    "county": "Dare County",
+    "population": 35019
+  },
+  {
+    "county": "Davidson County",
+    "population": 163420
+  },
+  {
+    "county": "Davie County",
+    "population": 41554
+  },
+  {
+    "county": "Duplin County",
+    "population": 60084
+  },
+  {
+    "county": "Durham County",
+    "population": 288133
+  },
+  {
+    "county": "Edgecombe County",
+    "population": 55574
+  },
+  {
+    "county": "Forsyth County",
+    "population": 361220
+  },
+  {
+    "county": "Franklin County",
+    "population": 62260
+  },
+  {
+    "county": "Gaston County",
+    "population": 209420
+  },
+  {
+    "county": "Gates County",
+    "population": 11650
+  },
+  {
+    "county": "Graham County",
+    "population": 8736
+  },
+  {
+    "county": "Granville County",
+    "population": 58275
+  },
+  {
+    "county": "Greene County",
+    "population": 21232
+  },
+  {
+    "county": "Guilford County",
+    "population": 506610
+  },
+  {
+    "county": "Halifax County",
+    "population": 53453
+  },
+  {
+    "county": "Harnett County",
+    "population": 124987
+  },
+  {
+    "county": "Haywood County",
+    "population": 59183
+  },
+  {
+    "county": "Henderson County",
+    "population": 109540
+  },
+  {
+    "county": "Hertford County",
+    "population": 24431
+  },
+  {
+    "county": "Hoke County",
+    "population": 51322
+  },
+  {
+    "county": "Hyde County",
+    "population": 5721
+  },
+  {
+    "county": "Iredell County",
+    "population": 164517
+  },
+  {
+    "county": "Jackson County",
+    "population": 40919
+  },
+  {
+    "county": "Johnston County",
+    "population": 177967
+  },
+  {
+    "county": "Jones County",
+    "population": 10215
+  },
+  {
+    "county": "Lee County",
+    "population": 60266
+  },
+  {
+    "county": "Lenoir County",
+    "population": 58914
+  },
+  {
+    "county": "Lincoln County",
+    "population": 79740
+  },
+  {
+    "county": "Macon County",
+    "population": 33857
+  },
+  {
+    "county": "Madison County",
+    "population": 21022
+  },
+  {
+    "county": "Martin County",
+    "population": 23699
+  },
+  {
+    "county": "McDowell County",
+    "population": 44961
+  },
+  {
+    "county": "Mecklenburg County",
+    "population": 990977
+  },
+  {
+    "county": "Mitchell County",
+    "population": 15328
+  },
+  {
+    "county": "Montgomery County",
+    "population": 27571
+  },
+  {
+    "county": "Moore County",
+    "population": 91587
+  },
+  {
+    "county": "Nash County",
+    "population": 95093
+  },
+  {
+    "county": "New Hanover County",
+    "population": 213267
+  },
+  {
+    "county": "Northampton County",
+    "population": 20839
+  },
+  {
+    "county": "Onslow County",
+    "population": 185220
+  },
+  {
+    "county": "Orange County",
+    "population": 140352
+  },
+  {
+    "county": "Pamlico County",
+    "population": 12953
+  },
+  {
+    "county": "Pasquotank County",
+    "population": 39981
+  },
+  {
+    "county": "Pender County",
+    "population": 55334
+  },
+  {
+    "county": "Perquimans County",
+    "population": 13601
+  },
+  {
+    "county": "Person County",
+    "population": 39276
+  },
+  {
+    "county": "Pitt County",
+    "population": 174263
+  },
+  {
+    "county": "Polk County",
+    "population": 20411
+  },
+  {
+    "county": "Randolph County",
+    "population": 142577
+  },
+  {
+    "county": "Richmond County",
+    "population": 46405
+  },
+  {
+    "county": "Robeson County",
+    "population": 134841
+  },
+  {
+    "county": "Rockingham County",
+    "population": 91878
+  },
+  {
+    "county": "Rowan County",
+    "population": 138323
+  },
+  {
+    "county": "Rutherford County",
+    "population": 66956
+  },
+  {
+    "county": "Sampson County",
+    "population": 64150
+  },
+  {
+    "county": "Scotland County",
+    "population": 36025
+  },
+  {
+    "county": "Stanly County",
+    "population": 60635
+  },
+  {
+    "county": "Stokes County",
+    "population": 46588
+  },
+  {
+    "county": "Surry County",
+    "population": 73050
+  },
+  {
+    "county": "Swain County",
+    "population": 14058
+  },
+  {
+    "county": "Transylvania County",
+    "population": 32903
+  },
+  {
+    "county": "Tyrrell County",
+    "population": 4109
+  },
+  {
+    "county": "Union County",
+    "population": 212756
+  },
+  {
+    "county": "Vance County",
+    "population": 44808
+  },
+  {
+    "county": "Wake County",
+    "population": 974289
+  },
+  {
+    "county": "Warren County",
+    "population": 20575
+  },
+  {
+    "county": "Washington County",
+    "population": 12722
+  },
+  {
+    "county": "Watauga County",
+    "population": 52372
+  },
+  {
+    "county": "Wayne County",
+    "population": 124583
+  },
+  {
+    "county": "Wilkes County",
+    "population": 69023
+  },
+  {
+    "county": "Wilson County",
+    "population": 81667
+  },
+  {
+    "county": "Yadkin County",
+    "population": 38038
+  },
+  {
+    "county": "Yancey County",
+    "population": 17566
+  }
+]

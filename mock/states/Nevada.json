@@ -1,0 +1,70 @@
+[
+  {
+    "county": "Carson City",
+    "population": 54080
+  },
+  {
+    "county": "Churchill County",
+    "population": 24063
+  },
+  {
+    "county": "Clark County",
+    "population": 2027868
+  },
+  {
+    "county": "Douglas County",
+    "population": 47118
+  },
+  {
+    "county": "Elko County",
+    "population": 52384
+  },
+  {
+    "county": "Esmeralda County",
+    "population": 832
+  },
+  {
+    "county": "Eureka County",
+    "population": 2076
+  },
+  {
+    "county": "Humboldt County",
+    "population": 17363
+  },
+  {
+    "county": "Lander County",
+    "population": 6032
+  },
+  {
+    "county": "Lincoln County",
+    "population": 5245
+  },
+  {
+    "county": "Lyon County",
+    "population": 51557
+  },
+  {
+    "county": "Mineral County",
+    "population": 4614
+  },
+  {
+    "county": "Nye County",
+    "population": 42297
+  },
+  {
+    "county": "Pershing County",
+    "population": 6877
+  },
+  {
+    "county": "Storey County",
+    "population": 3942
+  },
+  {
+    "county": "Washoe County",
+    "population": 433731
+  },
+  {
+    "county": "White Pine County",
+    "population": 10057
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "county": "Adair County",
+    "population": 7472
+  },
+  {
+    "county": "Adams County",
+    "population": 3894
+  },
+  {
+    "county": "Allamakee County",
+    "population": 14169
+  },
+  {
+    "county": "Appanoose County",
+    "population": 12692
+  },
+  {
+    "county": "Audubon County",
+    "population": 5873
+  },
+  {
+    "county": "Benton County",
+    "population": 25699
+  },
+  {
+    "county": "Black Hawk County",
+    "population": 132546
+  },
+  {
+    "county": "Boone County",
+    "population": 26364
+  },
+  {
+    "county": "Bremer County",
+    "population": 24624
+  },
+  {
+    "county": "Buchanan County",
+    "population": 20976
+  },
+  {
+    "county": "Buena Vista County",
+    "population": 20567
+  },
+  {
+    "county": "Butler County",
+    "population": 15021
+  },
+  {
+    "county": "Calhoun County",
+    "population": 9926
+  },
+  {
+    "county": "Carroll County",
+    "population": 20598
+  },
+  {
+    "county": "Cass County",
+    "population": 13598
+  },
+  {
+    "county": "Cedar County",
+    "population": 18393
+  },
+  {
+    "county": "Cerro Gordo County",
+    "population": 43575
+  },
+  {
+    "county": "Cherokee County",
+    "population": 11945
+  },
+  {
+    "county": "Chickasaw County",
+    "population": 12321
+  },
+  {
+    "county": "Clarke County",
+    "population": 9325
+  },
+  {
+    "county": "Clay County",
+    "population": 16491
+  },
+  {
+    "county": "Clayton County",
+    "population": 17773
+  },
+  {
+    "county": "Clinton County",
+    "population": 48420
+  },
+  {
+    "county": "Crawford County",
+    "population": 17434
+  },
+  {
+    "county": "Dallas County",
+    "population": 74641
+  },
+  {
+    "county": "Davis County",
+    "population": 8791
+  },
+  {
+    "county": "Decatur County",
+    "population": 8136
+  },
+  {
+    "county": "Delaware County",
+    "population": 17534
+  },
+  {
+    "county": "Des Moines County",
+    "population": 40480
+  },
+  {
+    "county": "Dickinson County",
+    "population": 16955
+  },
+  {
+    "county": "Dubuque County",
+    "population": 95697
+  },
+  {
+    "county": "Emmet County",
+    "population": 9996
+  },
+  {
+    "county": "Fayette County",
+    "population": 20502
+  },
+  {
+    "county": "Floyd County",
+    "population": 16092
+  },
+  {
+    "county": "Franklin County",
+    "population": 10548
+  },
+  {
+    "county": "Fremont County",
+    "population": 7080
+  },
+  {
+    "county": "Greene County",
+    "population": 9139
+  },
+  {
+    "county": "Grundy County",
+    "population": 12314
+  },
+  {
+    "county": "Guthrie County",
+    "population": 10687
+  },
+  {
+    "county": "Hamilton County",
+    "population": 15312
+  },
+  {
+    "county": "Hancock County",
+    "population": 11094
+  },
+  {
+    "county": "Hardin County",
+    "population": 17441
+  },
+  {
+    "county": "Harrison County",
+    "population": 14431
+  },
+  {
+    "county": "Henry County",
+    "population": 20222
+  },
+  {
+    "county": "Howard County",
+    "population": 9526
+  },
+  {
+    "county": "Humboldt County",
+    "population": 9688
+  },
+  {
+    "county": "Ida County",
+    "population": 7141
+  },
+  {
+    "county": "Iowa County",
+    "population": 16330
+  },
+  {
+    "county": "Jackson County",
+    "population": 19587
+  },
+  {
+    "county": "Jasper County",
+    "population": 36641
+  },
+  {
+    "county": "Jefferson County",
+    "population": 16810
+  },
+  {
+    "county": "Johnson County",
+    "population": 139155
+  },
+  {
+    "county": "Jones County",
+    "population": 20611
+  },
+  {
+    "county": "Keokuk County",
+    "population": 10329
+  },
+  {
+    "county": "Kossuth County",
+    "population": 15321
+  },
+  {
+    "county": "Lee County",
+    "population": 35682
+  },
+  {
+    "county": "Linn County",
+    "population": 216111
+  },
+  {
+    "county": "Louisa County",
+    "population": 11282
+  },
+  {
+    "county": "Lucas County",
+    "population": 8746
+  },
+  {
+    "county": "Lyon County",
+    "population": 11712
+  },
+  {
+    "county": "Madison County",
+    "population": 15448
+  },
+  {
+    "county": "Mahaska County",
+    "population": 22417
+  },
+  {
+    "county": "Marion County",
+    "population": 33252
+  },
+  {
+    "county": "Marshall County",
+    "population": 40994
+  },
+  {
+    "county": "Mills County",
+    "population": 14896
+  },
+  {
+    "county": "Mitchell County",
+    "population": 10709
+  },
+  {
+    "county": "Monona County",
+    "population": 9121
+  },
+  {
+    "county": "Monroe County",
+    "population": 8012
+  },
+  {
+    "county": "Montgomery County",
+    "population": 10424
+  },
+  {
+    "county": "Muscatine County",
+    "population": 42836
+  },
+  {
+    "county": "O`Brien County",
+    "population": 14044
+  },
+  {
+    "county": "Osceola County",
+    "population": 6211
+  },
+  {
+    "county": "Page County",
+    "population": 15713
+  },
+  {
+    "county": "Palo Alto County",
+    "population": 9185
+  },
+  {
+    "county": "Plymouth County",
+    "population": 24957
+  },
+  {
+    "county": "Pocahontas County",
+    "population": 7154
+  },
+  {
+    "county": "Polk County",
+    "population": 451677
+  },
+  {
+    "county": "Pottawattamie County",
+    "population": 92728
+  },
+  {
+    "county": "Poweshiek County",
+    "population": 18601
+  },
+  {
+    "county": "Ringgold County",
+    "population": 5072
+  },
+  {
+    "county": "Sac County",
+    "population": 10071
+  },
+  {
+    "county": "Scott County",
+    "population": 170385
+  },
+  {
+    "county": "Shelby County",
+    "population": 11961
+  },
+  {
+    "county": "Sioux County",
+    "population": 34547
+  },
+  {
+    "county": "Story County",
+    "population": 92406
+  },
+  {
+    "county": "Tama County",
+    "population": 17576
+  },
+  {
+    "county": "Taylor County",
+    "population": 6161
+  },
+  {
+    "county": "Union County",
+    "population": 12583
+  },
+  {
+    "county": "Van Buren County",
+    "population": 7436
+  },
+  {
+    "county": "Wapello County",
+    "population": 35391
+  },
+  {
+    "county": "Warren County",
+    "population": 47336
+  },
+  {
+    "county": "Washington County",
+    "population": 22015
+  },
+  {
+    "county": "Wayne County",
+    "population": 6402
+  },
+  {
+    "county": "Webster County",
+    "population": 37044
+  },
+  {
+    "county": "Winnebago County",
+    "population": 10554
+  },
+  {
+    "county": "Winneshiek County",
+    "population": 20994
+  },
+  {
+    "county": "Woodbury County",
+    "population": 102130
+  },
+  {
+    "county": "Worth County",
+    "population": 7541
+  },
+  {
+    "county": "Wright County",
+    "population": 12972
+  }
+]

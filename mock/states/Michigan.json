@@ -1,0 +1,334 @@
+[
+  {
+    "county": "Alcona County",
+    "population": 10578
+  },
+  {
+    "county": "Alger County",
+    "population": 9522
+  },
+  {
+    "county": "Allegan County",
+    "population": 112531
+  },
+  {
+    "county": "Alpena County",
+    "population": 29091
+  },
+  {
+    "county": "Antrim County",
+    "population": 23370
+  },
+  {
+    "county": "Arenac County",
+    "population": 15487
+  },
+  {
+    "county": "Baraga County",
+    "population": 8695
+  },
+  {
+    "county": "Barry County",
+    "population": 59097
+  },
+  {
+    "county": "Bay County",
+    "population": 106832
+  },
+  {
+    "county": "Benzie County",
+    "population": 17428
+  },
+  {
+    "county": "Berrien County",
+    "population": 155252
+  },
+  {
+    "county": "Branch County",
+    "population": 43649
+  },
+  {
+    "county": "Calhoun County",
+    "population": 135012
+  },
+  {
+    "county": "Cass County",
+    "population": 51910
+  },
+  {
+    "county": "Charlevoix County",
+    "population": 26129
+  },
+  {
+    "county": "Cheboygan County",
+    "population": 25726
+  },
+  {
+    "county": "Chippewa County",
+    "population": 38696
+  },
+  {
+    "county": "Clare County",
+    "population": 30569
+  },
+  {
+    "county": "Clinton County",
+    "population": 76739
+  },
+  {
+    "county": "Crawford County",
+    "population": 13904
+  },
+  {
+    "county": "Delta County",
+    "population": 36905
+  },
+  {
+    "county": "Dickinson County",
+    "population": 26098
+  },
+  {
+    "county": "Eaton County",
+    "population": 108348
+  },
+  {
+    "county": "Emmet County",
+    "population": 33140
+  },
+  {
+    "county": "Genesee County",
+    "population": 415376
+  },
+  {
+    "county": "Gladwin County",
+    "population": 25493
+  },
+  {
+    "county": "Gogebic County",
+    "population": 15916
+  },
+  {
+    "county": "Grand Traverse County",
+    "population": 89987
+  },
+  {
+    "county": "Gratiot County",
+    "population": 41968
+  },
+  {
+    "county": "Hillsdale County",
+    "population": 46101
+  },
+  {
+    "county": "Houghton County",
+    "population": 36225
+  },
+  {
+    "county": "Huron County",
+    "population": 32224
+  },
+  {
+    "county": "Ingham County",
+    "population": 282234
+  },
+  {
+    "county": "Ionia County",
+    "population": 64073
+  },
+  {
+    "county": "Iosco County",
+    "population": 25429
+  },
+  {
+    "county": "Iron County",
+    "population": 11516
+  },
+  {
+    "county": "Isabella County",
+    "population": 70436
+  },
+  {
+    "county": "Jackson County",
+    "population": 160369
+  },
+  {
+    "county": "Kalamazoo County",
+    "population": 256725
+  },
+  {
+    "county": "Kalkaska County",
+    "population": 17196
+  },
+  {
+    "county": "Kent County",
+    "population": 621700
+  },
+  {
+    "county": "Keweenaw County",
+    "population": 2191
+  },
+  {
+    "county": "Lake County",
+    "population": 11386
+  },
+  {
+    "county": "Lapeer County",
+    "population": 88389
+  },
+  {
+    "county": "Leelanau County",
+    "population": 21747
+  },
+  {
+    "county": "Lenawee County",
+    "population": 99188
+  },
+  {
+    "county": "Livingston County",
+    "population": 184443
+  },
+  {
+    "county": "Luce County",
+    "population": 6502
+  },
+  {
+    "county": "Mackinac County",
+    "population": 11061
+  },
+  {
+    "county": "Macomb County",
+    "population": 854769
+  },
+  {
+    "county": "Manistee County",
+    "population": 24450
+  },
+  {
+    "county": "Marquette County",
+    "population": 67700
+  },
+  {
+    "county": "Mason County",
+    "population": 28605
+  },
+  {
+    "county": "Mecosta County",
+    "population": 43108
+  },
+  {
+    "county": "Menominee County",
+    "population": 23791
+  },
+  {
+    "county": "Midland County",
+    "population": 83919
+  },
+  {
+    "county": "Missaukee County",
+    "population": 15051
+  },
+  {
+    "county": "Monroe County",
+    "population": 150376
+  },
+  {
+    "county": "Montcalm County",
+    "population": 63105
+  },
+  {
+    "county": "Montmorency County",
+    "population": 9350
+  },
+  {
+    "county": "Muskegon County",
+    "population": 171008
+  },
+  {
+    "county": "Newaygo County",
+    "population": 48001
+  },
+  {
+    "county": "Oakland County",
+    "population": 1231640
+  },
+  {
+    "county": "Oceana County",
+    "population": 26245
+  },
+  {
+    "county": "Ogemaw County",
+    "population": 21234
+  },
+  {
+    "county": "Ontonagon County",
+    "population": 6322
+  },
+  {
+    "county": "Osceola County",
+    "population": 23259
+  },
+  {
+    "county": "Oscoda County",
+    "population": 8379
+  },
+  {
+    "county": "Otsego County",
+    "population": 24129
+  },
+  {
+    "county": "Ottawa County",
+    "population": 272701
+  },
+  {
+    "county": "Presque Isle County",
+    "population": 13062
+  },
+  {
+    "county": "Roscommon County",
+    "population": 24014
+  },
+  {
+    "county": "Saginaw County",
+    "population": 196542
+  },
+  {
+    "county": "Sanilac County",
+    "population": 41823
+  },
+  {
+    "county": "Schoolcraft County",
+    "population": 8247
+  },
+  {
+    "county": "Shiawassee County",
+    "population": 68900
+  },
+  {
+    "county": "St. Clair County",
+    "population": 160469
+  },
+  {
+    "county": "St. Joseph County",
+    "population": 60964
+  },
+  {
+    "county": "Tuscola County",
+    "population": 54263
+  },
+  {
+    "county": "Van Buren County",
+    "population": 75455
+  },
+  {
+    "county": "Washtenaw County",
+    "population": 354240
+  },
+  {
+    "county": "Wayne County",
+    "population": 1775273
+  },
+  {
+    "county": "Wexford County",
+    "population": 32645
+  }
+]

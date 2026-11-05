@@ -1,0 +1,290 @@
+[
+  {
+    "county": "Adams County",
+    "population": 20480
+  },
+  {
+    "county": "Ashland County",
+    "population": 16016
+  },
+  {
+    "county": "Barron County",
+    "population": 45676
+  },
+  {
+    "county": "Bayfield County",
+    "population": 15156
+  },
+  {
+    "county": "Brown County",
+    "population": 254586
+  },
+  {
+    "county": "Buffalo County",
+    "population": 13357
+  },
+  {
+    "county": "Burnett County",
+    "population": 15333
+  },
+  {
+    "county": "Calumet County",
+    "population": 49617
+  },
+  {
+    "county": "Chippewa County",
+    "population": 63132
+  },
+  {
+    "county": "Clark County",
+    "population": 34615
+  },
+  {
+    "county": "Columbia County",
+    "population": 56653
+  },
+  {
+    "county": "Crawford County",
+    "population": 16397
+  },
+  {
+    "county": "Dane County",
+    "population": 509939
+  },
+  {
+    "county": "Dodge County",
+    "population": 88344
+  },
+  {
+    "county": "Door County",
+    "population": 27896
+  },
+  {
+    "county": "Douglas County",
+    "population": 43887
+  },
+  {
+    "county": "Dunn County",
+    "population": 44122
+  },
+  {
+    "county": "Eau Claire County",
+    "population": 101438
+  },
+  {
+    "county": "Florence County",
+    "population": 4520
+  },
+  {
+    "county": "Fond du Lac County",
+    "population": 101798
+  },
+  {
+    "county": "Forest County",
+    "population": 9126
+  },
+  {
+    "county": "Grant County",
+    "population": 51069
+  },
+  {
+    "county": "Green County",
+    "population": 37090
+  },
+  {
+    "county": "Green Lake County",
+    "population": 18959
+  },
+  {
+    "county": "Iowa County",
+    "population": 23749
+  },
+  {
+    "county": "Iron County",
+    "population": 5886
+  },
+  {
+    "county": "Jackson County",
+    "population": 20644
+  },
+  {
+    "county": "Jefferson County",
+    "population": 84509
+  },
+  {
+    "county": "Juneau County",
+    "population": 26547
+  },
+  {
+    "county": "Kenosha County",
+    "population": 167757
+  },
+  {
+    "county": "Kewaunee County",
+    "population": 20505
+  },
+  {
+    "county": "La Crosse County",
+    "population": 116713
+  },
+  {
+    "county": "Lafayette County",
+    "population": 16766
+  },
+  {
+    "county": "Langlade County",
+    "population": 19575
+  },
+  {
+    "county": "Lincoln County",
+    "population": 28684
+  },
+  {
+    "county": "Manitowoc County",
+    "population": 80654
+  },
+  {
+    "county": "Marathon County",
+    "population": 135416
+  },
+  {
+    "county": "Marinette County",
+    "population": 41610
+  },
+  {
+    "county": "Marquette County",
+    "population": 15176
+  },
+  {
+    "county": "Menominee County",
+    "population": 4317
+  },
+  {
+    "county": "Milwaukee County",
+    "population": 956023
+  },
+  {
+    "county": "Monroe County",
+    "population": 45298
+  },
+  {
+    "county": "Oconto County",
+    "population": 37318
+  },
+  {
+    "county": "Oneida County",
+    "population": 35689
+  },
+  {
+    "county": "Outagamie County",
+    "population": 180345
+  },
+  {
+    "county": "Ozaukee County",
+    "population": 87054
+  },
+  {
+    "county": "Pepin County",
+    "population": 7360
+  },
+  {
+    "county": "Pierce County",
+    "population": 40976
+  },
+  {
+    "county": "Polk County",
+    "population": 43476
+  },
+  {
+    "county": "Portage County",
+    "population": 70380
+  },
+  {
+    "county": "Price County",
+    "population": 13802
+  },
+  {
+    "county": "Racine County",
+    "population": 195041
+  },
+  {
+    "county": "Richland County",
+    "population": 17717
+  },
+  {
+    "county": "Rock County",
+    "population": 160739
+  },
+  {
+    "county": "Rusk County",
+    "population": 14395
+  },
+  {
+    "county": "Sauk County",
+    "population": 63162
+  },
+  {
+    "county": "Sawyer County",
+    "population": 16513
+  },
+  {
+    "county": "Shawano County",
+    "population": 41643
+  },
+  {
+    "county": "Sheboygan County",
+    "population": 114922
+  },
+  {
+    "county": "St. Croix County",
+    "population": 85930
+  },
+  {
+    "county": "Taylor County",
+    "population": 20610
+  },
+  {
+    "county": "Trempealeau County",
+    "population": 29582
+  },
+  {
+    "county": "Vernon County",
+    "population": 30329
+  },
+  {
+    "county": "Vilas County",
+    "population": 21368
+  },
+  {
+    "county": "Walworth County",
+    "population": 102945
+  },
+  {
+    "county": "Washburn County",
+    "population": 15686
+  },
+  {
+    "county": "Washington County",
+    "population": 132739
+  },
+  {
+    "county": "Waukesha County",
+    "population": 393843
+  },
+  {
+    "county": "Waupaca County",
+    "population": 52285
+  },
+  {
+    "county": "Waushara County",
+    "population": 24329
+  },
+  {
+    "county": "Winnebago County",
+    "population": 169541
+  },
+  {
+    "county": "Wood County",
+    "population": 73959
+  }
+]

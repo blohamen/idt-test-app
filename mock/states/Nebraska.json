@@ -1,0 +1,374 @@
+[
+  {
+    "county": "Adams County",
+    "population": 31610
+  },
+  {
+    "county": "Antelope County",
+    "population": 6456
+  },
+  {
+    "county": "Arthur County",
+    "population": 458
+  },
+  {
+    "county": "Banner County",
+    "population": 759
+  },
+  {
+    "county": "Blaine County",
+    "population": 482
+  },
+  {
+    "county": "Boone County",
+    "population": 5388
+  },
+  {
+    "county": "Box Butte County",
+    "population": 11305
+  },
+  {
+    "county": "Boyd County",
+    "population": 2032
+  },
+  {
+    "county": "Brown County",
+    "population": 2926
+  },
+  {
+    "county": "Buffalo County",
+    "population": 47893
+  },
+  {
+    "county": "Burt County",
+    "population": 6574
+  },
+  {
+    "county": "Butler County",
+    "population": 8312
+  },
+  {
+    "county": "Cass County",
+    "population": 25357
+  },
+  {
+    "county": "Cedar County",
+    "population": 8711
+  },
+  {
+    "county": "Chase County",
+    "population": 4000
+  },
+  {
+    "county": "Cherry County",
+    "population": 5788
+  },
+  {
+    "county": "Cheyenne County",
+    "population": 10091
+  },
+  {
+    "county": "Clay County",
+    "population": 6392
+  },
+  {
+    "county": "Colfax County",
+    "population": 10425
+  },
+  {
+    "county": "Cuming County",
+    "population": 8996
+  },
+  {
+    "county": "Custer County",
+    "population": 10792
+  },
+  {
+    "county": "Dakota County",
+    "population": 20947
+  },
+  {
+    "county": "Dawes County",
+    "population": 9088
+  },
+  {
+    "county": "Dawson County",
+    "population": 24207
+  },
+  {
+    "county": "Deuel County",
+    "population": 1937
+  },
+  {
+    "county": "Dixon County",
+    "population": 5851
+  },
+  {
+    "county": "Dodge County",
+    "population": 36515
+  },
+  {
+    "county": "Douglas County",
+    "population": 537256
+  },
+  {
+    "county": "Dundy County",
+    "population": 1981
+  },
+  {
+    "county": "Fillmore County",
+    "population": 5698
+  },
+  {
+    "county": "Franklin County",
+    "population": 3085
+  },
+  {
+    "county": "Frontier County",
+    "population": 2709
+  },
+  {
+    "county": "Furnas County",
+    "population": 4865
+  },
+  {
+    "county": "Gage County",
+    "population": 21864
+  },
+  {
+    "county": "Garden County",
+    "population": 1902
+  },
+  {
+    "county": "Garfield County",
+    "population": 2035
+  },
+  {
+    "county": "Gosper County",
+    "population": 1972
+  },
+  {
+    "county": "Grant County",
+    "population": 633
+  },
+  {
+    "county": "Greeley County",
+    "population": 2494
+  },
+  {
+    "county": "Hall County",
+    "population": 60720
+  },
+  {
+    "county": "Hamilton County",
+    "population": 9112
+  },
+  {
+    "county": "Harlan County",
+    "population": 3513
+  },
+  {
+    "county": "Hayes County",
+    "population": 976
+  },
+  {
+    "county": "Hitchcock County",
+    "population": 2872
+  },
+  {
+    "county": "Holt County",
+    "population": 10449
+  },
+  {
+    "county": "Hooker County",
+    "population": 738
+  },
+  {
+    "county": "Howard County",
+    "population": 6355
+  },
+  {
+    "county": "Jefferson County",
+    "population": 7560
+  },
+  {
+    "county": "Johnson County",
+    "population": 5144
+  },
+  {
+    "county": "Kearney County",
+    "population": 6548
+  },
+  {
+    "county": "Keith County",
+    "population": 8130
+  },
+  {
+    "county": "Keya Paha County",
+    "population": 790
+  },
+  {
+    "county": "Kimball County",
+    "population": 3702
+  },
+  {
+    "county": "Knox County",
+    "population": 8565
+  },
+  {
+    "county": "Lancaster County",
+    "population": 297036
+  },
+  {
+    "county": "Lincoln County",
+    "population": 36051
+  },
+  {
+    "county": "Logan County",
+    "population": 763
+  },
+  {
+    "county": "Loup County",
+    "population": 576
+  },
+  {
+    "county": "Madison County",
+    "population": 35278
+  },
+  {
+    "county": "McPherson County",
+    "population": 526
+  },
+  {
+    "county": "Merrick County",
+    "population": 7802
+  },
+  {
+    "county": "Morrill County",
+    "population": 4908
+  },
+  {
+    "county": "Nance County",
+    "population": 3623
+  },
+  {
+    "county": "Nemaha County",
+    "population": 7157
+  },
+  {
+    "county": "Nuckolls County",
+    "population": 4413
+  },
+  {
+    "county": "Otoe County",
+    "population": 15752
+  },
+  {
+    "county": "Pawnee County",
+    "population": 2709
+  },
+  {
+    "county": "Perkins County",
+    "population": 2921
+  },
+  {
+    "county": "Phelps County",
+    "population": 9213
+  },
+  {
+    "county": "Pierce County",
+    "population": 7150
+  },
+  {
+    "county": "Platte County",
+    "population": 32505
+  },
+  {
+    "county": "Polk County",
+    "population": 5275
+  },
+  {
+    "county": "Red Willow County",
+    "population": 11006
+  },
+  {
+    "county": "Richardson County",
+    "population": 8125
+  },
+  {
+    "county": "Rock County",
+    "population": 1411
+  },
+  {
+    "county": "Saline County",
+    "population": 14416
+  },
+  {
+    "county": "Sarpy County",
+    "population": 169331
+  },
+  {
+    "county": "Saunders County",
+    "population": 20929
+  },
+  {
+    "county": "Scotts Bluff County",
+    "population": 36848
+  },
+  {
+    "county": "Seward County",
+    "population": 17089
+  },
+  {
+    "county": "Sheridan County",
+    "population": 5251
+  },
+  {
+    "county": "Sherman County",
+    "population": 3106
+  },
+  {
+    "county": "Sioux County",
+    "population": 1313
+  },
+  {
+    "county": "Stanton County",
+    "population": 6133
+  },
+  {
+    "county": "Thayer County",
+    "population": 5189
+  },
+  {
+    "county": "Thomas County",
+    "population": 699
+  },
+  {
+    "county": "Thurston County",
+    "population": 6895
+  },
+  {
+    "county": "Valley County",
+    "population": 4193
+  },
+  {
+    "county": "Washington County",
+    "population": 20223
+  },
+  {
+    "county": "Wayne County",
+    "population": 9411
+  },
+  {
+    "county": "Webster County",
+    "population": 3688
+  },
+  {
+    "county": "Wheeler County",
+    "population": 759
+  },
+  {
+    "county": "York County",
+    "population": 13883
+  }
+]

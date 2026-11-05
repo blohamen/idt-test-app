@@ -1,0 +1,27 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies & Build artifacts
+node_modules/
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Spec Kit machine-local state
+.specify/feature.json
+.specify/extensions/*/local-config.yml
+.specify/integrations/packages/
+.specify/integrations/packages.json

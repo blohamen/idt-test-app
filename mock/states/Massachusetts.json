@@ -1,0 +1,58 @@
+[
+  {
+    "county": "Barnstable County",
+    "population": 214990
+  },
+  {
+    "county": "Berkshire County",
+    "population": 129585
+  },
+  {
+    "county": "Bristol County",
+    "population": 552780
+  },
+  {
+    "county": "Dukes County",
+    "population": 17256
+  },
+  {
+    "county": "Essex County",
+    "population": 762550
+  },
+  {
+    "county": "Franklin County",
+    "population": 71221
+  },
+  {
+    "county": "Hampden County",
+    "population": 467319
+  },
+  {
+    "county": "Hampshire County",
+    "population": 159596
+  },
+  {
+    "county": "Middlesex County",
+    "population": 1552802
+  },
+  {
+    "county": "Nantucket County",
+    "population": 10399
+  },
+  {
+    "county": "Norfolk County",
+    "population": 687802
+  },
+  {
+    "county": "Plymouth County",
+    "population": 501915
+  },
+  {
+    "county": "Suffolk County",
+    "population": 755503
+  },
+  {
+    "county": "Worcester County",
+    "population": 809106
+  }
+]
