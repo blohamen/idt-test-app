@@ -16,20 +16,26 @@
    cd idt-test-app
    ```
 
-2. **Start the application (2 containers: PostgreSQL + Unified App)**:
+2. **Configure environment variables**:
+   ```bash
+   cp .env.example .env
+   ```
+
+3. **Start the application (2 containers: PostgreSQL + Unified App)**:
    ```bash
    docker compose up --build -d
    ```
 
-3. **Run the database seed script**:
+4. **Run the database seed script**:
    ```bash
    docker compose exec app npm run db:seed
    ```
 
-4. **Access the application**:
+5. **Access the application**:
    - Web UI: `http://localhost:3000`
    - States Endpoint: `http://localhost:3000/api/states`
    - Health check: `http://localhost:3000/api/health`
+
 
 
 ---

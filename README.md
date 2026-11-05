@@ -11,12 +11,16 @@ A fullstack web application for exploring US state and county demographic data, 
 ## Quickstart (Docker)
 
 ```bash
-# 1. Start database and application (unified web UI & API on port 3000)
+# 1. Create environment file from template
+cp .env.example .env
+
+# 2. Start database and application (unified web UI & API on port 3000)
 docker compose up --build -d
 
-# 2. Seed database from raw mock data (51 states, 3,143 counties)
+# 3. Seed database from raw mock data (51 states, 3,143 counties)
 docker compose exec app npm run db:seed
 ```
+
 
 - **Web UI**: [http://localhost:3000](http://localhost:3000)
 - **API Endpoint**: [http://localhost:3000/api/states](http://localhost:3000/api/states)

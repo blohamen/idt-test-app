@@ -1,11 +1,24 @@
 import { app } from './app.js';
 import dotenv from 'dotenv';
+import path from 'path';
+import fs from 'fs';
 import { pool } from './config/db.js';
 import { logger } from './utils/logger.js';
 import { setupGracefulShutdown } from './utils/shutdown.js';
 import type { Server } from 'http';
 
-dotenv.config();
+const candidateEnvPaths = [
+  path.resolve(process.cwd(), '.env'),
+  path.resolve(process.cwd(), '../.env'),
+  path.resolve(process.cwd(), 'backend/.env'),
+];
+
+for (const envPath of candidateEnvPaths) {
+  if (fs.existsSync(envPath)) {
+    dotenv.config({ path: envPath });
+  }
+}
+
 
 const port = process.env.PORT || (process.env.NODE_ENV === 'production' ? 3000 : 5001);
 
