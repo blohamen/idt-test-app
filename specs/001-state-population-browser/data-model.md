@@ -30,7 +30,7 @@ CREATE INDEX IF NOT EXISTS idx_counties_state_id ON counties(state_id);
 3. **Data Counts & URL Formats**:
    - Total states: `51` (including "District of Columbia").
    - Total counties: `3,143`.
-   - State detail URLs follow the relative format: `/api/state/<StateName>`.
+   - State detail URLs follow the relative format: `/state/<StateName>`.
 
 4. **Discrepancy Invariant**:
    - Iowa recorded population: `3,090,415`.

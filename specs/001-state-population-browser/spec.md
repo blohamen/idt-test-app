@@ -105,9 +105,9 @@ As a developer or evaluator, I want the backend to import the provided mock data
 
 - **Double-Click vs Single-Click Conflict**: Standard web browsers fire two `click` events before a `dblclick` event. As clarified, single-click opens state details immediately without artificial delay, and double-click toggles the highlight state while leaving that state selected in the detail panel.
 - **Extreme County Counts**: Delaware has 3 counties, District of Columbia has 1, while Texas has 254 counties. The county list in the detail panel must be scrollable and performant regardless of county count.
-- **Discrepancy Boundaries**: Iowa has a +1 discrepancy (3,090,416 sum vs 3,090,415 state total). Other states have zero discrepancy. The comparison logic must strictly compare integers and clearly indicate whether `sum === total`.
+- **Discrepancy Boundaries**: Iowa has a +1 discrepancy (3,090,416 sum vs 3,090,415 state total). Other states have zero discrepancy. The comparison logic must strictly compare integers and clearly indicate whether `sum === total`. When a discrepancy exists, the UI must display a signed diff badge (e.g. `+1 mismatch` or `-1 mismatch`).
 - **Special Characters and Spaces in State Names**: Names with spaces ("New York", "West Virginia", "District of Columbia", "North Carolina", "South Carolina", "North Dakota", "South Dakota", "New Hampshire", "New Jersey", "New Mexico", "Rhode Island") must be handled cleanly in URLs and search filters.
-- **Container Sizing and Scrolling**: Both state list containers must be constrained to a height requiring scrolling for 51 items on standard desktop viewports.
+- **Container Sizing and Scrolling**: Both state list containers must be constrained to a height requiring vertical scrolling for 51 items on standard desktop viewports (e.g., 480px height). The detail panel must provide a constrained scrollable county list container for county breakdown (e.g., max-height 290px), ensuring the 4 UI areas from the assignment remain compact and require scrolling.
 
 ---
 
@@ -119,11 +119,11 @@ As a developer or evaluator, I want the backend to import the provided mock data
 - **FR-002**: The backend MUST expose a state detail endpoint `GET /state/:name` returning the state's counties with their names and populations. The frontend MUST retrieve detailed state information by requesting the path supplied in the `detail` link of each state object.
 - **FR-003**: The database schema MUST contain relational tables for `states` and `counties` in PostgreSQL with proper foreign key relationships.
 - **FR-004**: The data import script MUST load all data from `mock/usa-states/USA-states.json` and all 51 files in `mock/states/*.json` into PostgreSQL without manual data fixes or loss.
-- **FR-005**: The UI MUST be arranged in a three-column layout across desktop viewports:
+- **FR-005**: The UI MUST be arranged in a three-column layout across desktop viewports satisfying the 4 required UI areas:
   1. Column 1: Scrollable State List #1
   2. Column 2: Search box placed directly above Scrollable State List #2 (the search box filters only List #2)
-  3. Column 3: Scrollable Detail Panel
-- **FR-006**: The state list containers MUST have constrained dimensions requiring vertical scrolling to view all 51 items.
+  3. Column 3: Scrollable Detail Panel (featuring scrollable county list breakdown)
+- **FR-006**: The state list containers and detail panel county breakdown MUST have constrained dimensions requiring vertical scrolling.
 - **FR-007**: Single-clicking a state in List #1 MUST open its detail view in the detail panel.
 - **FR-008**: Single-clicking a state in List #2 MUST open its detail view in the detail panel.
 - **FR-009**: Double-clicking a state in List #1 MUST toggle that state's highlight status (updating both List #1 and List #2 simultaneously) and keep that state selected in the detail panel without artificial click delay.
@@ -135,7 +135,7 @@ As a developer or evaluator, I want the backend to import the provided mock data
   - Number of counties
   - Scrollable list of counties with their individual populations
   - Calculated sum of county populations
-  - Explicit indication whether the county population sum matches the state population record.
+  - Explicit indication whether the county population sum matches the state population record, showing signed discrepancy badge (e.g. `+1 mismatch` or `-1 mismatch`) when a difference exists.
 - **FR-013**: The application MUST run reproducibly via Docker (`docker compose up` with a 2-service architecture: `db` + `app` serving both API and static frontend assets) or documented single-step setup.
 - **FR-014**: The backend MUST implement centralized error handling utilizing a lightweight NestJS-style `HttpException` hierarchy (`BadRequestException`, `NotFoundException`, `InternalServerErrorException`, `ServiceUnavailableException`) and an `asyncHandler` wrapper to ensure all operational errors produce predictable JSON responses.
 - **FR-015**: The backend MUST provide structured contextual logging (`Logger` with ISO timestamps, levels, and JSON in production) and handle graceful shutdown on `SIGTERM` and `SIGINT` signals, closing active HTTP connections and the PostgreSQL pool safely before process exit.

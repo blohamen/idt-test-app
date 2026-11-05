@@ -78,7 +78,7 @@ idt-test-app/
 │   │   │   ├── migrate.ts        # Schema migration runner
 │   │   │   └── seed.ts           # Standalone seed script reading mock/
 │   │   ├── controllers/
-│   │   │   └── statesController.ts # Handler for /api/states and /api/state/:name
+│   │   │   └── statesController.ts # Handler for /states and /state/:name
 │   │   ├── errors/
 │   │   │   └── httpExceptions.ts # Lightweight NestJS-style HttpException hierarchy
 │   │   ├── middleware/
@@ -100,7 +100,7 @@ idt-test-app/
 │   │   ├── loggerAndShutdown.test.ts # Tests for Logger formatting and graceful termination
 │   │   └── httpExceptions.test.ts # Tests for HttpException hierarchy & asyncHandler
 
-│   ├── Dockerfile
+│   ├── Dockerfile            # Unified multi-stage build (builds frontend & Express runtime)
 │   ├── tsconfig.json
 │   └── package.json
 │
@@ -133,7 +133,6 @@ idt-test-app/
 │   │   ├── StateList.test.tsx    # Double-click sync and single-click select
 │   │   ├── SearchBox.test.tsx    # List #2 substring filtering
 │   │   └── DetailPanel.test.tsx  # Discrepancy calculation & warning indicator
-│   ├── Dockerfile
 │   ├── tsconfig.json
 │   ├── vite.config.ts
 │   └── package.json

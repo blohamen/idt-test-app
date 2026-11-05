@@ -21,7 +21,7 @@
 - [x] T001 Initialize repository root scripts and workspace orchestration in `package.json`
 - [x] T002 [P] Initialize backend project with TypeScript, Express, `pg`, and testing dependencies in `backend/package.json` and `backend/tsconfig.json`
 - [x] T003 [P] Initialize frontend project with React, TypeScript, Vite, and testing dependencies in `frontend/package.json`, `frontend/tsconfig.json`, and `frontend/vite.config.ts`
-- [x] T004 [P] Create multi-container Docker Compose definitions in `docker-compose.yml`, `backend/Dockerfile`, and `frontend/Dockerfile`
+- [x] T004 [P] Create Docker Compose definitions in `docker-compose.yml` and unified multi-stage build in `backend/Dockerfile`
 
 ---
 
@@ -44,8 +44,8 @@
 
 **Purpose**: REST API endpoints for state listing, detail retrieval, and healthchecks.
 
-- [x] T011 Write API integration tests with Supertest in `backend/tests/statesApi.test.ts` for `GET /api/states`, `GET /api/state/:name`, and `GET /api/health`
-- [x] T012 Implement request controllers and routing for `GET /api/states` and `GET /api/state/:name` in `backend/src/controllers/statesController.ts` and `backend/src/routes/statesRoutes.ts`
+- [x] T011 Write API integration tests with Supertest in `backend/tests/statesApi.test.ts` for `GET /states`, `GET /state/:name`, and `GET /health`
+- [x] T012 Implement request controllers and routing for `GET /states` and `GET /state/:name` in `backend/src/controllers/statesController.ts` and `backend/src/routes/statesRoutes.ts`
 - [x] T013 Assemble Express application with CORS, JSON parser, error handling, and server listener in `backend/src/app.ts` and `backend/src/server.ts`
 
 
@@ -104,8 +104,8 @@
 
 **Purpose**: Cross-cutting concerns, Docker verification, clean-clone onboarding, and AI transparency documentation.
 
-- [x] T028 [P] Configure production and development build settings in `backend/Dockerfile` and `frontend/Dockerfile`
-- [x] T029 Validate full container orchestration and seed flow using `docker compose up --build` and `docker compose exec backend npm run db:seed`
+- [x] T028 [P] Configure production multi-stage build and Express static serving in `backend/Dockerfile`
+- [x] T029 Validate full container orchestration and seed flow using `docker compose up --build` and `docker compose exec app npm run db:seed`
 - [x] T030 Create comprehensive `README.md` with clean-clone setup guide, architecture overview, and AI collaboration disclosure per Constitution Principle VI
 - [x] T031 Perform end-to-end clean-clone verification (database migration, seed, API tests, frontend interaction, discrepancy check for Iowa)
 - [x] T032 Refactor architecture to single-service Express static serving and remove Nginx container
@@ -118,8 +118,8 @@
 
 - [x] T033 [P] Implement lightweight NestJS-style `HttpException` hierarchy in `backend/src/errors/httpExceptions.ts` and `asyncHandler` in `backend/src/utils/asyncHandler.ts`
 - [x] T034 [P] Implement structured contextual `Logger` in `backend/src/utils/logger.ts` and graceful termination lifecycle in `backend/src/utils/shutdown.ts` and `backend/src/server.ts`
-- [x] T035 Remove hardcoded route matching array from `backend/src/app.ts` and scope all API routes under `/api`, eliminating root alias collisions and fixing SPA fallback
-- [x] T036 Update frontend API client in `frontend/src/api/statesApi.ts`, `backend/src/db/seed.ts`, and `frontend/vite.config.ts` proxy to target `/api`
+- [x] T035 Mount API routes directly under root `/` (`/states`, `/state/:name`, `/health`) per assignment specification and configure SPA navigation fallback in `backend/src/app.ts`
+- [x] T036 Align frontend API client (`frontend/src/api/statesApi.ts`) and seed script (`backend/src/db/seed.ts`) with direct root endpoints (`/states`, `/state/:name`)
 - [x] T037 Write comprehensive test suites in `backend/tests/httpExceptions.test.ts` and `backend/tests/loggerAndShutdown.test.ts`
 
 ---
