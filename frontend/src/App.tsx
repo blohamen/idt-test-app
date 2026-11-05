@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState, useMemo, useRef, useCallback } from 'react';
 import { State, County } from './types';
 import { fetchStates, fetchStateCounties } from './api/statesApi';
 import { StateList } from './components/StateList/StateList';
@@ -16,6 +16,12 @@ export const App: React.FC = () => {
   const [isStatesLoading, setIsStatesLoading] = useState<boolean>(true);
   const [statesError, setStatesError] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
+
+  // Cache and in-flight tracking to prevent duplicate network requests on double-clicks and repeated clicks
+  const countiesCache = useRef<Record<string, County[]>>({});
+  const inFlightState = useRef<string | null>(null);
+  const selectedStateRef = useRef<State | null>(null);
+  selectedStateRef.current = selectedState;
 
   useEffect(() => {
     let isMounted = true;
@@ -41,13 +47,35 @@ export const App: React.FC = () => {
     };
   }, []);
 
-  const handleSelectState = (state: State) => {
+  const handleSelectState = useCallback((state: State) => {
+    // If the state is already selected and its counties are loaded, do not re-fetch
+    if (selectedStateRef.current?.state === state.state && countiesCache.current[state.state]) {
+      return;
+    }
+
     setSelectedState(state);
+
+    // If counties are already cached, restore immediately without network request
+    const cached = countiesCache.current[state.state];
+    if (cached) {
+      setCounties(cached);
+      setIsCountiesLoading(false);
+      setCountiesError(null);
+      return;
+    }
+
+    // Prevent duplicate in-flight requests (e.g. during rapid single/double-clicks)
+    if (inFlightState.current === state.state) {
+      return;
+    }
+
+    inFlightState.current = state.state;
     setIsCountiesLoading(true);
     setCountiesError(null);
 
     fetchStateCounties(state.detail)
       .then((data) => {
+        countiesCache.current[state.state] = data;
         setCounties(data);
         setIsCountiesLoading(false);
       })
@@ -55,11 +83,16 @@ export const App: React.FC = () => {
         console.error(`[App] Failed to load details for ${state.state}:`, err);
         setCountiesError(`Could not load county details for ${state.state}`);
         setIsCountiesLoading(false);
+      })
+      .finally(() => {
+        if (inFlightState.current === state.state) {
+          inFlightState.current = null;
+        }
       });
-  };
+  }, []);
 
   const handleToggleHighlight = (state: State) => {
-    // Single click fires first, ensuring selection is kept; double click toggles highlight
+    // Toggle highlight status in set
     setHighlightedStateNames((prev) => {
       const next = new Set(prev);
       if (next.has(state.state)) {
@@ -70,9 +103,8 @@ export const App: React.FC = () => {
       return next;
     });
 
-    if (selectedState?.state !== state.state) {
-      handleSelectState(state);
-    }
+    // Ensure state is selected without triggering duplicate fetch
+    handleSelectState(state);
   };
 
   const filteredStatesForList2 = useMemo(() => {

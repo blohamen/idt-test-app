@@ -88,4 +88,57 @@ describe('Dual List Synchronization & Highlighting', () => {
       expect(detailPanel).toHaveTextContent('Autauga County');
     });
   });
+
+  it('prevents duplicate fetch calls when double-clicking a state', async () => {
+    const fetchSpy = vi.spyOn(statesApi, 'fetchStateCounties');
+
+    render(<App />);
+
+    await waitFor(() => {
+      expect(screen.getByTestId('state-list-1')).toBeInTheDocument();
+    });
+
+    const list1 = screen.getByTestId('state-list-1');
+    const alabamaItem = list1.querySelector('[data-testid="state-item-Alabama"]')!;
+
+    // Simulate browser double-click sequence: click, click, dblclick
+    fireEvent.click(alabamaItem);
+    fireEvent.click(alabamaItem);
+    fireEvent.doubleClick(alabamaItem);
+
+    await waitFor(() => {
+      expect(screen.getByTestId('detail-panel')).toHaveTextContent('Alabama');
+    });
+
+    // Despite 2 clicks and 1 dblclick, fetch MUST be called only once
+    expect(fetchSpy).toHaveBeenCalledTimes(1);
+  });
+
+  it('prevents redundant fetch calls when clicking an already selected state', async () => {
+    const fetchSpy = vi.spyOn(statesApi, 'fetchStateCounties');
+
+    render(<App />);
+
+    await waitFor(() => {
+      expect(screen.getByTestId('state-list-1')).toBeInTheDocument();
+    });
+
+    const list1 = screen.getByTestId('state-list-1');
+    const alabamaItem = list1.querySelector('[data-testid="state-item-Alabama"]')!;
+
+    // First click: loads data
+    fireEvent.click(alabamaItem);
+
+    await waitFor(() => {
+      expect(screen.getByTestId('detail-panel')).toHaveTextContent('Alabama');
+    });
+    expect(fetchSpy).toHaveBeenCalledTimes(1);
+
+    // Subsequent clicks on already selected state
+    fireEvent.click(alabamaItem);
+    fireEvent.click(alabamaItem);
+
+    // Must not trigger additional network calls
+    expect(fetchSpy).toHaveBeenCalledTimes(1);
+  });
 });
