@@ -1,0 +1,20 @@
+{
+  "name": "idt-test-app",
+  "version": "1.0.0",
+  "description": "NRS Fullstack Test Task - US State Population Browser",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "test": "npm --prefix backend test && npm --prefix frontend test",
+    "db:migrate": "npm --prefix backend run db:migrate",
+    "db:seed": "npm --prefix backend run db:seed",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down",
+    "docker:seed": "docker compose exec backend npm run db:seed"
+  },
+  "keywords": ["react", "express", "postgresql", "fullstack"],
+  "author": "",
+  "license": "ISC"
+}

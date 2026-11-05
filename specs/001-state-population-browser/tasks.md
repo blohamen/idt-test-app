@@ -18,10 +18,10 @@
 
 **Purpose**: Project initialization and basic directory structure for fullstack monorepo.
 
-- [ ] T001 Initialize repository root scripts and workspace orchestration in `package.json`
-- [ ] T002 [P] Initialize backend project with TypeScript, Express, `pg`, and testing dependencies in `backend/package.json` and `backend/tsconfig.json`
-- [ ] T003 [P] Initialize frontend project with React, TypeScript, Vite, and testing dependencies in `frontend/package.json`, `frontend/tsconfig.json`, and `frontend/vite.config.ts`
-- [ ] T004 [P] Create multi-container Docker Compose definitions in `docker-compose.yml`, `backend/Dockerfile`, and `frontend/Dockerfile`
+- [x] T001 Initialize repository root scripts and workspace orchestration in `package.json`
+- [x] T002 [P] Initialize backend project with TypeScript, Express, `pg`, and testing dependencies in `backend/package.json` and `backend/tsconfig.json`
+- [x] T003 [P] Initialize frontend project with React, TypeScript, Vite, and testing dependencies in `frontend/package.json`, `frontend/tsconfig.json`, and `frontend/vite.config.ts`
+- [x] T004 [P] Create multi-container Docker Compose definitions in `docker-compose.yml`, `backend/Dockerfile`, and `frontend/Dockerfile`
 
 ---
 
@@ -29,12 +29,12 @@
 
 **Purpose**: Core PostgreSQL schema and mock data import pipeline. Must be complete before API or UI integration.
 
-- [ ] T005 Setup PostgreSQL connection pool and configuration in `backend/src/config/db.ts`
-- [ ] T006 [P] Create relational DDL schema for `states` and `counties` tables in `backend/src/db/schema.sql`
-- [ ] T007 Create database migration runner in `backend/src/db/migrate.ts`
-- [ ] T008 Implement standalone database seeding script in `backend/src/db/seed.ts` importing 51 states from `mock/usa-states/USA-states.json` and 3,143 counties from `mock/states/*.json` within a transaction
-- [ ] T009 Write integration test in `backend/tests/seed.test.ts` to verify exact counts (51 states, 3,143 counties) and the Iowa +1 discrepancy invariant
-- [ ] T010 Implement data access repository queries for states and counties in `backend/src/models/statesRepository.ts`
+- [x] T005 Setup PostgreSQL connection pool and configuration in `backend/src/config/db.ts`
+- [x] T006 [P] Create relational DDL schema for `states` and `counties` tables in `backend/src/db/schema.sql`
+- [x] T007 Create database migration runner in `backend/src/db/migrate.ts`
+- [x] T008 Implement standalone database seeding script in `backend/src/db/seed.ts` importing 51 states from `mock/usa-states/USA-states.json` and 3,143 counties from `mock/states/*.json` within a transaction
+- [x] T009 Write integration test in `backend/tests/seed.test.ts` to verify exact counts (51 states, 3,143 counties) and the Iowa +1 discrepancy invariant
+- [x] T010 Implement data access repository queries for states and counties in `backend/src/models/statesRepository.ts`
 
 **Checkpoint**: Database schema and seeding pipeline fully functional and verified via automated test.
 
@@ -44,9 +44,9 @@
 
 **Purpose**: REST API endpoints for state listing, detail retrieval, and healthchecks.
 
-- [ ] T011 Write API integration tests with Supertest in `backend/tests/statesApi.test.ts` for `GET /states`, `GET /state/:name`, and `GET /health`
-- [ ] T012 Implement request controllers and routing for `GET /states` and `GET /state/:name` in `backend/src/controllers/statesController.ts` and `backend/src/routes/statesRoutes.ts`
-- [ ] T013 Assemble Express application with CORS, JSON parser, error handling, and server listener in `backend/src/app.ts` and `backend/src/server.ts`
+- [x] T011 Write API integration tests with Supertest in `backend/tests/statesApi.test.ts` for `GET /states`, `GET /state/:name`, and `GET /health`
+- [x] T012 Implement request controllers and routing for `GET /states` and `GET /state/:name` in `backend/src/controllers/statesController.ts` and `backend/src/routes/statesRoutes.ts`
+- [x] T013 Assemble Express application with CORS, JSON parser, error handling, and server listener in `backend/src/app.ts` and `backend/src/server.ts`
 
 **Checkpoint**: Backend API is runnable and passes all integration tests.
 
