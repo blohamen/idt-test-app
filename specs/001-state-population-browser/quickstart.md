@@ -16,20 +16,20 @@
    cd idt-test-app
    ```
 
-2. **Start the application**:
+2. **Start the application (2 containers: PostgreSQL + Unified App)**:
    ```bash
    docker compose up --build -d
    ```
 
 3. **Run the database seed script**:
    ```bash
-   docker compose exec backend npm run db:seed
+   docker compose exec app npm run db:seed
    ```
 
 4. **Access the application**:
-   - Frontend UI: `http://localhost:3000`
-   - Backend API: `http://localhost:5000/states`
-   - Health check: `http://localhost:5000/health`
+   - Web UI & REST API: `http://localhost:3000`
+   - States Endpoint: `http://localhost:3000/states`
+   - Health check: `http://localhost:3000/health`
 
 ---
 
@@ -41,20 +41,20 @@
    ```
 
 2. **Set up local PostgreSQL database**:
-   - Create database `states_db`
    - Configure `.env` in `backend/` with database credentials:
      ```env
-     PORT=5000
-     DATABASE_URL=postgres://postgres:postgres@localhost:5432/states_db
+     PORT=3000
+     DATABASE_URL=postgres://postgres:postgrespassword@localhost:5432/states_db
      ```
 
 3. **Migrate schema & run seed**:
    ```bash
-   npm --prefix backend run db:migrate
-   npm --prefix backend run db:seed
+   npm run db:migrate
+   npm run db:seed
    ```
 
 4. **Start backend and frontend in development mode**:
    ```bash
-   npm run dev
+   npm run dev:backend
+   npm run dev:frontend
    ```

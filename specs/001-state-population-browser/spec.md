@@ -25,6 +25,7 @@ The State Population Browser is a fullstack web application that allows users to
 - Q: What should the detail panel display upon initial application load before any state is clicked? → A: Option A (Display an informative placeholder message prompting the user to select a state from either list, without making automatic state detail requests on launch).
 - Q: Should the highlighted states persist across page reloads, or remain in-memory UI state for the current session? → A: Option A (In-memory React client state for the duration of the browser session without persistence across page reloads).
 - Q: How should the four UI areas be visually arranged on desktop screens? → A: Option A (Three-column desktop layout: Column 1 for Scrollable State List #1; Column 2 for Search box placed above Scrollable State List #2; Column 3 for Scrollable Detail Panel).
+- Q: How should frontend assets be served in containerized production? → A: Express static hosting (Single container service: Express serves the compiled frontend static files and handles SPA routing fallback, eliminating the separate Nginx container for maximum simplicity per Constitution Principle I).
 
 ---
 
@@ -132,7 +133,7 @@ As a developer or evaluator, I want the backend to import the provided mock data
   - Scrollable list of counties with their individual populations
   - Calculated sum of county populations
   - Explicit indication whether the county population sum matches the state population record.
-- **FR-013**: The application MUST run reproducibly via Docker (`docker compose up` or equivalent) or documented single-step setup.
+- **FR-013**: The application MUST run reproducibly via Docker (`docker compose up` with a 2-service architecture: `db` + `app` serving both API and static frontend assets) or documented single-step setup.
 
 ---
 

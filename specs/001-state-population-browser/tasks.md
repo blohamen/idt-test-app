@@ -107,6 +107,7 @@
 - [x] T029 Validate full container orchestration and seed flow using `docker compose up --build` and `docker compose exec backend npm run db:seed`
 - [x] T030 Create comprehensive `README.md` with clean-clone setup guide, architecture overview, and AI collaboration disclosure per Constitution Principle VI
 - [x] T031 Perform end-to-end clean-clone verification (database migration, seed, API tests, frontend interaction, discrepancy check for Iowa)
+- [x] T032 Refactor architecture to single-service Express static serving and remove Nginx container
 
 ---
 

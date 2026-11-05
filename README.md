@@ -31,10 +31,10 @@ Developed as a test assignment for **IDT**, following the **Spec Kit** methodolo
 | Layer | Technology | Rationale |
 |---|---|---|
 | **Frontend** | React 18, TypeScript, Vite, CSS Modules | High performance, strict type safety, zero external UI framework overhead. |
-| **Backend** | Node.js 20+, Express, TypeScript, `pg` | Lightweight REST API, native parameterized SQL queries without heavy ORM bloat. |
+| **Backend & Static Host** | Node.js 20+, Express, TypeScript, `pg` | Lightweight REST API and static asset hosting, native parameterized SQL queries without heavy ORM bloat. |
 | **Database** | PostgreSQL 16 (Alpine) | Standard relational storage with foreign keys and cascade rules. |
 | **Testing** | Vitest, React Testing Library, Supertest | Fast unit and integration tests covering database seed, API contracts, and UI sync. |
-| **Containerization** | Docker, Docker Compose v2, Nginx | Multi-container setup with reverse proxying and reproducible clean-clone execution. |
+| **Containerization** | Docker, Docker Compose v2 | Streamlined 2-service setup (`db`, `app`) on a unified port (3000) for reproducible clean-clone execution. |
 
 ---
 
@@ -48,14 +48,14 @@ Developed as a test assignment for **IDT**, following the **Spec Kit** methodolo
 git clone <repository-url>
 cd idt-test-app
 
-# Build and start PostgreSQL, Backend API, and Frontend web server
+# Build and start PostgreSQL and the Unified Application
 docker compose up --build -d
 ```
 
 ### 2. Populate Database from Mock Data
 Run the standalone database seed command:
 ```bash
-docker compose exec backend npm run db:seed
+docker compose exec app npm run db:seed
 ```
 *Output confirmation:*
 ```text
@@ -67,9 +67,9 @@ docker compose exec backend npm run db:seed
 ```
 
 ### 3. Access the Application
-- **Frontend Web UI**: [http://localhost:3000](http://localhost:3000)
-- **Backend API (`/states`)**: [http://localhost:5001/states](http://localhost:5001/states)
-- **Healthcheck**: [http://localhost:5001/health](http://localhost:5001/health)
+- **Web UI & REST API**: [http://localhost:3000](http://localhost:3000)
+- **Backend API (`/states`)**: [http://localhost:3000/states](http://localhost:3000/states)
+- **Healthcheck**: [http://localhost:3000/health](http://localhost:3000/health)
 
 To stop the containers:
 ```bash
@@ -156,6 +156,8 @@ In adherence to **Principle VI (Engineered AI Collaboration & Transparency)** of
 1. **Architectural Decisions & Scope Management**:
    - *AI Proposal*: Automatically seed the database upon container startup using an implicit entrypoint check.
    - *Engineer Review*: Rejected. The engineer requested explicit separation: a standalone seed command (`npm run db:seed`) to make database population deterministic, testable, and under human control.
+   - *AI Proposal*: Introduce a dedicated Nginx container for production reverse proxying and static file serving.
+   - *Engineer Review*: Challenged and simplified. The engineer questioned the necessity of Nginx for the assignment scope. Following Constitution Principle I (Scope-Appropriate Simplicity), the stack was refactored to let Express serve the compiled React SPA directly (`express.static`), eliminating the Nginx container, removing unnecessary reverse proxy configuration, and unifying everything onto port 3000.
 2. **Port Conflict Resolution**:
    - *Issue Detected*: On macOS, port `5000` is reserved by the OS `ControlCenter` (AirPlay Receiver).
    - *Verification & Fix*: Inspecting port bindings revealed `address already in use`. The backend port was mapped to `5001:5000` on the host, and Vite proxy / Nginx reverse proxy configurations were updated accordingly without changing container-internal networking.

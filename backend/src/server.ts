@@ -3,8 +3,8 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
-  console.log(`[server] State Population Browser backend listening on port ${port}`);
+  console.log(`[server] State Population Browser listening on port ${port}`);
 });

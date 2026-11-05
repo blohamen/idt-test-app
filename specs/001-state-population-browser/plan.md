@@ -12,7 +12,7 @@ The State Population Browser provides a dual-list interactive browser of US stat
 - **Backend**: Node.js + Express + TypeScript with raw SQL (`pg` driver) for direct, deterministic PostgreSQL queries.
 - **Frontend**: React + TypeScript + Vite with CSS Modules for scoped, lightweight styling without external UI frameworks.
 - **Database & Seeding**: PostgreSQL 16 schema with `states` and `counties` tables, initialized via explicit DDL and populated via a standalone seeding script (`npm run db:seed`) importing the 51 states and 3,143 counties from `mock/`.
-- **Infrastructure**: Multi-container Docker Compose setup (`db`, `backend`, `frontend`) with explicit one-command launch and documented manual seed command.
+- **Infrastructure**: Streamlined 2-service Docker Compose setup (`db`, `backend`) where Express serves both REST APIs and the compiled React SPA static assets from a single port (3000), eliminating the separate Nginx container per Principle I (Scope-Appropriate Simplicity).
 
 ---
 
@@ -127,7 +127,7 @@ idt-test-app/
 ├── mock/                         # Untouched original mock data
 │   ├── states/*.json             # 51 county detail files
 │   └── usa-states/USA-states.json
-├── docker-compose.yml            # Multi-container service definitions
+├── docker-compose.yml            # 2-service container orchestration (db + backend)
 ├── .gitignore
 └── package.json                  # Root convenience scripts (npm run dev, etc.)
 ```
