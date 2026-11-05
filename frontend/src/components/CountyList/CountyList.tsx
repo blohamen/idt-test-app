@@ -21,9 +21,7 @@ export const CountyList: React.FC<CountyListProps> = ({ counties }) => {
             {counties.map((c) => (
               <tr key={c.county}>
                 <td>{c.county}</td>
-                <td className={styles.populationCol}>
-                  {c.population.toLocaleString('en-US')}
-                </td>
+                <td className={styles.populationCol}>{c.population.toLocaleString('en-US')}</td>
               </tr>
             ))}
           </tbody>

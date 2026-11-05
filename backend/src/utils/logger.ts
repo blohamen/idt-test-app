@@ -5,7 +5,12 @@ export interface LogContext {
 }
 
 export class Logger {
-  private formatLog(level: LogLevel, message: string, context?: LogContext, error?: unknown): string {
+  private formatLog(
+    level: LogLevel,
+    message: string,
+    context?: LogContext,
+    error?: unknown
+  ): string {
     const timestamp = new Date().toISOString();
     const isProduction = process.env.NODE_ENV === 'production';
 
@@ -25,8 +30,13 @@ export class Logger {
       });
     }
 
-    const contextStr = context && Object.keys(context).length > 0 ? ` ${JSON.stringify(context)}` : '';
-    const errStr = serializedError?.stack ? `\n${serializedError.stack}` : serializedError?.message ? ` (${serializedError.message})` : '';
+    const contextStr =
+      context && Object.keys(context).length > 0 ? ` ${JSON.stringify(context)}` : '';
+    const errStr = serializedError?.stack
+      ? `\n${serializedError.stack}`
+      : serializedError?.message
+        ? ` (${serializedError.message})`
+        : '';
 
     return `[${timestamp}] [${level.toUpperCase()}] ${message}${contextStr}${errStr}`;
   }

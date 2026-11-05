@@ -35,43 +35,64 @@ export class HttpException extends Error {
 }
 
 export class BadRequestException extends HttpException {
-  constructor(response: string | Record<string, unknown> = 'Bad Request', options?: HttpExceptionOptions) {
+  constructor(
+    response: string | Record<string, unknown> = 'Bad Request',
+    options?: HttpExceptionOptions
+  ) {
     super(response, 400, options);
   }
 }
 
 export class UnauthorizedException extends HttpException {
-  constructor(response: string | Record<string, unknown> = 'Unauthorized', options?: HttpExceptionOptions) {
+  constructor(
+    response: string | Record<string, unknown> = 'Unauthorized',
+    options?: HttpExceptionOptions
+  ) {
     super(response, 401, options);
   }
 }
 
 export class ForbiddenException extends HttpException {
-  constructor(response: string | Record<string, unknown> = 'Forbidden', options?: HttpExceptionOptions) {
+  constructor(
+    response: string | Record<string, unknown> = 'Forbidden',
+    options?: HttpExceptionOptions
+  ) {
     super(response, 403, options);
   }
 }
 
 export class NotFoundException extends HttpException {
-  constructor(response: string | Record<string, unknown> = 'Endpoint not found', options?: HttpExceptionOptions) {
+  constructor(
+    response: string | Record<string, unknown> = 'Endpoint not found',
+    options?: HttpExceptionOptions
+  ) {
     super(response, 404, options);
   }
 }
 
 export class ConflictException extends HttpException {
-  constructor(response: string | Record<string, unknown> = 'Conflict', options?: HttpExceptionOptions) {
+  constructor(
+    response: string | Record<string, unknown> = 'Conflict',
+    options?: HttpExceptionOptions
+  ) {
     super(response, 409, options);
   }
 }
 
 export class InternalServerErrorException extends HttpException {
-  constructor(response: string | Record<string, unknown> = 'Internal server error', options?: HttpExceptionOptions) {
+  constructor(
+    response: string | Record<string, unknown> = 'Internal server error',
+    options?: HttpExceptionOptions
+  ) {
     super(response, 500, options);
   }
 }
 
 export class ServiceUnavailableException extends HttpException {
-  constructor(response: string | Record<string, unknown> = 'Service Unavailable', options?: HttpExceptionOptions) {
+  constructor(
+    response: string | Record<string, unknown> = 'Service Unavailable',
+    options?: HttpExceptionOptions
+  ) {
     super(response, 503, options);
   }
 }

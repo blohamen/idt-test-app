@@ -31,9 +31,7 @@ export const DetailPanel: React.FC<DetailPanelProps> = ({
     );
   }
 
-  const countySum = counties
-    ? counties.reduce((sum, c) => sum + c.population, 0)
-    : 0;
+  const countySum = counties ? counties.reduce((sum, c) => sum + c.population, 0) : 0;
 
   const isMatch = counties !== null && countySum === selectedState.population;
   const difference = countySum - selectedState.population;
@@ -61,9 +59,7 @@ export const DetailPanel: React.FC<DetailPanelProps> = ({
           </div>
           <div className={styles.statCard}>
             <div className={styles.statLabel}>Loaded Counties</div>
-            <div className={styles.statValue}>
-              {counties ? counties.length : '...'}
-            </div>
+            <div className={styles.statValue}>{counties ? counties.length : '...'}</div>
           </div>
         </div>
       </div>

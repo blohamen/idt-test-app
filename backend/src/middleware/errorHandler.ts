@@ -69,8 +69,17 @@ export const errorHandler: ErrorRequestHandler = (
     err
   );
 
-  const status = typeof (err as any)?.status === 'number' ? (err as any).status : 500;
+  const status =
+    typeof (err as { status?: unknown })?.status === 'number'
+      ? (err as { status: number }).status
+      : 500;
+
+  const errorMessage =
+    status === 500
+      ? 'Internal server error'
+      : (err as { message?: string })?.message || 'Internal server error';
+
   res.status(status).json({
-    error: status === 500 ? 'Internal server error' : ((err as any)?.message || 'Internal server error'),
+    error: errorMessage,
   });
 };

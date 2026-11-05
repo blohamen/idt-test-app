@@ -6,13 +6,7 @@ import { State, County } from '../src/types';
 
 describe('DetailPanel Component', () => {
   it('renders informative placeholder when no state is selected', () => {
-    render(
-      <DetailPanel
-        selectedState={null}
-        counties={null}
-        isLoading={false}
-      />
-    );
+    render(<DetailPanel selectedState={null} counties={null} isLoading={false} />);
     expect(
       screen.getByText(/Select a state from either list to view details/i)
     ).toBeInTheDocument();
@@ -32,13 +26,7 @@ describe('DetailPanel Component', () => {
       { county: 'County B', population: 400 },
     ];
 
-    render(
-      <DetailPanel
-        selectedState={mockState}
-        counties={mockCounties}
-        isLoading={false}
-      />
-    );
+    render(<DetailPanel selectedState={mockState} counties={mockCounties} isLoading={false} />);
 
     expect(screen.getByText('TestState')).toBeInTheDocument();
     expect(screen.getByTestId('population-match')).toBeInTheDocument();
@@ -61,13 +49,7 @@ describe('DetailPanel Component', () => {
       { county: 'County B', population: 1090416 }, // Sum = 3090416 (diff +1)
     ];
 
-    render(
-      <DetailPanel
-        selectedState={iowaState}
-        counties={iowaCounties}
-        isLoading={false}
-      />
-    );
+    render(<DetailPanel selectedState={iowaState} counties={iowaCounties} isLoading={false} />);
 
     expect(screen.getByText('Iowa')).toBeInTheDocument();
     expect(screen.getByTestId('population-mismatch')).toBeInTheDocument();

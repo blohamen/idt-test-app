@@ -32,7 +32,6 @@ export function useStatesBrowser() {
   // Initial load of the 51 US states
   useEffect(() => {
     let isMounted = true;
-    setIsStatesLoading(true);
 
     fetchStates()
       .then((data) => {
@@ -44,7 +43,9 @@ export function useStatesBrowser() {
       .catch((err) => {
         if (isMounted) {
           console.error('[useStatesBrowser] Failed to load states:', err);
-          setStatesError('Unable to connect to the backend API. Please ensure the server is running.');
+          setStatesError(
+            'Unable to connect to the backend API. Please ensure the server is running.'
+          );
           setIsStatesLoading(false);
         }
       });

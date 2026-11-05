@@ -19,7 +19,6 @@ for (const envPath of candidateEnvPaths) {
   }
 }
 
-
 const port = process.env.PORT || (process.env.NODE_ENV === 'production' ? 3000 : 5001);
 
 export const server: Server = app.listen(port, () => {

@@ -79,7 +79,10 @@ describe('States REST API Endpoints', () => {
       expect(res.status).toBe(200);
       expect(res.body).toHaveLength(99);
 
-      const sum = res.body.reduce((acc: number, c: { population: number }) => acc + c.population, 0);
+      const sum = res.body.reduce(
+        (acc: number, c: { population: number }) => acc + c.population,
+        0
+      );
       expect(sum).toBe(3090416);
     });
   });

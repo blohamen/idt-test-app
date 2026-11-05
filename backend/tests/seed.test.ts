@@ -1,7 +1,11 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import { pool } from '../src/config/db.js';
 import { seedDatabase } from '../src/db/seed.js';
-import { findAllStates, findCountiesByStateName, findStateByName } from '../src/models/statesRepository.js';
+import {
+  findAllStates,
+  findCountiesByStateName,
+  findStateByName,
+} from '../src/models/statesRepository.js';
 
 describe('Database Seeding Pipeline', () => {
   beforeAll(async () => {
@@ -62,9 +66,9 @@ describe('Database Seeding Pipeline', () => {
         throw new Error(`Validation failed: expected 51 states, got ${stateCount}`);
       }
       await client.query('COMMIT');
-    } catch (err: any) {
+    } catch (err: unknown) {
       await client.query('ROLLBACK');
-      expect(err.message).toContain('Validation failed');
+      expect((err as Error).message).toContain('Validation failed');
     } finally {
       client.release();
     }

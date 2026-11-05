@@ -65,9 +65,7 @@ export const App: React.FC = () => {
               onSelectState={handleSelectState}
               onToggleHighlight={handleToggleHighlight}
               emptyMessage={
-                searchQuery
-                  ? `No states matching "${searchQuery}"`
-                  : 'No states to display'
+                searchQuery ? `No states matching "${searchQuery}"` : 'No states to display'
               }
               testId="state-list-2"
             />

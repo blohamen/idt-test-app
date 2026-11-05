@@ -25,7 +25,10 @@ function resolveMockDir(): string {
   ];
 
   for (const candidate of candidatePaths) {
-    if (fs.existsSync(candidate) && fs.existsSync(path.join(candidate, 'usa-states/USA-states.json'))) {
+    if (
+      fs.existsSync(candidate) &&
+      fs.existsSync(path.join(candidate, 'usa-states/USA-states.json'))
+    ) {
       return candidate;
     }
   }
@@ -49,12 +52,9 @@ export async function seedDatabase() {
     console.log('[seed] Clearing existing data...');
     await client.query('TRUNCATE TABLE counties, states RESTART IDENTITY CASCADE');
 
-    let totalCountiesInserted = 0;
-
     for (const rawState of usaStates) {
       // Relative detail URL complying with spec (/api prefix)
       const relativeDetail = `/api/state/${encodeURIComponent(rawState.state)}`;
-
 
       const stateInsertResult = await client.query(
         `INSERT INTO states (name, population, county_count, detail_url)
@@ -78,7 +78,6 @@ export async function seedDatabase() {
            VALUES ($1, $2, $3)`,
           [stateId, rawCounty.county, rawCounty.population]
         );
-        totalCountiesInserted++;
       }
     }
 
@@ -98,7 +97,9 @@ export async function seedDatabase() {
 
     await client.query('COMMIT');
 
-    console.log(`[seed] Seed completed successfully: ${stateCount} states, ${countyCount} counties inserted.`);
+    console.log(
+      `[seed] Seed completed successfully: ${stateCount} states, ${countyCount} counties inserted.`
+    );
 
     return { stateCount, countyCount };
   } catch (err) {

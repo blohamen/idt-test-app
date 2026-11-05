@@ -47,12 +47,32 @@ npm run dev:frontend     # Port 3000 (Vite HMR, proxies API to 5001)
 
 Run all 48 automated unit and integration tests across backend and frontend:
 
-
 ```bash
 npm test
 ```
 
 ---
+
+## Code Quality & Formatting
+
+Linting and code style checks across both backend and frontend:
+
+```bash
+# Run ESLint across backend and frontend
+npm run lint
+
+# Auto-fix linting issues where possible
+npm run lint:fix
+
+# Check formatting with Prettier
+npm run format:check
+
+# Format all code with Prettier
+npm run format
+```
+
+---
+
 
 ## Spec Kit Artifacts
 

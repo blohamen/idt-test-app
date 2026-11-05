@@ -147,9 +147,7 @@ describe('Dual List Synchronization & Highlighting', () => {
   });
 
   it('handles race conditions by showing only the latest requested state details', async () => {
-    const mockAlaskaCounties: County[] = [
-      { county: 'Anchorage Municipality', population: 298695 },
-    ];
+    const mockAlaskaCounties: County[] = [{ county: 'Anchorage Municipality', population: 298695 }];
 
     // Alabama takes 80ms, Alaska takes 10ms
     vi.spyOn(statesApi, 'fetchStateCounties').mockImplementation(async (url: string) => {

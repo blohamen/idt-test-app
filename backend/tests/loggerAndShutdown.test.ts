@@ -6,12 +6,11 @@ import { createApp } from '../src/app.js';
 import { setupGracefulShutdown } from '../src/utils/shutdown.js';
 import type { Server } from 'http';
 
-
 describe('Logger utility', () => {
   let logger: Logger;
-  let logSpy: any;
-  let warnSpy: any;
-  let errorSpy: any;
+  let logSpy: ReturnType<typeof vi.spyOn>;
+  let warnSpy: ReturnType<typeof vi.spyOn>;
+  let errorSpy: ReturnType<typeof vi.spyOn>;
 
   beforeEach(() => {
     logger = new Logger();
