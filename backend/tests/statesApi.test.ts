@@ -13,17 +13,17 @@ describe('States REST API Endpoints', () => {
     await pool.end();
   });
 
-  describe('GET /health', () => {
+  describe('GET /api/health', () => {
     it('returns status 200 and healthy db status', async () => {
-      const res = await request(app).get('/health');
+      const res = await request(app).get('/api/health');
       expect(res.status).toBe(200);
       expect(res.body).toEqual({ status: 'ok', db: 'connected' });
     });
   });
 
-  describe('GET /states', () => {
+  describe('GET /api/states', () => {
     it('returns array of all 51 states with expected schema', async () => {
-      const res = await request(app).get('/states');
+      const res = await request(app).get('/api/states');
       expect(res.status).toBe(200);
       expect(Array.isArray(res.body)).toBe(true);
       expect(res.body).toHaveLength(51);
@@ -34,13 +34,13 @@ describe('States REST API Endpoints', () => {
       expect(firstState).toHaveProperty('population');
       expect(firstState).toHaveProperty('counties');
       expect(firstState).toHaveProperty('detail');
-      expect(firstState.detail).toMatch(/^\/state\//);
+      expect(firstState.detail).toMatch(/^\/api\/state\//);
     });
   });
 
-  describe('GET /state/:name', () => {
+  describe('GET /api/state/:name', () => {
     it('returns counties array for a valid state (Alabama)', async () => {
-      const res = await request(app).get('/state/Alabama');
+      const res = await request(app).get('/api/state/Alabama');
       expect(res.status).toBe(200);
       expect(Array.isArray(res.body)).toBe(true);
       expect(res.body).toHaveLength(67);
@@ -51,31 +51,31 @@ describe('States REST API Endpoints', () => {
     });
 
     it('correctly handles state names with spaces (New York)', async () => {
-      const res = await request(app).get('/state/New%20York');
+      const res = await request(app).get('/api/state/New%20York');
       expect(res.status).toBe(200);
       expect(res.body).toHaveLength(62);
     });
 
     it('returns 404 for an invalid state name', async () => {
-      const res = await request(app).get('/state/Atlantis');
+      const res = await request(app).get('/api/state/Atlantis');
       expect(res.status).toBe(404);
       expect(res.body).toHaveProperty('error');
     });
 
     it('handles encoded percent literals (%25) safely without 500 crashes', async () => {
-      const res = await request(app).get('/state/%25');
+      const res = await request(app).get('/api/state/%25');
       expect(res.status).toBe(404);
       expect(res.body).toEqual({ error: 'State not found: %' });
     });
 
     it('returns predictable JSON 400 on malformed URL encoding instead of HTML stack trace', async () => {
-      const res = await request(app).get('/state/%');
+      const res = await request(app).get('/api/state/%');
       expect(res.status).toBe(400);
       expect(res.body).toEqual({ error: 'Invalid URL encoding' });
     });
 
     it('returns exact county demographic sum for Iowa preserving the +1 discrepancy', async () => {
-      const res = await request(app).get('/state/Iowa');
+      const res = await request(app).get('/api/state/Iowa');
       expect(res.status).toBe(200);
       expect(res.body).toHaveLength(99);
 
@@ -85,8 +85,20 @@ describe('States REST API Endpoints', () => {
   });
 
   describe('Unknown API Endpoints & 404 Routing', () => {
-    it('returns JSON 404 for unknown sub-routes under /states/ or /state/', async () => {
-      const res = await request(app).get('/states/typo');
+    it('returns JSON 404 for legacy root /states endpoint now that root mounting is removed', async () => {
+      const res = await request(app).get('/states');
+      expect(res.status).toBe(404);
+      expect(res.body).toEqual({ error: 'Endpoint not found' });
+    });
+
+    it('returns JSON 404 for unknown sub-routes under /api/', async () => {
+      const res = await request(app).get('/api/nonexistent');
+      expect(res.status).toBe(404);
+      expect(res.body).toEqual({ error: 'Endpoint not found' });
+    });
+
+    it('returns JSON 404 for arbitrary non-existing routes', async () => {
+      const res = await request(app).get('/unhandled/endpoint/test');
       expect(res.status).toBe(404);
       expect(res.body).toEqual({ error: 'Endpoint not found' });
     });

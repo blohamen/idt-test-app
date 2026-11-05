@@ -3,6 +3,7 @@
 A fullstack web application for exploring US state and county demographic data, verifying population totals against county sums, and interacting with synchronized dual lists. Built for the **IDT NRS Fullstack** test assignment following the **Spec Kit** methodology (Lean preset).
 
 - **Tech Stack**: React 18, TypeScript, Vite, CSS Modules, Node.js + Express, PostgreSQL 16, Docker.
+- **Robust Architecture**: REST APIs scoped under `/api`, NestJS-style `HttpException` hierarchy with `asyncHandler`, structured contextual logging (`Logger`), and graceful process termination (`SIGTERM`/`SIGINT`).
 - **Data Integrity**: Raw mock data imported without alteration; Iowa's known `+1` population anomaly (county sum 3,090,416 vs recorded 3,090,415) is preserved in storage and flagged explicitly in the UI.
 
 ---
@@ -17,9 +18,9 @@ docker compose up --build -d
 docker compose exec app npm run db:seed
 ```
 
-- **Web UI & API**: [http://localhost:3000](http://localhost:3000)
-- **API Endpoint**: [http://localhost:3000/states](http://localhost:3000/states)
-- **Healthcheck**: [http://localhost:3000/health](http://localhost:3000/health)
+- **Web UI**: [http://localhost:3000](http://localhost:3000)
+- **API Endpoint**: [http://localhost:3000/api/states](http://localhost:3000/api/states)
+- **Healthcheck**: [http://localhost:3000/api/health](http://localhost:3000/api/health)
 
 To stop containers: `docker compose down`.
 
@@ -40,7 +41,8 @@ npm run dev:frontend     # Port 3000 (Vite HMR, proxies API to 5001)
 
 ## Testing
 
-Run all 21 automated unit and integration tests across backend and frontend:
+Run all 48 automated unit and integration tests across backend and frontend:
+
 
 ```bash
 npm test

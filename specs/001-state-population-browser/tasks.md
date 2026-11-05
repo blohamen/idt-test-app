@@ -44,9 +44,10 @@
 
 **Purpose**: REST API endpoints for state listing, detail retrieval, and healthchecks.
 
-- [x] T011 Write API integration tests with Supertest in `backend/tests/statesApi.test.ts` for `GET /states`, `GET /state/:name`, and `GET /health`
-- [x] T012 Implement request controllers and routing for `GET /states` and `GET /state/:name` in `backend/src/controllers/statesController.ts` and `backend/src/routes/statesRoutes.ts`
+- [x] T011 Write API integration tests with Supertest in `backend/tests/statesApi.test.ts` for `GET /api/states`, `GET /api/state/:name`, and `GET /api/health`
+- [x] T012 Implement request controllers and routing for `GET /api/states` and `GET /api/state/:name` in `backend/src/controllers/statesController.ts` and `backend/src/routes/statesRoutes.ts`
 - [x] T013 Assemble Express application with CORS, JSON parser, error handling, and server listener in `backend/src/app.ts` and `backend/src/server.ts`
+
 
 **Checkpoint**: Backend API is runnable and passes all integration tests.
 
@@ -111,6 +112,18 @@
 
 ---
 
+## Phase 8: Robustness & Clean Architecture (API Scoping, Logging, Shutdown & Errors)
+
+**Purpose**: Production readiness, eliminating route hardcoding, structured error logging, graceful termination, and NestJS-style error modeling.
+
+- [x] T033 [P] Implement lightweight NestJS-style `HttpException` hierarchy in `backend/src/errors/httpExceptions.ts` and `asyncHandler` in `backend/src/utils/asyncHandler.ts`
+- [x] T034 [P] Implement structured contextual `Logger` in `backend/src/utils/logger.ts` and graceful termination lifecycle in `backend/src/utils/shutdown.ts` and `backend/src/server.ts`
+- [x] T035 Remove hardcoded route matching array from `backend/src/app.ts` and scope all API routes under `/api`, eliminating root alias collisions and fixing SPA fallback
+- [x] T036 Update frontend API client in `frontend/src/api/statesApi.ts`, `backend/src/db/seed.ts`, and `frontend/vite.config.ts` proxy to target `/api`
+- [x] T037 Write comprehensive test suites in `backend/tests/httpExceptions.test.ts` and `backend/tests/loggerAndShutdown.test.ts`
+
+---
+
 ## Dependencies & Execution Flow
 
 ```mermaid
@@ -120,5 +133,7 @@ flowchart TD
     BackendAPI --> US1["Phase 4: US1 Browse & Details MVP (T014-T021)"]
     US1 --> US2["Phase 5: US2 Dual List Sync & Highlight (T022-T024)"]
     US2 --> US3["Phase 6: US3 Search & Filter List #2 (T025-T027)"]
-    US3 --> Polish["Phase 7: Docker, README & Verification (T028-T031)"]
+    US3 --> Polish["Phase 7: Docker, README & Verification (T028-T032)"]
+    Polish --> Robustness["Phase 8: Robustness, Errors, Logging & Shutdown (T033-T037)"]
 ```
+

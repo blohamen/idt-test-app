@@ -9,22 +9,23 @@
 ## 1. Summary
 
 The State Population Browser provides a dual-list interactive browser of US states, individual county demographics, and an automated population consistency check. The technical solution implements a containerized TypeScript stack:
-- **Backend**: Node.js + Express + TypeScript with raw SQL (`pg` driver) for direct, deterministic PostgreSQL queries.
+- **Backend**: Node.js + Express + TypeScript with raw SQL (`pg` driver) for direct, deterministic PostgreSQL queries; scoped REST APIs under `/api`; centralized NestJS-style `HttpException` error handling with `asyncHandler`; structured `Logger`; and graceful process termination.
 - **Frontend**: React + TypeScript + Vite with CSS Modules for scoped, lightweight styling without external UI frameworks.
-- **Database & Seeding**: PostgreSQL 16 schema with `states` and `counties` tables, initialized via explicit DDL and populated via a standalone seeding script (`npm run db:seed`) importing the 51 states and 3,143 counties from `mock/`.
-- **Infrastructure**: Streamlined 2-service Docker Compose setup (`db`, `backend`) where Express serves both REST APIs and the compiled React SPA static assets from a single port (3000), eliminating the separate Nginx container per Principle I (Scope-Appropriate Simplicity).
+- **Database & Seeding**: PostgreSQL 16 schema with `states` and `counties` tables, initialized via explicit DDL and populated via a standalone seeding script (`npm run db:seed`) importing the 51 states and 3,143 counties from `mock/` with `/api/state/:name` detail links.
+- **Infrastructure**: Streamlined 2-service Docker Compose setup (`db`, `backend`) where Express serves both `/api` REST endpoints and compiled React SPA static assets from a single port (3000), eliminating the separate Nginx container per Principle I (Scope-Appropriate Simplicity).
 
 ---
 
 ## 2. Technical Context
 
 - **Language / Runtime**: TypeScript 5.x, Node.js 20+ LTS
-- **Backend Framework**: Express 4.x
+- **Backend Framework**: Express 4.x with lightweight `HttpException` hierarchy (`BadRequestException`, `NotFoundException`, `InternalServerErrorException`, `ServiceUnavailableException`) and `asyncHandler` wrapper
+- **Logging & Lifecycle**: Structured contextual `Logger` (ISO timestamps, levels, JSON in production); Graceful termination handling `SIGTERM`/`SIGINT` closing HTTP and PostgreSQL pools
 - **Frontend Framework**: React 18+ with Vite
 - **Database / Driver**: PostgreSQL 16, `pg` (node-postgres)
 - **Styling**: CSS Modules (`.module.css`)
 - **Testing**:
-  - Backend: Vitest or Jest with Supertest for API contract and seed verification.
+  - Backend: Vitest with Supertest for API contract (`/api/states`, `/api/state/:name`, `/api/health`), seed verification, logger, and exception hierarchy.
   - Frontend: Vitest + React Testing Library for dual-list synchronization, search filtering, and discrepancy display.
 - **Containerization**: Docker & Docker Compose v2
 - **Constraints**:
@@ -33,6 +34,7 @@ The State Population Browser provides a dual-list interactive browser of US stat
   - Three-column layout on desktop: List 1 | Search Box + List 2 | Detail Panel.
   - State list containers must be physically constrained to require vertical scrolling for 51 states.
   - Explicit standalone seed command (`npm run db:seed`).
+
 
 ---
 
@@ -76,16 +78,28 @@ idt-test-app/
 │   │   │   ├── migrate.ts        # Schema migration runner
 │   │   │   └── seed.ts           # Standalone seed script reading mock/
 │   │   ├── controllers/
-│   │   │   └── statesController.ts # Handler for /states and /state/:name
+│   │   │   └── statesController.ts # Handler for /api/states and /api/state/:name
+│   │   ├── errors/
+│   │   │   └── httpExceptions.ts # Lightweight NestJS-style HttpException hierarchy
+│   │   ├── middleware/
+│   │   │   └── errorHandler.ts   # Centralized error handler & notFoundHandler
 │   │   ├── models/
+
 │   │   │   └── statesRepository.ts # SQL queries for states & counties
 │   │   ├── routes/
 │   │   │   └── statesRoutes.ts   # Express route definitions
-│   │   ├── app.ts                # Express app setup (CORS, JSON, routes)
-│   │   └── server.ts             # Server entrypoint listening on PORT
+│   │   ├── utils/
+│   │   │   ├── logger.ts         # Structured contextual logging
+│   │   │   ├── shutdown.ts       # Graceful process shutdown lifecycle
+│   │   │   └── asyncHandler.ts   # Async route handler wrapper for Express 4
+│   │   ├── app.ts                # Express app setup (CORS, JSON, /api routes, SPA fallback, central error handler)
+│   │   └── server.ts             # Server entrypoint with signal handlers & shutdown integration
 │   ├── tests/
 │   │   ├── seed.test.ts          # Validates 51 states and 3143 counties count
-│   │   └── statesApi.test.ts     # Supertest for GET /states and GET /state/:name
+│   │   ├── statesApi.test.ts     # Supertest for /api/states, /api/state/:name, /api/health
+│   │   ├── loggerAndShutdown.test.ts # Tests for Logger formatting and graceful termination
+│   │   └── httpExceptions.test.ts # Tests for HttpException hierarchy & asyncHandler
+
 │   ├── Dockerfile
 │   ├── tsconfig.json
 │   └── package.json

@@ -27,9 +27,11 @@ CREATE INDEX IF NOT EXISTS idx_counties_state_id ON counties(state_id);
 
 1. **State Name Uniqueness**: Every state has a unique name matching the source mock directory (`mock/states/<StateName>.json`).
 2. **Cascading Deletion**: Removing a state removes its associated counties.
-3. **Data Counts**:
+3. **Data Counts & URL Formats**:
    - Total states: `51` (including "District of Columbia").
    - Total counties: `3,143`.
+   - State detail URLs follow the relative format: `/api/state/<StateName>`.
+
 4. **Discrepancy Invariant**:
    - Iowa recorded population: `3,090,415`.
    - Iowa county population sum: `3,090,416` (discrepancy of `+1`).

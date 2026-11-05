@@ -52,8 +52,9 @@ export async function seedDatabase() {
     let totalCountiesInserted = 0;
 
     for (const rawState of usaStates) {
-      // Relative detail URL complying with spec
-      const relativeDetail = `/state/${encodeURIComponent(rawState.state)}`;
+      // Relative detail URL complying with spec (/api prefix)
+      const relativeDetail = `/api/state/${encodeURIComponent(rawState.state)}`;
+
 
       const stateInsertResult = await client.query(
         `INSERT INTO states (name, population, county_count, detail_url)

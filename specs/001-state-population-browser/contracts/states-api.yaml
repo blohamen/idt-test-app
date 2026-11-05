@@ -4,7 +4,7 @@ info:
   version: 1.0.0
   description: REST API for US states and counties population data
 paths:
-  /states:
+  /api/states:
     get:
       summary: Retrieve all 51 US states
       responses:
@@ -16,7 +16,7 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/State'
-  /state/{name}:
+  /api/state/{name}:
     get:
       summary: Retrieve counties for a specific state
       parameters:
@@ -37,12 +37,46 @@ paths:
                   $ref: '#/components/schemas/County'
         '404':
           description: State not found
-  /health:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '400':
+          description: Malformed URL encoding
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /api/health:
     get:
       summary: Service health check
       responses:
         '200':
           description: Service is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: ok
+                  db:
+                    type: string
+                    example: connected
+        '503':
+          description: Database disconnected
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: error
+                  db:
+                    type: string
+                    example: disconnected
 components:
   schemas:
     State:
@@ -67,7 +101,7 @@ components:
           example: 67
         detail:
           type: string
-          example: /state/Alabama
+          example: /api/state/Alabama
     County:
       type: object
       required:
@@ -80,3 +114,11 @@ components:
         population:
           type: integer
           example: 55246
+    ErrorResponse:
+      type: object
+      required:
+        - error
+      properties:
+        error:
+          type: string
+          example: State not found
