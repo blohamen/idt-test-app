@@ -103,10 +103,10 @@
 
 **Purpose**: Cross-cutting concerns, Docker verification, clean-clone onboarding, and AI transparency documentation.
 
-- [ ] T028 [P] Configure production and development build settings in `backend/Dockerfile` and `frontend/Dockerfile`
-- [ ] T029 Validate full container orchestration and seed flow using `docker compose up --build` and `docker compose exec backend npm run db:seed`
-- [ ] T030 Create comprehensive `README.md` with clean-clone setup guide, architecture overview, and AI collaboration disclosure per Constitution Principle VI
-- [ ] T031 Perform end-to-end clean-clone verification (database migration, seed, API tests, frontend interaction, discrepancy check for Iowa)
+- [x] T028 [P] Configure production and development build settings in `backend/Dockerfile` and `frontend/Dockerfile`
+- [x] T029 Validate full container orchestration and seed flow using `docker compose up --build` and `docker compose exec backend npm run db:seed`
+- [x] T030 Create comprehensive `README.md` with clean-clone setup guide, architecture overview, and AI collaboration disclosure per Constitution Principle VI
+- [x] T031 Perform end-to-end clean-clone verification (database migration, seed, API tests, frontend interaction, discrepancy check for Iowa)
 
 ---
 
