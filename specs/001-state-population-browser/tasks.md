@@ -58,14 +58,14 @@
 
 **Independent Test**: Click "California" -> verify matching sum. Click "Iowa" -> verify warning badge displaying +1 mismatch.
 
-- [ ] T014 [P] [US1] Define shared TypeScript interfaces (`State`, `County`, `PopulationComparison`) in `frontend/src/types/index.ts`
-- [ ] T015 [P] [US1] Implement frontend API client in `frontend/src/api/statesApi.ts` to request `/states` and follow `state.detail` URL
-- [ ] T016 [P] [US1] Implement `StateItem` component with single-click selection in `frontend/src/components/StateItem/StateItem.tsx` and `StateItem.module.css`
-- [ ] T017 [US1] Implement `StateList` component with constrained vertical scroll container in `frontend/src/components/StateList/StateList.tsx` and `StateList.module.css`
-- [ ] T018 [P] [US1] Implement `CountyList` component with scrollable table/list of counties in `frontend/src/components/CountyList/CountyList.tsx` and `CountyList.module.css`
-- [ ] T019 [US1] Implement `DetailPanel` component showing state info, county breakdown, population sum, and explicit mismatch indicator in `frontend/src/components/DetailPanel/DetailPanel.tsx` and `DetailPanel.module.css`
-- [ ] T020 [US1] Assemble MVP layout (List #1 and DetailPanel) with placeholder initial state in `frontend/src/App.tsx`, `frontend/src/App.module.css`, and `frontend/src/main.tsx`
-- [ ] T021 [US1] Write unit and component tests for `DetailPanel` population sum and discrepancy badge in `frontend/tests/DetailPanel.test.tsx`
+- [x] T014 [P] [US1] Define shared TypeScript interfaces (`State`, `County`, `PopulationComparison`) in `frontend/src/types/index.ts`
+- [x] T015 [P] [US1] Implement frontend API client in `frontend/src/api/statesApi.ts` to request `/states` and follow `state.detail` URL
+- [x] T016 [P] [US1] Implement `StateItem` component with single-click selection in `frontend/src/components/StateItem/StateItem.tsx` and `StateItem.module.css`
+- [x] T017 [US1] Implement `StateList` component with constrained vertical scroll container in `frontend/src/components/StateList/StateList.tsx` and `StateList.module.css`
+- [x] T018 [P] [US1] Implement `CountyList` component with scrollable table/list of counties in `frontend/src/components/CountyList/CountyList.tsx` and `CountyList.module.css`
+- [x] T019 [US1] Implement `DetailPanel` component showing state info, county breakdown, population sum, and explicit mismatch indicator in `frontend/src/components/DetailPanel/DetailPanel.tsx` and `DetailPanel.module.css`
+- [x] T020 [US1] Assemble MVP layout (List #1 and DetailPanel) with placeholder initial state in `frontend/src/App.tsx`, `frontend/src/App.module.css`, and `frontend/src/main.tsx`
+- [x] T021 [US1] Write unit and component tests for `DetailPanel` population sum and discrepancy badge in `frontend/tests/DetailPanel.test.tsx`
 
 **Checkpoint**: User Story 1 MVP fully functional. Evaluators can select states, review all counties, and inspect demographic sums.
 
@@ -77,9 +77,9 @@
 
 **Independent Test**: Double-click "Texas" in List #1 -> verify highlight appears in List #1 and List #2. Double-click "Texas" in List #2 -> verify unhighlighting in both. Single-click "Alaska" in List #2 -> verify details open.
 
-- [ ] T022 [US2] Add double-click highlight toggle handler to `StateItem.tsx` ensuring immediate selection without artificial click delay
-- [ ] T023 [US2] Add synchronized `highlightedStateNames` Set and instantiate second scrollable `StateList` in `frontend/src/App.tsx`
-- [ ] T024 [US2] Write component tests for dual list highlight synchronization and double-click interaction in `frontend/tests/DualListSync.test.tsx`
+- [x] T022 [US2] Add double-click highlight toggle handler to `StateItem.tsx` ensuring immediate selection without artificial click delay
+- [x] T023 [US2] Add synchronized `highlightedStateNames` Set and instantiate second scrollable `StateList` in `frontend/src/App.tsx`
+- [x] T024 [US2] Write component tests for dual list highlight synchronization and double-click interaction in `frontend/tests/DualListSync.test.tsx`
 
 **Checkpoint**: Both state lists are live, synchronized in selection and highlighting.
 
@@ -91,9 +91,9 @@
 
 **Independent Test**: Type "ne" into search box -> List #2 shows only matching states (Maine, Nevada, Nebraska, Minnesota, etc.) with highlight status preserved, while List #1 retains all 51 states.
 
-- [ ] T025 [P] [US3] Implement `SearchBox` component with clear button in `frontend/src/components/SearchBox/SearchBox.tsx` and `SearchBox.module.css`
-- [ ] T026 [US3] Integrate `SearchBox` above List #2 in `frontend/src/App.tsx` with case-insensitive filtering applied exclusively to List #2
-- [ ] T027 [US3] Write component tests for real-time search filtering in `frontend/tests/SearchBox.test.tsx`
+- [x] T025 [P] [US3] Implement `SearchBox` component with clear button in `frontend/src/components/SearchBox/SearchBox.tsx` and `SearchBox.module.css`
+- [x] T026 [US3] Integrate `SearchBox` above List #2 in `frontend/src/App.tsx` with case-insensitive filtering applied exclusively to List #2
+- [x] T027 [US3] Write component tests for real-time search filtering in `frontend/tests/SearchBox.test.tsx`
 
 **Checkpoint**: All three user stories are complete and fully operational.
 
